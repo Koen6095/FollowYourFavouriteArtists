@@ -7,13 +7,17 @@
 //
 
 import XCTest
+import CoreLocation
 @testable import BandDiscoverer
 
 class BandDiscovererTests: XCTestCase {
     
+    var setUpUnderTest: SetUpViewController!
+    
     override func setUp() {
         super.setUp()
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        setUpUnderTest = SetUpViewController()
     }
     
     override func tearDown() {
@@ -22,15 +26,17 @@ class BandDiscovererTests: XCTestCase {
     }
     
     func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+        XCTAssertEqual(3, setUpUnderTest.items.count)
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    // MARK: test functions
+    func testGetCityFromLocation(){
+        
+        let locationAmsterdam: CLLocation = CLLocation(latitude: 51.451936369010838,
+                                                       longitude: 5.4811685008439843)
+        
+        setUpUnderTest.getCityFromLocation(location: locationAmsterdam) { (city) in
+            XCTAssertEqual(city, "Amsterdam", "Returned wrong city name")
         }
     }
-    
 }
