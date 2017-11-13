@@ -161,7 +161,6 @@ class SetUpViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
         
         //set location from to current location
         self.locationFrom = location!
-        print("\(location?.coordinate.longitude) - \(location?.coordinate.latitude)")
         getCityFromLocation(location: location!) { (city) in
             self.txtDistanceFrom.text = city
         }
