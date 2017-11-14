@@ -128,11 +128,8 @@ class SetUpViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
             var placeMark: CLPlacemark!
             placeMark = placemarks?[0]
             
-            // Address dictionary
-            print(placeMark.addressDictionary as Any)
-            
             // City
-            if let city = placeMark.addressDictionary!["City"] as? NSString {
+            if let city = placeMark.locality as NSString? {
                 print(city)
                 completion(city as String)
             }
