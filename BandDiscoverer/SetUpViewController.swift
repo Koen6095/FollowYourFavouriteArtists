@@ -251,6 +251,8 @@ class SetUpViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
             
             getLocationFromAddress(address: self.txtDistanceFrom.text!) { (location) in
                 self.locationFrom = location
+                print(location.coordinate.latitude)
+                print(location.coordinate.longitude)
                 self.checkTextFieldsIfEmpty()
             }
            

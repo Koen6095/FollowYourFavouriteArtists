@@ -25,18 +25,33 @@ class BandDiscovererTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        XCTAssertEqual(3, setUpUnderTest.items.count)
-    }
-    
     // MARK: test functions
     func testGetCityFromLocation(){
-        
-        let locationAmsterdam: CLLocation = CLLocation(latitude: 51.451936369010838,
+        let locationEindhoven: CLLocation = CLLocation(latitude: 51.451936369010838,
                                                        longitude: 5.4811685008439843)
+        let locationString: String = "Eindhoven"
+        let expect = expectation(description: "City not found.")
         
-        setUpUnderTest.getCityFromLocation(location: locationAmsterdam) { (city) in
-            XCTAssertEqual(city, "Amsterdam", "Returned wrong city name")
+        setUpUnderTest.getCityFromLocation(location: locationEindhoven) { (city) in
+            if(city == locationString){
+                expect.fulfill()
+            }
         }
+        waitForExpectations(timeout: 10, handler: nil)
+    }
+    
+    func testGetLocationFromAddress(){
+        let locationAmsterdam: CLLocation = CLLocation(latitude: 52.3731663,
+                                                       longitude: 4.8906596)
+        let locationString: String = "Amsterdam"
+        
+        let expect = expectation(description: "Address not found.")
+        setUpUnderTest.getLocationFromAddress(address: locationString) { (location) in
+            if(location.coordinate.latitude == locationAmsterdam.coordinate.latitude &&
+                location.coordinate.longitude == locationAmsterdam.coordinate.longitude){
+                expect.fulfill()
+            }
+        }
+        waitForExpectations(timeout: 10, handler: nil)
     }
 }
