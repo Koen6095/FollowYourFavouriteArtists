@@ -1,0 +1,10 @@
+version: "Apple Swift version 4.0.1 (swiftlang-900.0.66 clang-900.0.37)"
+options: "367cc7fb08148de6ada38ef680193036"
+build_time: [1510667203, 606589000]
+inputs:
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscoverer/EventsTableViewCell.swift": [1509444447, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscoverer/BandViewController.swift": [1509444933, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscoverer/ViewController.swift": [1509443080, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscoverer/AppDelegate.swift": [1509355289, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscoverer/SetUpViewController.swift": [1510667203, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscoverer/CompletionTableViewCell.swift": [1510655620, 0]

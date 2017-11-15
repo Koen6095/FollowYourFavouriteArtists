@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.1 (swiftlang-900.0.66 clang-900.0.37)"
+options: "9e5ab02e99a5da4d75d68dc0dedb769a"
+build_time: [1510574364, 555588000]
+inputs:
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/SwiftyJSON/Source/SwiftyJSON.swift": [1509359156, 0]

@@ -1,0 +1,270 @@
+11:32:24.437 Xcode[1164:31799] Beginning test session BandDiscovererTests-2E6F6C00-2D4B-4284-B37E-B846F5BE1942 at 2017-11-14 11:32:24.437 with Xcode 9B37 on target <DVTiPhoneSimulator: 0x7f99e05489b0> {
+		SimDevice: iPhone 7 (629CE93F-50C8-4E3F-9584-9DDC641AC6E2, iOS 11.1, Booted)
+} (11.1 (15B5066e))
+11:32:24.437 Xcode[1164:31799] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+11:32:24.437 Xcode[1164:31799] Test standard output and standard error is at /var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-DF513DDB-46C6-4D81-B94D-624A75CB2D47/BandDiscovererTests-C6F58D3C-F133-4B9B-B5E1-D6254789EA04/StandardOutputAndStandardError.txt
+11:32:24.437 Xcode[1164:31799] Simulator 629CE93F-50C8-4E3F-9584-9DDC641AC6E2 was claimed by TestSessionClaim_IDETestRunSession-DF513DDB-46C6-4D81-B94D-624A75CB2D47
+11:32:26.189 Xcode[1164:31799] Launch session started.
+11:32:26.214 Xcode[1164:31799] Setting up test runner session
+11:32:26.214 Xcode[1164:76377] Sim iPhone 7: Unregistering for sim device notification with token 14
+11:32:26.214 Xcode[1164:76377] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+11:32:26.214 Xcode[1164:76377] Sim iPhone 7 has testmanagerd socket at /private/tmp/com.apple.launchd.xaopmMrwhu/com.apple.testmanagerd.unix-domain.socket
+11:32:26.214 Xcode[1164:76377] Validating test connection socket path (/private/tmp/com.apple.launchd.xaopmMrwhu/com.apple.testmanagerd.unix-domain.socket)
+11:32:26.214 Xcode[1164:76377] Constructing transport for test connection socket
+11:32:26.215 Xcode[1164:76377] Connected socket 62 to testmanagerd for Sim iPhone 7
+11:32:26.215 Xcode[1164:76377] Received connection for test runner session
+11:32:26.215 Xcode[1164:76377] Listening for proxy connection request from the test bundle
+11:32:26.215 Xcode[1164:76377] Initiating session with identifier: 2E6F6C00-2D4B-4284-B37E-B846F5BE1942
+11:32:26.220 Xcode[1164:31799] Received Ready from iOSSimulator
+11:32:26.220 Xcode[1164:31799] Sending notification: NSConcreteNotification 0x7f99e40369f0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "629CE93F-50C8-4E3F-9584-9DDC641AC6E2";
+}}
+11:32:26.221 Xcode[1164:76295] Simulator 629CE93F-50C8-4E3F-9584-9DDC641AC6E2 was claimed by LaunchSessionClaim_0x7f99e437cb00
+11:32:26.223 Xcode[1164:31799] Test runner session acquired connection.
+11:32:26.223 Xcode[1164:31799] Waiting for test process to launch.
+11:32:26.224 Xcode[1164:31799] Adding console adaptor <IDEConsoleAdaptor: 0x7f99e6a72290 'target' stdin: <IDEMasterPtyFileHandle: 0x7f99e437a6e0 MasterFH: <NSConcreteFileHandle: 0x7f99e6a99db0> 59 SlaveFH: <NSConcreteFileHandle: 0x7f99e45a57f0> 68> 59 stdout: <IDEMasterPtyFileHandle: 0x7f99e437a6e0 MasterFH: <NSConcreteFileHandle: 0x7f99e6a99db0> 59 SlaveFH: <NSConcreteFileHandle: 0x7f99e45a57f0> 68> 59 stderr: (null) 0> for test session 2E6F6C00-2D4B-4284-B37E-B846F5BE1942.
+11:32:26.248 Xcode[1164:31799] Received Ready from iOSSimulator
+11:32:26.248 Xcode[1164:31799] Sending notification: NSConcreteNotification 0x7f99df7736f0 {name = com.apple.iphonesimulator.startSession; userInfo = {
+    deviceUDID = "629CE93F-50C8-4E3F-9584-9DDC641AC6E2";
+}}
+11:32:26.248 Xcode[1164:76377] Simulator 629CE93F-50C8-4E3F-9584-9DDC641AC6E2 was claimed by LaunchSessionClaim_0x7f99e437cb00
+11:32:26.248 Xcode[1164:76377] 629CE93F-50C8-4E3F-9584-9DDC641AC6E2: Registered for sim device notification, got token 15
+11:32:26.248 Xcode[1164:74257] 629CE93F-50C8-4E3F-9584-9DDC641AC6E2: Unregistering for sim device notification with token 15
+11:32:26.249 Xcode[1164:74257] 629CE93F-50C8-4E3F-9584-9DDC641AC6E2: Installing app at path: /Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/BandDiscoverer.app and options: {
+    CFBundleIdentifier = "com.koenvestjens.BandDiscoverer";
+}
+11:32:26.395 Xcode[1164:76428] Got reply to session initiation request with identifier 2E6F6C00-2D4B-4284-B37E-B846F5BE1942 (result:error): 25: (null)
+11:32:26.675 Xcode[1164:74257] 629CE93F-50C8-4E3F-9584-9DDC641AC6E2: Installed app at path: /Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/BandDiscoverer.app and options: {
+    CFBundleIdentifier = "com.koenvestjens.BandDiscoverer";
+}
+11:32:26.676 Xcode[1164:74257] 629CE93F-50C8-4E3F-9584-9DDC641AC6E2: Launching app with identifier: com.koenvestjens.BandDiscoverer and options: {
+    arguments =     (
+        "-NSTreatUnknownArgumentsAsOpen",
+        NO,
+        "-ApplePersistenceIgnoreState",
+        YES
+    );
+    environment =     {
+        "DYLD_FRAMEWORK_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "DYLD_INSERT_LIBRARIES" = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks/DTDDISupport.framework/libViewDebuggerSupport.dylib:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib/libMainThreadChecker.dylib";
+        "DYLD_LIBRARY_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+        "MTC_CRASH_ON_REPORT" = 1;
+        NSUnbufferedIO = YES;
+        "OS_ACTIVITY_DT_MODE" = YES;
+        XCInjectBundleInto = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/BandDiscoverer.app/BandDiscoverer";
+        "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+        XCTestConfigurationFilePath = "/var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-DF513DDB-46C6-4D81-B94D-624A75CB2D47/BandDiscovererTests-C6F58D3C-F133-4B9B-B5E1-D6254789EA04/LaunchSessions/2E6F6C00-2D4B-4284-B37E-B846F5BE1942/remote-container/tmp/BandDiscovererTests-2E6F6C00-2D4B-4284-B37E-B846F5BE1942.xctestconfiguration";
+        "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator";
+        "__XPC_DYLD_LIBRARY_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator";
+    };
+    stderr = "/dev/ttys001";
+    stdout = "/dev/ttys001";
+    "wait_for_debugger" = 1;
+}
+11:32:28.927 Xcode[1164:76423] 629CE93F-50C8-4E3F-9584-9DDC641AC6E2: Launched app with identifier: com.koenvestjens.BandDiscoverer (pid = 3045)
+11:32:28.927 Xcode[1164:76423] Tracking pid 3045 for simulator <DVTiPhoneSimulator: 0x7f99e05489b0> {
+		SimDevice: iPhone 7 (629CE93F-50C8-4E3F-9584-9DDC641AC6E2, iOS 11.1, Booted)
+}
+11:32:28.928 Xcode[1164:76423] Checking to see if pid 3045 is valid: kill(pid, 0) = 0 (YES, it's still running)
+11:32:28.928 Xcode[1164:76423] Setting up DVTTaskNotifyOnProcDeath for pid 3045
+11:32:28.928 Xcode[1164:31799] Test process runnable PID is 3045.
+11:32:29.568 Xcode[1164:31799] Waiting for test process to check in..., will wait up to 120s
+11:32:29.848 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 115 bytes written out to StandardOutputAndStandardError
+11:32:29.849 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 100 bytes written out to StandardOutputAndStandardError
+11:32:29.859 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 311 bytes written out to StandardOutputAndStandardError
+11:32:29.939 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 107 bytes written out to StandardOutputAndStandardError
+11:32:29.970 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 992 bytes written out to StandardOutputAndStandardError
+11:32:29.970 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 979 bytes written out to StandardOutputAndStandardError
+11:32:29.970 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 119 bytes written out to StandardOutputAndStandardError
+11:32:30.085 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+11:32:31.072 Xcode[1164:76380] Handling proxy channel request from test runner
+11:32:31.073 Xcode[1164:76380] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+11:32:31.073 Xcode[1164:31799] Test runner session successfully initiated.
+11:32:31.073 Xcode[1164:31799] Creating the daemon control session.
+11:32:31.073 Xcode[1164:31799] Whitelisting test process ID 3045
+11:32:31.073 Xcode[1164:76427] Sim iPhone 7: Unregistering for sim device notification with token 16
+11:32:31.073 Xcode[1164:31799] Got authorization request for pid 3045
+11:32:31.073 Xcode[1164:76427] Calling -[SimDevice getenv:error:] for TESTMANAGERD_SIM_SOCK
+11:32:31.073 Xcode[1164:76427] Sim iPhone 7 has testmanagerd socket at /private/tmp/com.apple.launchd.xaopmMrwhu/com.apple.testmanagerd.unix-domain.socket
+11:32:31.073 Xcode[1164:76427] Validating test connection socket path (/private/tmp/com.apple.launchd.xaopmMrwhu/com.apple.testmanagerd.unix-domain.socket)
+11:32:31.073 Xcode[1164:76427] Constructing transport for test connection socket
+11:32:31.074 Xcode[1164:76427] Connected socket 74 to testmanagerd for Sim iPhone 7
+11:32:31.074 Xcode[1164:76427] Requesting authorization for pid 3045
+11:32:31.075 Xcode[1164:74231] Got reply to authorization request for pid 3045 (result:error): 25: (null)
+11:32:31.075 Xcode[1164:31799] Got whitelisting response from test daemon. Success: 1
+11:32:31.076 Xcode[1164:31799] Registering/updating daemon-based crash report observer for process names (
+    XCTRunner,
+    BandDiscoverer,
+    xctest
+), report directories: (
+    "/Users/Koen/Library/Logs/DiagnosticReports",
+    "/Library/Logs/DiagnosticReports"
+).
+11:32:31.076 testmanagerd[3043:76566] Received request to collect crash reports in directories '/Users/Koen/Library/Logs/DiagnosticReports', '/Library/Logs/DiagnosticReports' for processes with names 'XCTRunner', 'BandDiscoverer', 'xctest'
+11:32:31.076 testmanagerd[3043:76566] Initializing crash report observer for /Users/Koen/Library/Logs/DiagnosticReports
+11:32:31.076 testmanagerd[3043:76566] Getting files in /Users/Koen/Library/Logs/DiagnosticReports
+11:32:31.077 testmanagerd[3043:76566] Found 32 files in /Users/Koen/Library/Logs/DiagnosticReports
+11:32:31.077 testmanagerd[3043:76566] Started monitoring /Users/Koen/Library/Logs/DiagnosticReports
+11:32:31.077 testmanagerd[3043:76566] Initializing crash report observer for /Library/Logs/DiagnosticReports
+11:32:31.077 testmanagerd[3043:76566] Getting files in /Library/Logs/DiagnosticReports
+11:32:31.077 testmanagerd[3043:76566] Found 100 files in /Library/Logs/DiagnosticReports
+11:32:31.078 Xcode[1164:31799] Telling test runner to start executing tests.
+11:32:31.077 testmanagerd[3043:76566] Started monitoring /Library/Logs/DiagnosticReports
+11:32:30.012 BandDiscoverer[3045:76769] Linked XCTest.framework from /Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/XCTest, built with Xcode 0910(9B26), modified on Tuesday, September 26, 2017 at 4:05:18 AM Central European Summer Time
+XCTest.framework bundle version: 13514
+11:32:30.013 BandDiscoverer[3045:76769] System uptime: 3:53
+11:32:30.013 BandDiscoverer[3045:76769] Process arguments: (
+    "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/Containers/Bundle/Application/51EC4DC6-7475-4188-9ACA-D493DD3DE687/BandDiscoverer.app/BandDiscoverer",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+11:32:30.013 BandDiscoverer[3045:76769] Process environment: {
+    "CFFIXED_USER_HOME" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/Containers/Data/Application/65B88E4F-D1C4-4C7F-9743-53F9E1044903";
+    CLASSIC = 0;
+    "CUPS_SERVER" = "/private/tmp/com.apple.launchd.dPQ1t2KDly/Listeners";
+    "DYLD_FALLBACK_FRAMEWORK_PATH" = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/System/Library/Frameworks";
+    "DYLD_FALLBACK_LIBRARY_PATH" = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/lib";
+    "DYLD_FRAMEWORK_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_LIBRARY_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/Developer/Library/PrivateFrameworks";
+    "DYLD_ROOT_PATH" = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    HOME = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/Containers/Data/Application/65B88E4F-D1C4-4C7F-9743-53F9E1044903";
+    "IOS_SIMULATOR_SYSLOG_SOCKET" = "/private/tmp/com.apple.CoreSimulator.SimDevice.629CE93F-50C8-4E3F-9584-9DDC641AC6E2/syslogsock";
+    "IPHONE_SHARED_RESOURCES_DIRECTORY" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data";
+    "IPHONE_SIMULATOR_ROOT" = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "IPHONE_TVOUT_EXTENDED_PROPERTIES" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/Library/Application Support/Simulator/extended_display.plist";
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/bin:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/bin:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/sbin:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/sbin:/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot/usr/local/bin";
+    "SIMULATOR_AUDIO_DEVICES_PLIST_PATH" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/var/run/com.apple.coresimulator.audio.plist";
+    "SIMULATOR_AUDIO_SETTINGS_PATH" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/var/run/simulatoraudio/audiosettings.plist";
+    "SIMULATOR_BOOT_TIME" = 1510655317;
+    "SIMULATOR_CAPABILITIES" = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/DeviceTypes/iPhone 7.simdevicetype/Contents/Resources/capabilities.plist";
+    "SIMULATOR_DEVICE_NAME" = "iPhone 7";
+    "SIMULATOR_EXTENDED_DISPLAY_PROPERTIES" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/Library/Application Support/Simulator/extended_display.plist";
+    "SIMULATOR_HID_SYSTEM_MANAGER" = "/Library/Developer/PrivateFrameworks/CoreSimulator.framework/Resources/Platforms/iphoneos/Library/Frameworks/SimulatorHID.framework";
+    "SIMULATOR_HOST_HOME" = "/Users/Koen";
+    "SIMULATOR_LEGACY_ASSET_SUFFIX" = iphone;
+    "SIMULATOR_LOG_ROOT" = "/Users/Koen/Library/Logs/CoreSimulator/629CE93F-50C8-4E3F-9584-9DDC641AC6E2";
+    "SIMULATOR_MAINSCREEN_HEIGHT" = 1334;
+    "SIMULATOR_MAINSCREEN_PITCH" = "326.000000";
+    "SIMULATOR_MAINSCREEN_SCALE" = "2.000000";
+    "SIMULATOR_MAINSCREEN_WIDTH" = 750;
+    "SIMULATOR_MEMORY_WARNINGS" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/var/run/memory_warning_simulation";
+    "SIMULATOR_MODEL_IDENTIFIER" = "iPhone9,1";
+    "SIMULATOR_PRODUCT_CLASS" = D10;
+    "SIMULATOR_ROOT" = "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/CoreSimulator/Profiles/Runtimes/iOS.simruntime/Contents/Resources/RuntimeRoot";
+    "SIMULATOR_RUNTIME_BUILD_VERSION" = 15B5066e;
+    "SIMULATOR_RUNTIME_VERSION" = "11.1";
+    "SIMULATOR_SHARED_RESOURCES_DIRECTORY" = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data";
+    "SIMULATOR_UDID" = "629CE93F-50C8-4E3F-9584-9DDC641AC6E2";
+    "SIMULATOR_VERSION_INFO" = "CoreSimulator 494.22.3 - Device: iPhone 7 - Runtime: iOS 11.1 (15B5066e) - DeviceType: iPhone 7";
+    "TESTMANAGERD_SIM_SOCK" = "/private/tmp/com.apple.launchd.xaopmMrwhu/com.apple.testmanagerd.unix-domain.socket";
+    TMPDIR = "/Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/Containers/Data/Application/65B88E4F-D1C4-4C7F-9743-53F9E1044903/tmp";
+    XCInjectBundleInto = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/BandDiscoverer.app/BandDiscoverer";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-DF513DDB-46C6-4D81-B94D-624A75CB2D47/BandDiscovererTests-C6F58D3C-F133-4B9B-B5E1-D6254789EA04/LaunchSessions/2E6F6C00-2D4B-4284-B37E-B846F5BE1942/remote-container/tmp/BandDiscovererTests-2E6F6C00-2D4B-4284-B37E-B846F5BE1942.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.koenvestjens.BandDiscoverer[0x2228][2287]";
+    "XPC_SIMULATOR_LAUNCHD_NAME" = "com.apple.CoreSimulator.SimDevice.629CE93F-50C8-4E3F-9584-9DDC641AC6E2";
+    "__XCODE_BUILT_PRODUCTS_DIR_PATHS" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_FRAMEWORK_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator";
+    "__XPC_DYLD_LIBRARY_PATH" = "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator";
+}
+11:32:30.014 BandDiscoverer[3045:76769] App Sandbox active: NO
+11:32:30.014 BandDiscoverer[3045:76769] Loading test bundle at: file:///Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/BandDiscoverer.app/PlugIns/BandDiscovererTests.xctest/
+11:32:30.014 BandDiscoverer[3045:76769] Finished loading test bundle
+11:32:30.014 BandDiscoverer[3045:76769] Readying IDE session
+11:32:30.015 BandDiscoverer[3045:76769] <XCTWaiter: 0x60000021c050, state: XCTWaiterStateInProgress> entering wait loop for 5.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+11:32:30.021 BandDiscoverer[3045:76819] Got daemon protocol version 18
+11:32:30.021 BandDiscoverer[3045:76820] <XCTWaiter: 0x60000021c050, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:32:31.066 BandDiscoverer[3045:76769] <XCTWaiter: 0x60000021c050, state: XCTWaiterStateSucceeded> done waiting
+11:32:31.066 BandDiscoverer[3045:76769] <XCTWaiter: 0x60000021c050, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+11:32:31.066 BandDiscoverer[3045:76769] Requesting IDE connection transport
+11:32:31.066 BandDiscoverer[3045:76769] <XCTWaiter: 0x604000204b60, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+11:32:31.067 BandDiscoverer[3045:76819] Creating transport with received transport data
+11:32:31.068 BandDiscoverer[3045:76821] <XCTWaiter: 0x604000204b60, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:32:31.071 BandDiscoverer[3045:76769] <XCTWaiter: 0x604000204b60, state: XCTWaiterStateSucceeded> done waiting
+11:32:31.071 BandDiscoverer[3045:76769] <XCTWaiter: 0x604000204b60, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+11:32:31.071 BandDiscoverer[3045:76769] Creating connection with transport <DTXFileDescriptorTransport: 0x6000002e3700>
+11:32:31.072 BandDiscoverer[3045:76769] Creating the proxy channel with connection <DTXConnection 0x6080001eaa00 : x1>
+11:32:31.072 BandDiscoverer[3045:76769] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+11:32:31.072 BandDiscoverer[3045:76769] <XCTWaiter: 0x60c000019b90, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+11:32:31.073 BandDiscoverer[3045:76820] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+11:32:31.078 BandDiscoverer[3045:76821] _IDE_startExecutingTestPlanWithProtocolVersion:25
+11:32:31.078 BandDiscoverer[3045:76820] <XCTWaiter: 0x60c000019b90, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:32:32.073 BandDiscoverer[3045:76769] <XCTWaiter: 0x60c000019b90, state: XCTWaiterStateSucceeded> done waiting
+11:32:32.073 BandDiscoverer[3045:76769] <XCTWaiter: 0x60c000019b90, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+11:32:32.076 Xcode[1164:31799] Starting test plan, clearing initialization timeout timer.
+11:32:32.076 BandDiscoverer[3045:76769] Loading test suite...
+11:32:32.076 BandDiscoverer[3045:76769] Finished loading test suite, took 0.000s
+11:32:32.077 BandDiscoverer[3045:76769] -[XCTRunnerIDESession testBundleWillStart:]
+11:32:32.077 BandDiscoverer[3045:76769] Running suite...
+11:32:32.077 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 63 bytes written out to StandardOutputAndStandardError
+11:32:32.077 BandDiscoverer[3045:76769] -[XCTRunnerIDESession testSuiteWillStart:]
+11:32:32.078 Xcode[1164:31799] _XCT_testSuite:Selected tests didStartAt:2017-11-14 10:32:32 +0000
+11:32:35.213 Xcode[1164:76427] (LOG ARBITER) Rotating message buffer with 16 messages.
+11:32:35.220 Xcode[1164:76295] (LOG ARBITER) Dumping buffered message data; 16 messages.
+11:32:38.170 Xcode[1164:76365] (LOG ARBITER) Rotating message buffer with 17 messages.
+11:32:38.502 Xcode[1164:76423] (LOG ARBITER) Dumping buffered message data; 17 messages.
+11:32:38.461 BandDiscoverer[3045:76984] <XCTWaiter: 0x60800001c8b0, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:32:38.500 BandDiscoverer[3045:76769] <XCTWaiter: 0x60800001c8b0, state: XCTWaiterStateSucceeded> done waiting
+11:32:38.500 BandDiscoverer[3045:76769] <XCTWaiter: 0x60800001c8b0, state: XCTWaiterStateSucceeded> cleaning up Address not found.
+11:32:38.501 BandDiscoverer[3045:76769] -[BandDiscovererTests testGetLocationFromAddress] done waiting on 'Address not found.'
+11:32:38.501 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 106 bytes written out to StandardOutputAndStandardError
+11:32:38.501 BandDiscoverer[3045:76769] -[XCTRunnerIDESession testCaseDidFinish:]
+11:32:38.501 Xcode[1164:31799] _XCT_testCaseDidFinishForTestClass:BandDiscovererTests.BandDiscovererTests method:testGetLocationFromAddress withStatus:passed duration:3.281625032424927
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetLocationFromAddress]' passed (3.282 seconds).
+11:32:38.502 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 144 bytes written out to StandardOutputAndStandardError
+11:32:38.501 BandDiscoverer[3045:76769] -[XCTRunnerIDESession testSuiteDidFinish:]
+Test Suite 'BandDiscovererTests' passed at 2017-11-14 11:32:38.501.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 6.422 (6.423) seconds
+11:32:38.512 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 151 bytes written out to StandardOutputAndStandardError
+Test Suite 'BandDiscovererTests.xctest' passed at 2017-11-14 11:32:38.502.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 6.422 (6.424) seconds
+11:32:38.513 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 139 bytes written out to StandardOutputAndStandardError
+11:32:38.514 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests didFinishAt:2017-11-14 10:32:38 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:6.421971023082733 totalDuration:6.42339700460434
+11:32:38.502 BandDiscoverer[3045:76769] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:32:38.514 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests.xctest didFinishAt:2017-11-14 10:32:38 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:6.421971023082733 totalDuration:6.424286007881165
+11:32:38.502 BandDiscoverer[3045:76769] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:32:38.515 Xcode[1164:31799] _XCT_testSuite:Selected tests didFinishAt:2017-11-14 10:32:38 +0000 runCount:2 withFailures:0 unexpected:0 testDuration:6.421971023082733 totalDuration:6.425563991069794
+11:32:38.503 BandDiscoverer[3045:76769] Finished running suite.
+11:32:38.503 BandDiscoverer[3045:76769] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+11:32:38.515 Xcode[1164:31799] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+11:32:38.503 BandDiscoverer[3045:76769] Calling completion.
+11:32:38.503 BandDiscoverer[3045:76769] <XCTWaiter: 0x6040002151e0, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+11:32:38.515 BandDiscoverer[3045:76976] <XCTWaiter: 0x6040002151e0, state: XCTWaiterStateSucceeded>: cancelWaiting
+Test Suite 'Selected tests' passed at 2017-11-14 11:32:38.502.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 6.422 (6.426) seconds
+11:32:38.617 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+11:32:40.603 BandDiscoverer[3045:76769] <XCTWaiter: 0x6040002151e0, state: XCTWaiterStateSucceeded> done waiting
+11:32:40.603 BandDiscoverer[3045:76769] <XCTWaiter: 0x6040002151e0, state: XCTWaiterStateSucceeded> cleaning up IDE confirmed the end of session
+11:32:40.609 testmanagerd[3043:77893] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x7fdea2b00ad0>.
+11:32:40.609 testmanagerd[3043:76587] Closed <XCTestSession: 0x7fdea2b00ad0>, removing from (
+    "<XCTestSession: 0x7fdea2b00ad0>"
+)
+11:32:40.609 testmanagerd[3043:76587] Tearing down test session <XCTestSession: 0x7fdea2b00ad0>.
+11:32:40.609 testmanagerd[3043:76587] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+11:32:40.612 testmanagerd[3043:76587] Considering exiting:
+11:32:40.612 testmanagerd[3043:76587] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions, 0 pending connections
+11:32:40.612 testmanagerd[3043:76587] Control sessions: (
+    "<XCIDESession: 0x7fdea2803ce0> (socket 5) created Tuesday, November 14, 2017 at 11:32:31 AM Central European Standard Time"
+)
+11:32:40.623 Xcode[1164:76380] Closing socket 62 to testmanagerd for Sim iPhone 7
+11:32:40.625 Xcode[1164:31799] Got death notice for pid 3045, removing from SimulatorSessionMap
+11:32:40.632 Xcode[1164:31799] Claim LaunchSessionClaim_0x7f99e437cb00 on simulator 629CE93F-50C8-4E3F-9584-9DDC641AC6E2 was relinquished
+11:32:40.632 Xcode[1164:31799] Claim LaunchSessionClaim_0x7f99e437cb00 on simulator 629CE93F-50C8-4E3F-9584-9DDC641AC6E2 was relinquished
+11:32:40.879 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20> finished receiving data from <IDEConsoleAdaptor: 0x7f99e6a72290 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+11:32:40.879 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e44aba20>: _considerFlushingDelegateBlockQueue - nothing to flush
+11:32:40.879 Xcode[1164:31799] _finishWithError:(null)

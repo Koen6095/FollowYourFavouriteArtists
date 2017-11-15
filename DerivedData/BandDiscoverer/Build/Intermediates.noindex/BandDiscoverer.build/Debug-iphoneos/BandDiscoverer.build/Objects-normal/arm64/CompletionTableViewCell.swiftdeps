@@ -1,0 +1,254 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CompletionTableViewCell"
+provides-nominal:
+- "14BandDiscoverer23CompletionTableViewCellC"
+provides-member:
+- ["14BandDiscoverer23CompletionTableViewCellC", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "lblCompletion"
+- "setSelected"
+depends-top-level:
+- "AssignmentPrecedence"
+- "Bool"
+- "CompletionTableViewCell"
+- !private "UIColor"
+- "UILabel"
+- "UITableViewCell"
+depends-member:
+- !private ["So15CALayerDelegateP", "UIColor"]
+- !private ["So15CALayerDelegateP", "awakeFromNib"]
+- !private ["So15CALayerDelegateP", "backgroundColor"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "setSelected"]
+- ["So15CALayerDelegateP", ""]
+- !private ["s7CVarArgP", "UIColor"]
+- !private ["s7CVarArgP", "awakeFromNib"]
+- !private ["s7CVarArgP", "backgroundColor"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setSelected"]
+- ["s7CVarArgP", ""]
+- ["14BandDiscoverer23CompletionTableViewCellC", "Bool"]
+- !private ["14BandDiscoverer23CompletionTableViewCellC", "UIColor"]
+- ["14BandDiscoverer23CompletionTableViewCellC", "UILabel"]
+- ["14BandDiscoverer23CompletionTableViewCellC", "awakeFromNib"]
+- !private ["14BandDiscoverer23CompletionTableViewCellC", "backgroundColor"]
+- ["14BandDiscoverer23CompletionTableViewCellC", "deinit"]
+- ["14BandDiscoverer23CompletionTableViewCellC", "init"]
+- ["14BandDiscoverer23CompletionTableViewCellC", "lblCompletion"]
+- ["14BandDiscoverer23CompletionTableViewCellC", "setSelected"]
+- !private ["s28CustomDebugStringConvertibleP", "UIColor"]
+- !private ["s28CustomDebugStringConvertibleP", "awakeFromNib"]
+- !private ["s28CustomDebugStringConvertibleP", "backgroundColor"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setSelected"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "UIColor"]
+- !private ["s23CustomStringConvertibleP", "awakeFromNib"]
+- !private ["s23CustomStringConvertibleP", "backgroundColor"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setSelected"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9EquatableP", "UIColor"]
+- !private ["s9EquatableP", "awakeFromNib"]
+- !private ["s9EquatableP", "backgroundColor"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "setSelected"]
+- ["s9EquatableP", ""]
+- !private ["s8HashableP", "UIColor"]
+- !private ["s8HashableP", "awakeFromNib"]
+- !private ["s8HashableP", "backgroundColor"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setSelected"]
+- ["s8HashableP", ""]
+- !private ["So8NSCodingP", "UIColor"]
+- !private ["So8NSCodingP", "awakeFromNib"]
+- !private ["So8NSCodingP", "backgroundColor"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "setSelected"]
+- ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "UIColor"]
+- ["So8NSObjectC", "UILabel"]
+- ["So8NSObjectC", "awakeFromNib"]
+- !private ["So8NSObjectC", "backgroundColor"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "lblCompletion"]
+- ["So8NSObjectC", "setSelected"]
+- !private ["So16NSObjectProtocolP", "UIColor"]
+- !private ["So16NSObjectProtocolP", "awakeFromNib"]
+- !private ["So16NSObjectProtocolP", "backgroundColor"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setSelected"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "UIColor"]
+- !private ["So29UIAccessibilityIdentificationP", "awakeFromNib"]
+- !private ["So29UIAccessibilityIdentificationP", "backgroundColor"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setSelected"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So12UIAppearanceP", "UIColor"]
+- !private ["So12UIAppearanceP", "awakeFromNib"]
+- !private ["So12UIAppearanceP", "backgroundColor"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setSelected"]
+- ["So12UIAppearanceP", ""]
+- !private ["So21UIAppearanceContainerP", "UIColor"]
+- !private ["So21UIAppearanceContainerP", "awakeFromNib"]
+- !private ["So21UIAppearanceContainerP", "backgroundColor"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "setSelected"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So7UIColorC", "init"]
+- !private ["So17UICoordinateSpaceP", "UIColor"]
+- !private ["So17UICoordinateSpaceP", "awakeFromNib"]
+- !private ["So17UICoordinateSpaceP", "backgroundColor"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "setSelected"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So13UIDynamicItemP", "UIColor"]
+- !private ["So13UIDynamicItemP", "awakeFromNib"]
+- !private ["So13UIDynamicItemP", "backgroundColor"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "setSelected"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So18UIFocusEnvironmentP", "UIColor"]
+- !private ["So18UIFocusEnvironmentP", "awakeFromNib"]
+- !private ["So18UIFocusEnvironmentP", "backgroundColor"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "setSelected"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "UIColor"]
+- !private ["So11UIFocusItemP", "awakeFromNib"]
+- !private ["So11UIFocusItemP", "backgroundColor"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "setSelected"]
+- ["So11UIFocusItemP", ""]
+- !private ["So27UIGestureRecognizerDelegateP", "UIColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "awakeFromNib"]
+- !private ["So27UIGestureRecognizerDelegateP", "backgroundColor"]
+- !private ["So27UIGestureRecognizerDelegateP", "init"]
+- !private ["So27UIGestureRecognizerDelegateP", "setSelected"]
+- ["So27UIGestureRecognizerDelegateP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "UIColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "awakeFromNib"]
+- !private ["So30UIPasteConfigurationSupportingP", "backgroundColor"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "setSelected"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- ["So11UIResponderC", "Bool"]
+- !private ["So11UIResponderC", "UIColor"]
+- ["So11UIResponderC", "UILabel"]
+- ["So11UIResponderC", "awakeFromNib"]
+- !private ["So11UIResponderC", "backgroundColor"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "lblCompletion"]
+- ["So11UIResponderC", "setSelected"]
+- !private ["So30UIResponderStandardEditActionsP", "UIColor"]
+- !private ["So30UIResponderStandardEditActionsP", "awakeFromNib"]
+- !private ["So30UIResponderStandardEditActionsP", "backgroundColor"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "setSelected"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- ["So15UITableViewCellC", "Bool"]
+- !private ["So15UITableViewCellC", "UIColor"]
+- ["So15UITableViewCellC", "UILabel"]
+- ["So15UITableViewCellC", "awakeFromNib"]
+- !private ["So15UITableViewCellC", "backgroundColor"]
+- ["So15UITableViewCellC", "init"]
+- ["So15UITableViewCellC", "lblCompletion"]
+- ["So15UITableViewCellC", "setSelected"]
+- ["So15UITableViewCellC", ""]
+- !private ["So18UITraitEnvironmentP", "UIColor"]
+- !private ["So18UITraitEnvironmentP", "awakeFromNib"]
+- !private ["So18UITraitEnvironmentP", "backgroundColor"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "setSelected"]
+- ["So18UITraitEnvironmentP", ""]
+- ["So6UIViewC", "Bool"]
+- !private ["So6UIViewC", "UIColor"]
+- ["So6UIViewC", "UILabel"]
+- ["So6UIViewC", "awakeFromNib"]
+- !private ["So6UIViewC", "backgroundColor"]
+- ["So6UIViewC", "init"]
+- ["So6UIViewC", "lblCompletion"]
+- ["So6UIViewC", "setSelected"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "UIColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "awakeFromNib"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "backgroundColor"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setSelected"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s26_ExpressibleByColorLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "awakeFromNib"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "backgroundColor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSelected"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+depends-nominal:
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "14BandDiscoverer23CompletionTableViewCellC"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "s9EquatableP"
+- "s8HashableP"
+- "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So7UIColorC"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So27UIGestureRecognizerDelegateP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So15UITableViewCellC"
+- "So18UITraitEnvironmentP"
+- "So6UIViewC"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s26_ExpressibleByColorLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+interface-hash: "582349c63ebaa5f01d34fbab38832efe"

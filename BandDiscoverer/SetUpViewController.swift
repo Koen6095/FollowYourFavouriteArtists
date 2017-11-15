@@ -30,7 +30,7 @@ class SetUpViewController: UIViewController, CLLocationManagerDelegate, MKMapVie
     
     var tapGesture: UITapGestureRecognizer = UITapGestureRecognizer()
     
-    var items: [String] = ["Amsterdam", "Amstelveen", "Amstelrade"]
+    var items: [String] = ["Amsterdam", "Amstelveen", "Baexem"]
     var isTyping: Bool = false
     
     override var prefersStatusBarHidden: Bool {

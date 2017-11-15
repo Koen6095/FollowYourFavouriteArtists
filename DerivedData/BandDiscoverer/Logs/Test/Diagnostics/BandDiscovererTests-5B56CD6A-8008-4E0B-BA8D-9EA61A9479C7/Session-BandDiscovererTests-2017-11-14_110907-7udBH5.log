@@ -1,0 +1,316 @@
+11:09:07.064 Xcode[1164:31799] Beginning test session BandDiscovererTests-4B51C0EE-C83D-4E86-8C04-D36653E15847 at 2017-11-14 11:09:07.063 with Xcode 9B37 on target <DVTiOSDevice: 0x7f99e18dc6f0> {
+		deviceSerialNumber:         FK1SHCG9HG7P
+		identifier:                 4fcb318dbe549a16876273089e6e5a1f2ca8f723
+		deviceClass:                iPhone
+		deviceName:                 iPhone 7 van Koen
+		deviceIdentifier:           4fcb318dbe549a16876273089e6e5a1f2ca8f723
+		productVersion:             11.1
+		buildVersion:               15B5066f
+		deviceSoftwareVersion:      11.1 (15B5066f)
+		deviceArchitecture:         arm64
+		deviceTotalCapacity:        124499652608
+		deviceAvailableCapacity:    63004372992
+		deviceIsTransient:          NO
+		ignored:                    NO
+		deviceIsBusy:               NO
+		deviceIsActivated:          YES
+		deviceActivationState:      Activated
+		isPasscodeLocked:           NO
+		deviceType:                 <DVTDeviceType:0x7f99daf03080 Xcode.DeviceType.iPhone>
+		supportedDeviceFamilies:    (
+    1
+)
+		applications:              (null)
+		provisioningProfiles:      (null)
+		hasInternalSupport:        NO
+		isSupportedOS:             YES
+		developerDiskMountError:   (null)
+(null)
+	bootArgs:                  <unavailable>
+		connected:                 yes
+		isWirelessEnabled:         no
+		connectionType:            direct
+		} (11.1 (15B5066f))
+11:09:07.064 Xcode[1164:31799] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+11:09:07.067 Xcode[1164:31799] Test standard output and standard error is at /var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-BAF02B49-99AA-4F8A-A6E4-60EEB7CB92C3/BandDiscovererTests-5B56CD6A-8008-4E0B-BA8D-9EA61A9479C7/StandardOutputAndStandardError.txt
+11:09:19.482 Xcode[1164:31799] Launch session started.
+11:09:19.500 Xcode[1164:31799] Setting up test runner session
+11:09:19.501 Xcode[1164:38546] Installing com.koenvestjens.BandDiscoverer using MobileInstall
+11:09:19.502 Xcode[1164:38702] Connecting to mobile device: 4fcb318dbe549a16876273089e6e5a1f2ca8f723
+11:09:19.504 Xcode[1164:38702] Starting session with mobile device
+11:09:19.529 Xcode[1164:38702] Starting test manager service on mobile device.
+11:09:19.534 Xcode[1164:38560] Received connection for test runner session
+11:09:19.534 Xcode[1164:38560] Listening for proxy connection request from the test bundle
+11:09:19.535 Xcode[1164:31799] Test runner session acquired connection.
+11:09:19.535 Xcode[1164:38560] Initiating session with identifier: 4B51C0EE-C83D-4E86-8C04-D36653E15847
+11:09:19.535 Xcode[1164:31799] Waiting for test process to launch.
+11:09:19.564 Xcode[1164:37119] app uninstall set - {(
+)}
+11:09:19.564 Xcode[1164:37119] app install set - {(
+    <DVTFilePath:0x7f99e1eb84c0:'/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/BandDiscoverer.app'>
+)}
+11:09:19.636 Xcode[1164:38702] Got reply to session initiation request with identifier 4B51C0EE-C83D-4E86-8C04-D36653E15847 (result:error): 25: (null)
+11:09:22.064 Xcode[1164:38546] Fetching applications...
+11:09:22.690 Xcode[1164:38546] Done fetching applications...
+11:09:22.690 Xcode[1164:38546] remoteExecutable setInstalledPath:/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app
+
+11:09:22.691 Xcode[1164:38546] Configuring for testing on device...
+11:09:22.691 Xcode[1164:38546] Updating test configuration with device paths.
+11:09:22.692 Xcode[1164:38546] Updated test configuration at /var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-BAF02B49-99AA-4F8A-A6E4-60EEB7CB92C3/BandDiscovererTests-5B56CD6A-8008-4E0B-BA8D-9EA61A9479C7/LaunchSessions/4B51C0EE-C83D-4E86-8C04-D36653E15847/remote-container/tmp/BandDiscovererTests-4B51C0EE-C83D-4E86-8C04-D36653E15847.xctestconfiguration with device paths: <XCTestConfiguration: 0x7f99e46843f0>
+	                  testBundleURL:file:///private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/PlugIns/BandDiscovererTests.xctest
+	         testBundleRelativePath:(null)
+	              productModuleName:BandDiscovererTests
+	                    testsToSkip:(null)
+	                     testsToRun:BandDiscovererTests/testCity
+	             reportResultsToIDE:YES
+	              sessionIdentifier:4B51C0EE-C83D-4E86-8C04-D36653E15847
+	     pathToXcodeReportingSocket:(null)
+	      disablePerformanceMetrics:no
+	treatMissingBaselinesAsFailures:no
+	                baselineFileURL:(null)
+	       baselineFileRelativePath:(null)
+	          targetApplicationPath:(null)
+	      targetApplicationBundleID:(null)
+	 testApplicationDependencies:(null)
+	 testApplicationUserOverrides:(null)
+	     targetApplicationArguments:
+	   targetApplicationEnvironment:(null)
+	               reportActivities:YES
+	       testsMustRunOnMainThread:no
+	         initializeForUITesting:no
+	 aggregateStatisticsBeforeCrash:{
+    XCSuiteRecordsKey =     {
+    };
+}
+	        automationFrameworkPath:/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+	                     emitOSLogs:no
+	       systemAttachmentLifetime:1
+	         userAttachmentLifetime:1
+
+11:09:22.692 Xcode[1164:38546] Uploading test configuration to app container.
+11:09:24.301 Xcode[1164:38546] Updating test process environment variables.
+11:09:24.301 Xcode[1164:38546] Removed old IDEBundleInjection paths (
+    "__PLATFORMS__/iPhoneOS.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection"
+) from DYLD_INSERT_LIBRARIES leaving (
+    "/Developer/usr/lib/libMainThreadChecker.dylib"
+)
+11:09:24.301 Xcode[1164:38546] Updated testing environment variables {
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "/Developer/usr/lib/libMainThreadChecker.dylib:/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/Frameworks/IDEBundleInjection.framework/IDEBundleInjection";
+    "DYLD_LIBRARY_PATH" = "/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    "MTC_CRASH_ON_REPORT" = 1;
+    XCInjectBundleInto = "/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/BandDiscoverer";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/DD6F0409-DDDE-466B-8AFB-257D08D4226F/tmp/BandDiscovererTests-4B51C0EE-C83D-4E86-8C04-D36653E15847.xctestconfiguration";
+}
+11:09:24.351 Xcode[1164:38560] Started debugserver on device. fd = 56
+11:09:28.295 Xcode[1164:31799] Adding console adaptor <IDEConsoleAdaptor: 0x7f99e6904030 'target' stdin: <IDEMasterPtyFileHandle: 0x7f99e0e18610 MasterFH: <NSConcreteFileHandle: 0x7f99e68efc90> 59 SlaveFH: <NSConcreteFileHandle: 0x7f99e6818240> 60> 59 stdout: <IDEMasterPtyFileHandle: 0x7f99e0e18610 MasterFH: <NSConcreteFileHandle: 0x7f99e68efc90> 59 SlaveFH: <NSConcreteFileHandle: 0x7f99e6818240> 60> 59 stderr: (null) 0> for test session 4B51C0EE-C83D-4E86-8C04-D36653E15847.
+11:09:28.556 Xcode[1164:31799] Waiting for test process to check in..., will wait up to 120s
+11:09:28.556 Xcode[1164:31799] Test process runnable PID is 2123.
+11:09:33.045 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 117 bytes written out to StandardOutputAndStandardError
+11:09:33.058 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 102 bytes written out to StandardOutputAndStandardError
+11:09:33.088 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 232 bytes written out to StandardOutputAndStandardError
+11:09:34.948 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 109 bytes written out to StandardOutputAndStandardError
+11:09:35.012 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 1024 bytes written out to StandardOutputAndStandardError
+11:09:35.013 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 993 bytes written out to StandardOutputAndStandardError
+11:09:35.127 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 349 bytes written out to StandardOutputAndStandardError
+11:09:35.142 Xcode[1164:38546] Handling proxy channel request from test runner
+11:09:35.142 Xcode[1164:38546] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+11:09:35.143 Xcode[1164:31799] Test runner session successfully initiated.
+11:09:35.143 Xcode[1164:31799] Creating the daemon control session.
+11:09:35.143 Xcode[1164:31799] Whitelisting test process ID 2123
+11:09:35.143 Xcode[1164:31799] Got authorization request for pid 2123
+11:09:35.146 Xcode[1164:39460] Connecting to mobile device: 4fcb318dbe549a16876273089e6e5a1f2ca8f723
+11:09:35.148 Xcode[1164:39460] Starting session with mobile device
+11:09:35.266 Xcode[1164:39460] Starting test manager service on mobile device.
+11:09:35.278 Xcode[1164:40309] Requesting authorization for pid 2123
+11:09:35.314 Xcode[1164:40309] Got reply to authorization request for pid 2123 (result:error): 25: (null)
+11:09:35.314 Xcode[1164:31799] Got whitelisting response from test daemon. Success: 1
+11:09:35.315 Xcode[1164:31799] Registering/updating daemon-based crash report observer for process names (
+    XCTRunner,
+    BandDiscoverer,
+    xctest
+), report directories: (
+    "/var/mobile/Library/Logs/CrashReporter/"
+).
+11:09:35.317 testmanagerd[2118:613138] Received request to collect crash reports in directories '/var/mobile/Library/Logs/CrashReporter/' for processes with names 'XCTRunner', 'BandDiscoverer', 'xctest'
+11:09:35.318 testmanagerd[2118:613138] Initializing crash report observer for /var/mobile/Library/Logs/CrashReporter/
+11:09:35.318 testmanagerd[2118:613138] Getting files in /var/mobile/Library/Logs/CrashReporter/
+11:09:35.318 testmanagerd[2118:613138] Found 99 files in /var/mobile/Library/Logs/CrashReporter/
+11:09:35.321 Xcode[1164:31799] Telling test runner to start executing tests.
+11:09:35.318 testmanagerd[2118:613138] Started monitoring /var/mobile/Library/Logs/CrashReporter/
+11:09:35.091 BandDiscoverer[2123:613361] Linked XCTest.framework from /var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/Frameworks/XCTest.framework/XCTest, built with Xcode 0910(9B26), modified on Tuesday, 14 November 2017 at 11:09:13 Central European Standard Time
+XCTest.framework bundle version: 13514
+11:09:35.094 BandDiscoverer[2123:613361] System uptime: 13:13:34
+11:09:35.094 BandDiscoverer[2123:613361] Process arguments: (
+    "/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/BandDiscoverer",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+11:09:35.094 BandDiscoverer[2123:613361] Process environment: {
+    "CFFIXED_USER_HOME" = "/private/var/mobile/Containers/Data/Application/DD6F0409-DDDE-466B-8AFB-257D08D4226F";
+    CLASSIC = 0;
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    HOME = "/private/var/mobile/Containers/Data/Application/DD6F0409-DDDE-466B-8AFB-257D08D4226F";
+    LOGNAME = mobile;
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/usr/bin:/bin:/usr/sbin:/sbin";
+    SHELL = "/bin/sh";
+    TMPDIR = "/private/var/mobile/Containers/Data/Application/DD6F0409-DDDE-466B-8AFB-257D08D4226F/tmp/";
+    USER = mobile;
+    XCInjectBundleInto = "/private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/BandDiscoverer";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/DD6F0409-DDDE-466B-8AFB-257D08D4226F/tmp/BandDiscovererTests-4B51C0EE-C83D-4E86-8C04-D36653E15847.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.koenvestjens.BandDiscoverer[0xe401][66]";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0:0";
+}
+11:09:35.094 BandDiscoverer[2123:613361] App Sandbox active: YES
+11:09:35.094 BandDiscoverer[2123:613361] Loading test bundle at: file:///private/var/containers/Bundle/Application/3BF298D8-26A8-4488-9137-C6AD90A4F8F8/BandDiscoverer.app/PlugIns/BandDiscovererTests.xctest
+11:09:35.095 BandDiscoverer[2123:613361] Finished loading test bundle
+11:09:35.095 BandDiscoverer[2123:613361] Readying IDE session
+11:09:35.098 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c00192d0, state: XCTWaiterStateInProgress> entering wait loop for 5.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+11:09:35.130 BandDiscoverer[2123:613581] Got daemon protocol version 18
+11:09:35.130 BandDiscoverer[2123:613581] <XCTWaiter: 0x1c00192d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:09:35.135 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c00192d0, state: XCTWaiterStateSucceeded> done waiting
+11:09:35.135 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c00192d0, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+11:09:35.135 BandDiscoverer[2123:613361] Requesting IDE connection transport
+11:09:35.135 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c4203ee0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+11:09:35.137 BandDiscoverer[2123:613590] Creating transport with received transport data
+11:09:35.138 BandDiscoverer[2123:613573] <XCTWaiter: 0x1c4203ee0, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:09:35.139 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c4203ee0, state: XCTWaiterStateSucceeded> done waiting
+11:09:35.139 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c4203ee0, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+11:09:35.140 BandDiscoverer[2123:613361] Creating connection with transport <DTXFileDescriptorTransport: 0x1c42e8100>
+11:09:35.140 BandDiscoverer[2123:613361] Creating the proxy channel with connection <DTXConnection 0x1c03e8100 : x1>
+11:09:35.141 BandDiscoverer[2123:613361] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+11:09:35.141 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c42041a0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+11:09:35.145 BandDiscoverer[2123:613628] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+11:09:35.323 BandDiscoverer[2123:613639] _IDE_startExecutingTestPlanWithProtocolVersion:25
+11:09:35.323 BandDiscoverer[2123:613639] <XCTWaiter: 0x1c42041a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:09:35.324 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c42041a0, state: XCTWaiterStateSucceeded> done waiting
+11:09:35.324 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c42041a0, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+11:09:35.333 Xcode[1164:31799] Starting test plan, clearing initialization timeout timer.
+11:09:35.333 Xcode[1164:31799] _XCT_testSuite:Selected tests didStartAt:2017-11-14 10:09:35 +0000
+11:09:35.467 Xcode[1164:38703] (LOG ARBITER) Dumping buffered message data; 0 messages.
+11:09:35.333 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests.xctest didStartAt:2017-11-14 10:09:35 +0000
+11:09:35.334 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests didStartAt:2017-11-14 10:09:35 +0000
+11:09:35.334 Xcode[1164:31799] _XCT_testCaseDidStartForTestClass:BandDiscovererTests.BandDiscovererTests method:testCity
+11:09:35.329 BandDiscoverer[2123:613361] Loading test suite...
+11:09:35.329 BandDiscoverer[2123:613361] Finished loading test suite, took 0.000s
+11:09:35.330 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testBundleWillStart:]
+11:09:35.330 BandDiscoverer[2123:613361] Running suite...
+11:09:35.331 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testSuiteWillStart:]
+11:09:35.332 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testSuiteWillStart:]
+11:09:35.332 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testSuiteWillStart:]
+11:09:35.332 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testCaseWillStart:] BandDiscovererTests.BandDiscovererTests testCity
+2017-11-14 11:09:33.044378+0100 BandDiscoverer[2123:613361] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-14 11:09:33.057973+0100 BandDiscoverer[2123:613361] [MC] Loaded MobileCoreServices.framework
+2017-11-14 11:09:33.087949+0100 BandDiscoverer[2123:613361] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-14 11:09:34.947801+0100 BandDiscoverer[2123:613361] Could not inset legal attribution from corner 4
+2017-11-14 11:09:35.007594+0100 BandDiscoverer[2123:613361] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c029d290 UIView:0x1081a1470.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c409adb0 UIView:0x1081a56f0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c409afe0 UIView:0x1041e16c0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c4091e90 MKMapView:0x104813c00.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c409b030 V:|-(0)-[UIView:0x1041e16c0]   (active, names: '|':UIView:0x1041e14e0 )>",
+    "<NSLayoutConstraint:0x1c409b120 V:[MKMapView:0x104813c00]-(0)-|   (active, names: '|':UIView:0x1041e14e0 )>",
+    "<NSLayoutConstraint:0x1c409b170 V:[UIView:0x1041e16c0]-(0)-[MKMapView:0x104813c00]   (active)>",
+    "<NSLayoutConstraint:0x1c409b300 UIStackView:0x1081a0e70.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c40960d0 'UISV-canvas-connection' UIStackView:0x1081a0e70.top == UIView:0x1081a1470.top   (active)>",
+    "<NSLayoutConstraint:0x1c4096120 'UISV-canvas-connection' V:[UIView:0x1041e14e0]-(0)-|   (active, names: '|':UIStackView:0x1081a0e70 )>",
+    "<NSLayoutConstraint:0x1c40962b0 'UISV-spacing' V:[UIView:0x1081a1470]-(0)-[UIView:0x1081a56f0]   (active)>",
+    "<NSLayoutConstraint:0x1c4096440 'UISV-spacing' V:[UIView:0x1081a56f0]-(0)-[UIView:0x1041e14e0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c4091e90 MKMapView:0x104813c00.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-14 11:09:35.099725+0100 BandDiscoverer[2123:613361] refreshPreferences: HangTracerEnabled: 1
+2017-11-14 11:09:35.099761+0100 BandDiscoverer[2123:613361] refreshPreferences: HangTracerDuration: 500
+2017-11-14 11:09:35.099777+0100 BandDiscoverer[2123:613361] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-14 11:09:35.330
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-14 11:09:35.332
+Test Suite 'BandDiscovererTests' started at 2017-11-14 11:09:35.332
+Test Case '-[BandDiscovererTests.BandDiscovererTests testCity]' started.
+11:09:35.353 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 283 bytes written out to StandardOutputAndStandardError
+11:09:35.340 testmanagerd[2118:613623] _requestDTServiceHubConnection: Received an error from the deviceServiceConnection. 
+11:09:35.383 BandDiscoverer[2123:613361] -[BandDiscovererTests testCity] starting to wait on 'Completion handler called'
+11:09:35.384 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c04080a0, state: XCTWaiterStateInProgress> entering wait loop for 1000.00s with expectations: (
+    "Completion handler called"
+)
+11:09:35.460 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 506 bytes written out to StandardOutputAndStandardError
+11:09:35.461 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 8 bytes written out to StandardOutputAndStandardError
+Optional([AnyHashable("Street"): Rachelsmolen 1, AnyHashable("ZIP"): 5612 MA, AnyHashable("Country"): Netherlands, AnyHashable("SubThoroughfare"): 1, AnyHashable("State"): North Brabant, AnyHashable("Name"): Fontys, AnyHashable("SubAdministrativeArea"): Eindhoven, AnyHashable("Thoroughfare"): Rachelsmolen, AnyHashable("FormattedAddressLines"): <__NSArrayM 0x1c5444200>(
+Fontys,
+Rachelsmolen 1,
+5612 MA Eindhoven,
+Netherlands
+)
+, AnyHashable("City"): Eindhoven, AnyHashable("CountryCode"): NL])
+Eindhoven
+Test Case '-[BandDiscovererTests.BandDiscovererTests testCity]' passed (0.131 seconds).
+11:09:35.463 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 89 bytes written out to StandardOutputAndStandardError
+Test Suite 'BandDiscovererTests' passed at 2017-11-14 11:09:35.464.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.131 (0.132) seconds
+11:09:35.464 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 145 bytes written out to StandardOutputAndStandardError
+11:09:35.465 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 152 bytes written out to StandardOutputAndStandardError
+Test Suite 'BandDiscovererTests.xctest' passed at 2017-11-14 11:09:35.465.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.131 (0.133) seconds
+11:09:35.465 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 0 bytes written out to StandardOutputAndStandardError
+11:09:35.462 BandDiscoverer[2123:613573] <XCTWaiter: 0x1c04080a0, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:09:35.462 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c04080a0, state: XCTWaiterStateSucceeded> done waiting
+11:09:35.462 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c04080a0, state: XCTWaiterStateSucceeded> cleaning up Completion handler called
+11:09:35.462 BandDiscoverer[2123:613361] -[BandDiscovererTests testCity] done waiting on 'Completion handler called'
+11:09:35.463 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testCaseDidFinish:]
+11:09:35.466 Xcode[1164:31799] _XCT_testCaseDidFinishForTestClass:BandDiscovererTests.BandDiscovererTests method:testCity withStatus:passed duration:0.1309019923210144
+Test Suite 'Selected tests' passed at 2017-11-14 11:09:35.466.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.131 (0.137) seconds
+11:09:35.479 Xcode[1164:40303] <IDETestOperationCoordinator: 0x7f99e4563c70>: parseConsoleOutputFromOriginalOutput: called, 140 bytes written out to StandardOutputAndStandardError
+11:09:35.464 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:09:35.483 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests didFinishAt:2017-11-14 10:09:35 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.1309019923210144 totalDuration:0.1319659948348999
+11:09:35.465 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:09:35.492 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests.xctest didFinishAt:2017-11-14 10:09:35 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.1309019923210144 totalDuration:0.1333330273628235
+11:09:35.492 Xcode[1164:31799] _XCT_testSuite:Selected tests didFinishAt:2017-11-14 10:09:35 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.1309019923210144 totalDuration:0.1365839838981628
+11:09:35.493 Xcode[1164:31799] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+11:09:35.466 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:09:35.467 BandDiscoverer[2123:613361] Finished running suite.
+11:09:35.467 BandDiscoverer[2123:613361] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+11:09:35.467 BandDiscoverer[2123:613361] Calling completion.
+11:09:35.467 BandDiscoverer[2123:613361] <XCTWaiter: 0x1c0409790, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+11:09:35.510 testmanagerd[2118:613614] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x155e28e40>.
+11:09:35.510 testmanagerd[2118:613169] Closed <XCTestSession: 0x155e28e40>, removing from (
+    "<XCTestSession: 0x155e28e40>"
+)
+11:09:35.511 testmanagerd[2118:613169] Tearing down test session <XCTestSession: 0x155e28e40>.
+11:09:35.511 testmanagerd[2118:613169] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+11:09:35.511 testmanagerd[2118:613169] Disconnected lockdown socket
+11:09:35.512 testmanagerd[2118:613169] Considering exiting:
+11:09:35.513 testmanagerd[2118:613169] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions, 0 pending connections
+11:09:35.513 testmanagerd[2118:613169] Control sessions: (
+    "<XCIDESession: 0x155e250a0> (socket 5) created Tuesday, 14 November 2017 at 11:09:35 Central European Standard Time"
+)
+11:09:35.518 Xcode[1164:31799] ############## DID EXECUTE #################
+11:09:35.774 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e4563c70> finished receiving data from <IDEConsoleAdaptor: 0x7f99e6904030 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+11:09:35.774 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e4563c70>: _considerFlushingDelegateBlockQueue - nothing to flush
+11:09:35.774 Xcode[1164:31799] _finishWithError:(null)

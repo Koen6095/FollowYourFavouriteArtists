@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.0.1 (swiftlang-900.0.66 clang-900.0.37)"
+options: "394622d17aa9d43230f09d1692432664"
+build_time: [1510655544, 566833000]
+inputs:
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscovererTests/BandDiscovererTests.swift": [1510655542, 0]

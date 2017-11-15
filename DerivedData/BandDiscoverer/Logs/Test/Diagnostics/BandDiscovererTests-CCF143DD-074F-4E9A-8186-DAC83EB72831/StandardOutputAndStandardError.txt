@@ -1,0 +1,86 @@
+2017-11-13 12:33:32.853445+0100 BandDiscoverer[1201:244934] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-13 12:33:32.854536+0100 BandDiscoverer[1201:244934] [MC] Loaded MobileCoreServices.framework
+2017-11-13 12:33:32.874440+0100 BandDiscoverer[1201:244934] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-13 12:33:33.025528+0100 BandDiscoverer[1201:244934] Could not inset legal attribution from corner 4
+2017-11-13 12:33:33.063485+0100 BandDiscoverer[1201:244934] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c428aa50 UIView:0x1080476f0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c428bbd0 UIView:0x108051710.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c428be00 UIView:0x1080533c0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c4087850 MKMapView:0x104008c00.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c428be50 V:|-(0)-[UIView:0x1080533c0]   (active, names: '|':UIView:0x1080531e0 )>",
+    "<NSLayoutConstraint:0x1c428bf40 V:[MKMapView:0x104008c00]-(0)-|   (active, names: '|':UIView:0x1080531e0 )>",
+    "<NSLayoutConstraint:0x1c428bf90 V:[UIView:0x1080533c0]-(0)-[MKMapView:0x104008c00]   (active)>",
+    "<NSLayoutConstraint:0x1c428c120 UIStackView:0x1080470f0.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c0099b90 'UISV-canvas-connection' UIStackView:0x1080470f0.top == UIView:0x1080476f0.top   (active)>",
+    "<NSLayoutConstraint:0x1c0098740 'UISV-canvas-connection' V:[UIView:0x1080531e0]-(0)-|   (active, names: '|':UIStackView:0x1080470f0 )>",
+    "<NSLayoutConstraint:0x1c009a270 'UISV-spacing' V:[UIView:0x1080476f0]-(0)-[UIView:0x108051710]   (active)>",
+    "<NSLayoutConstraint:0x1c0099f00 'UISV-spacing' V:[UIView:0x108051710]-(0)-[UIView:0x1080531e0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c4087850 MKMapView:0x104008c00.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-13 12:33:33.122811+0100 BandDiscoverer[1201:244934] refreshPreferences: HangTracerEnabled: 1
+2017-11-13 12:33:33.122845+0100 BandDiscoverer[1201:244934] refreshPreferences: HangTracerDuration: 500
+2017-11-13 12:33:33.122859+0100 BandDiscoverer[1201:244934] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-13 12:33:33.211
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-13 12:33:33.212
+Test Suite 'BandDiscovererTests' started at 2017-11-13 12:33:33.213
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocationTwo]' started.
+2017-11-13 12:33:33.223755+0100 BandDiscoverer[1201:244934] *** Assertion failure in -[BandDiscovererTests.BandDiscovererTests waitForExpectationsWithTimeout:handler:], /Library/Caches/com.apple.xbs/Sources/XCTest_iOS/XCTest-13514/Sources/XCTestFramework/Async/XCTestCase+AsynchronousTesting.m:49
+/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscovererTests/BandDiscovererTests.swift:57: error: -[BandDiscovererTests.BandDiscovererTests testGetCityFromLocationTwo] : failed: caught "NSInternalInconsistencyException", "API violation - call made to wait without any expectations having been set."
+(
+	0   CoreFoundation                      0x00000001814e9cf4 <redacted> + 148
+	1   libobjc.A.dylib                     0x0000000180738528 objc_exception_throw + 56
+	2   CoreFoundation                      0x00000001814e9bb0 <redacted> + 0
+	3   Foundation                          0x0000000181e78c24 <redacted> + 112
+	4   XCTest                              0x00000001038573b4 -[XCTestCase(AsynchronousTesting) waitForExpectationsWithTimeout:handler:] + 672
+	5   BandDiscovererTests                 0x0000000103cd25bc _T019BandDiscovererTestsAAC26testGetCityFromLocationTwoyyF + 756
+	6   BandDiscovererTests                 0x0000000103cd2bb0 _T019BandDiscovererTestsAAC26testGetCityFromLocationTwoyyFTo + 40
+	7   CoreFoundation                      0x00000001814f1640 <redacted> + 144
+	8   CoreFoundation                      0x00000001813d058c <redacted> + 292
+	9   XCTest                              0x0000000103863908 __24-[XCTestCase invokeTest]_block_invoke.275 + 48
+	10  XCTest                              0x00000001038b0aac -[XCTMemoryChecker _assertInvalidObjectsDeallocatedAfterScope:] + 56
+	11  XCTest                              0x00000001038636b8 __24-[XCTestCase invokeTest]_block_invoke + 680
+	12  XCTest                              0x00000001038a927c -[XCUITestContext performInScope:] + 208
+	13  XCTest                              0x0000000103863400 -[XCTestCase invokeTest] + 136
+	14  XCTest                              0x00000001038644d8 __26-[XCTestCase performTest:]_block_invoke.382 + 48
+	15  XCTest                              0x00000001038ae31c +[XCTContext runInContextForTestCase:block:] + 164
+	16  XCTest                              0x0000000103863ed4 -[XCTestCase performTest:] + 596
+	17  XCTest                              0x00000001038600c8 __27-[XCTestSuite performTest:]_block_invoke + 288
+	18  XCTest                              0x000000010385faf0 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 44
+	19  XCTest                              0x000000010385fd00 -[XCTestSuite performTest:] + 236
+	20  XCTest                              0x00000001038600c8 __27-[XCTestSuite performTest:]_block_invoke + 288
+	21  XCTest                              0x000000010385faf0 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 44
+	22  XCTest                              0x000000010385fd00 -[XCTestSuite performTest:] + 236
+	23  XCTest                              0x00000001038600c8 __27-[XCTestSuite performTest:]_block_invoke + 288
+	24  XCTest                              0x000000010385faf0 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 44
+	25  XCTest                              0x000000010385fd00 -[XCTestSuite performTest:] + 236
+	26  XCTest                              0x00000001038b7d28 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 44
+	27  XCTest                              0x0000000103872c48 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 420
+	28  XCTest                              0x00000001038b7ba4 -[XCTTestRunSession runTestsAndReturnError:] + 292
+	29  XCTest                              0x000000010384f730 -[XCTestDriver runTestsAndReturnError:] + 312
+	30  XCTest                              0x00000001038ad4c4 _XCTestMain + 620
+	31  CoreFoundation                      0x00000001814920d4 <redacted> + 20
+	32  CoreFoundation                      0x00000001814919a4 <redacted> + 288
+	33  CoreFoundation                      0x000000018148f6b4 <redacted> + 1068
+	34  CoreFoundation                      0x00000001813afe78 CFRunLoopRunSpecific + 436
+	35  GraphicsServices                    0x0000000183244f84 GSEventRunModal + 100
+	36  UIKit                               0x000000018b1520bc UIApplicationMain + 208
+	37  BandDiscoverer                      0x0000000102748450 main + 76
+	38  libdyld.dylib                       0x0000000180ed256c <redacted> + 4
+)
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocationTwo]' failed (0.067 seconds).
+Test Suite 'BandDiscovererTests' failed at 2017-11-13 12:33:33.282.
+	 Executed 1 test, with 1 failure (1 unexpected) in 0.067 (0.069) seconds
+Test Suite 'BandDiscovererTests.xctest' failed at 2017-11-13 12:33:33.283.
+	 Executed 1 test, with 1 failure (1 unexpected) in 0.067 (0.071) seconds
+Test Suite 'Selected tests' failed at 2017-11-13 12:33:33.283.
+	 Executed 1 test, with 1 failure (1 unexpected) in 0.067 (0.073) seconds

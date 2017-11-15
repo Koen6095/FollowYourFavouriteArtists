@@ -1,0 +1,46 @@
+2017-11-13 12:26:43.637944+0100 BandDiscoverer[1180:242167] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-13 12:26:43.639244+0100 BandDiscoverer[1180:242167] [MC] Loaded MobileCoreServices.framework
+2017-11-13 12:26:43.659370+0100 BandDiscoverer[1180:242167] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-13 12:26:43.830453+0100 BandDiscoverer[1180:242167] Could not inset legal attribution from corner 4
+2017-11-13 12:26:43.877087+0100 BandDiscoverer[1180:242167] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c0484d80 UIView:0x1086d8c10.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c0485f00 UIView:0x1086e1e50.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c0486130 UIView:0x1086e3c20.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c009fb30 MKMapView:0x104800a00.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c0486180 V:|-(0)-[UIView:0x1086e3c20]   (active, names: '|':UIView:0x1086e3a40 )>",
+    "<NSLayoutConstraint:0x1c0486270 V:[MKMapView:0x104800a00]-(0)-|   (active, names: '|':UIView:0x1086e3a40 )>",
+    "<NSLayoutConstraint:0x1c04862c0 V:[UIView:0x1086e3c20]-(0)-[MKMapView:0x104800a00]   (active)>",
+    "<NSLayoutConstraint:0x1c0486450 UIStackView:0x1086d8610.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c0284100 'UISV-canvas-connection' UIStackView:0x1086d8610.top == UIView:0x1086d8c10.top   (active)>",
+    "<NSLayoutConstraint:0x1c0284150 'UISV-canvas-connection' V:[UIView:0x1086e3a40]-(0)-|   (active, names: '|':UIStackView:0x1086d8610 )>",
+    "<NSLayoutConstraint:0x1c0291d00 'UISV-spacing' V:[UIView:0x1086d8c10]-(0)-[UIView:0x1086e1e50]   (active)>",
+    "<NSLayoutConstraint:0x1c0291da0 'UISV-spacing' V:[UIView:0x1086e1e50]-(0)-[UIView:0x1086e3a40]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c009fb30 MKMapView:0x104800a00.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-13 12:26:43.943698+0100 BandDiscoverer[1180:242167] refreshPreferences: HangTracerEnabled: 1
+2017-11-13 12:26:43.943755+0100 BandDiscoverer[1180:242167] refreshPreferences: HangTracerDuration: 500
+2017-11-13 12:26:43.943774+0100 BandDiscoverer[1180:242167] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-13 12:26:44.286
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-13 12:26:44.286
+Test Suite 'BandDiscovererTests' started at 2017-11-13 12:26:44.286
+Test Case '-[BandDiscovererTests.BandDiscovererTests testExample]' started.
+/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscovererTests/BandDiscovererTests.swift:29: error: -[BandDiscovererTests.BandDiscovererTests testExample] : XCTAssertEqual failed: ("2") is not equal to ("3") - 
+Test Case '-[BandDiscovererTests.BandDiscovererTests testExample]' failed (0.016 seconds).
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' started.
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' passed (0.002 seconds).
+Test Suite 'BandDiscovererTests' failed at 2017-11-13 12:26:44.306.
+	 Executed 2 tests, with 1 failure (0 unexpected) in 0.018 (0.019) seconds
+Test Suite 'BandDiscovererTests.xctest' failed at 2017-11-13 12:26:44.307.
+	 Executed 2 tests, with 1 failure (0 unexpected) in 0.018 (0.020) seconds
+Test Suite 'Selected tests' failed at 2017-11-13 12:26:44.307.
+	 Executed 2 tests, with 1 failure (0 unexpected) in 0.018 (0.021) seconds

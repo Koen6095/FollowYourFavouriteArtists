@@ -1,0 +1,44 @@
+2017-11-14 11:23:12.464078+0100 BandDiscoverer[2158:622516] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-14 11:23:12.465466+0100 BandDiscoverer[2158:622516] [MC] Loaded MobileCoreServices.framework
+2017-11-14 11:23:12.481761+0100 BandDiscoverer[2158:622516] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-14 11:23:12.678838+0100 BandDiscoverer[2158:622516] Could not inset legal attribution from corner 4
+2017-11-14 11:23:12.727727+0100 BandDiscoverer[2158:622516] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c4289f60 UIView:0x11dee3870.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c428b0e0 UIView:0x11fba0f00.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c428b310 UIView:0x11fba2bb0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c409bb70 MKMapView:0x11e834400.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c428b360 V:|-(0)-[UIView:0x11fba2bb0]   (active, names: '|':UIView:0x11fba29d0 )>",
+    "<NSLayoutConstraint:0x1c428b450 V:[MKMapView:0x11e834400]-(0)-|   (active, names: '|':UIView:0x11fba29d0 )>",
+    "<NSLayoutConstraint:0x1c428b4a0 V:[UIView:0x11fba2bb0]-(0)-[MKMapView:0x11e834400]   (active)>",
+    "<NSLayoutConstraint:0x1c428b630 UIStackView:0x11dee3270.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c4281e50 'UISV-canvas-connection' UIStackView:0x11dee3270.top == UIView:0x11dee3870.top   (active)>",
+    "<NSLayoutConstraint:0x1c4282990 'UISV-canvas-connection' V:[UIView:0x11fba29d0]-(0)-|   (active, names: '|':UIStackView:0x11dee3270 )>",
+    "<NSLayoutConstraint:0x1c409b7b0 'UISV-spacing' V:[UIView:0x11dee3870]-(0)-[UIView:0x11fba0f00]   (active)>",
+    "<NSLayoutConstraint:0x1c4282cb0 'UISV-spacing' V:[UIView:0x11fba0f00]-(0)-[UIView:0x11fba29d0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c409bb70 MKMapView:0x11e834400.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-14 11:23:12.801154+0100 BandDiscoverer[2158:622516] refreshPreferences: HangTracerEnabled: 1
+2017-11-14 11:23:12.801201+0100 BandDiscoverer[2158:622516] refreshPreferences: HangTracerDuration: 500
+2017-11-14 11:23:12.801220+0100 BandDiscoverer[2158:622516] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-14 11:23:13.129
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-14 11:23:13.130
+Test Suite 'BandDiscovererTests' started at 2017-11-14 11:23:13.131
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetLocationFromAddress]' started.
+/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscovererTests/BandDiscovererTests.swift:60: error: -[BandDiscovererTests.BandDiscovererTests testGetLocationFromAddress] : Asynchronous wait failed: Exceeded timeout of 10 seconds, with unfulfilled expectations: "Correct city found: Amsterdam".
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetLocationFromAddress]' failed (10.278 seconds).
+Test Suite 'BandDiscovererTests' failed at 2017-11-14 11:23:23.409.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.278 (10.279) seconds
+Test Suite 'BandDiscovererTests.xctest' failed at 2017-11-14 11:23:23.412.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.278 (10.281) seconds
+Test Suite 'Selected tests' failed at 2017-11-14 11:23:23.414.
+	 Executed 1 test, with 1 failure (0 unexpected) in 10.278 (10.284) seconds

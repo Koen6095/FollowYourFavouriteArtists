@@ -1,0 +1,50 @@
+2017-11-14 11:32:29.848116+0100 BandDiscoverer[3045:76769] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-14 11:32:29.849128+0100 BandDiscoverer[3045:76769] [MC] Loaded MobileCoreServices.framework
+2017-11-14 11:32:29.858650+0100 BandDiscoverer[3045:76769] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /Users/Koen/Library/Developer/CoreSimulator/Devices/629CE93F-50C8-4E3F-9584-9DDC641AC6E2/data/Containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-14 11:32:29.938285+0100 BandDiscoverer[3045:76769] Could not inset legal attribution from corner 4
+2017-11-14 11:32:29.969140+0100 BandDiscoverer[3045:76769] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x604000290310 UIView:0x7fb387628710.height == 80   (active)>",
+    "<NSLayoutConstraint:0x6040004805a0 UIView:0x7fb387634350.height == 80   (active)>",
+    "<NSLayoutConstraint:0x6040004807d0 UIView:0x7fb387636170.height == 20   (active)>",
+    "<NSLayoutConstraint:0x60800009f630 MKMapView:0x7fb38b01c600.height == 510   (active)>",
+    "<NSLayoutConstraint:0x604000480820 V:|-(0)-[UIView:0x7fb387636170]   (active, names: '|':UIView:0x7fb387635f90 )>",
+    "<NSLayoutConstraint:0x604000480910 V:[MKMapView:0x7fb38b01c600]-(0)-|   (active, names: '|':UIView:0x7fb387635f90 )>",
+    "<NSLayoutConstraint:0x604000480960 V:[UIView:0x7fb387636170]-(0)-[MKMapView:0x7fb38b01c600]   (active)>",
+    "<NSLayoutConstraint:0x60400029e050 UIStackView:0x7fb387627c70.height == 810   (active)>",
+    "<NSLayoutConstraint:0x600000284290 'UISV-canvas-connection' UIStackView:0x7fb387627c70.top == UIView:0x7fb387628710.top   (active)>",
+    "<NSLayoutConstraint:0x600000286310 'UISV-canvas-connection' V:[UIView:0x7fb387635f90]-(0)-|   (active, names: '|':UIStackView:0x7fb387627c70 )>",
+    "<NSLayoutConstraint:0x600000286b30 'UISV-spacing' V:[UIView:0x7fb387628710]-(0)-[UIView:0x7fb387634350]   (active)>",
+    "<NSLayoutConstraint:0x600000286ae0 'UISV-spacing' V:[UIView:0x7fb387634350]-(0)-[UIView:0x7fb387635f90]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x60800009f630 MKMapView:0x7fb38b01c600.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+Test Suite 'Selected tests' started at 2017-11-14 11:32:32.077
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-14 11:32:32.077
+Test Suite 'BandDiscovererTests' started at 2017-11-14 11:32:32.078
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' started.
+Optional([AnyHashable("Street"): Rachelsmolen 1, AnyHashable("ZIP"): 5612 MA, AnyHashable("Country"): Netherlands, AnyHashable("SubThoroughfare"): 1, AnyHashable("State"): North Brabant, AnyHashable("Name"): Fontys, AnyHashable("SubAdministrativeArea"): Eindhoven, AnyHashable("Thoroughfare"): Rachelsmolen, AnyHashable("FormattedAddressLines"): <__NSArrayM 0x60000144c8d0>(
+Fontys,
+Rachelsmolen 1,
+5612 MA Eindhoven,
+Netherlands
+)
+, AnyHashable("City"): Eindhoven, AnyHashable("CountryCode"): NL])
+Eindhoven
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' passed (3.140 seconds).
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetLocationFromAddress]' started.
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetLocationFromAddress]' passed (3.282 seconds).
+Test Suite 'BandDiscovererTests' passed at 2017-11-14 11:32:38.501.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 6.422 (6.423) seconds
+Test Suite 'BandDiscovererTests.xctest' passed at 2017-11-14 11:32:38.502.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 6.422 (6.424) seconds
+Test Suite 'Selected tests' passed at 2017-11-14 11:32:38.502.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 6.422 (6.426) seconds

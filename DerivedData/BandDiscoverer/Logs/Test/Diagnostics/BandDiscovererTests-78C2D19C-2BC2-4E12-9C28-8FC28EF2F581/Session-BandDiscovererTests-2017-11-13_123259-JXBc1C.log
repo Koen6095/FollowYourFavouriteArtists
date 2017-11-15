@@ -1,0 +1,126 @@
+12:32:59.354 Xcode[2091:52298] Beginning test session BandDiscovererTests-3BE217D2-4FB8-41C4-BEEB-79AB3CED039C at 2017-11-13 12:32:59.353 with Xcode 9B37 on target <DVTiOSDevice: 0x7fa4c70a9960> {
+		deviceSerialNumber:         FK1SHCG9HG7P
+		identifier:                 4fcb318dbe549a16876273089e6e5a1f2ca8f723
+		deviceClass:                iPhone
+		deviceName:                 iPhone 7 van Koen
+		deviceIdentifier:           4fcb318dbe549a16876273089e6e5a1f2ca8f723
+		productVersion:             11.1
+		buildVersion:               15B5066f
+		deviceSoftwareVersion:      11.1 (15B5066f)
+		deviceArchitecture:         arm64
+		deviceTotalCapacity:        124499652608
+		deviceAvailableCapacity:    61258035200
+		deviceIsTransient:          NO
+		ignored:                    NO
+		deviceIsBusy:               NO
+		deviceIsActivated:          YES
+		deviceActivationState:      Activated
+		isPasscodeLocked:           NO
+		deviceType:                 <DVTDeviceType:0x7fa4c0da09d0 Xcode.DeviceType.iPhone>
+		supportedDeviceFamilies:    (
+    1
+)
+		applications:              {(
+    <DTDKApplication: 0x7fa4b4c57fb0>: Voicemail (/private/var/containers/Bundle/Application/A5565038-83D9-4D8B-BB78-64E5D9085F5B/fonyoukpn-pro copy.app),
+    <DTDKApplication: 0x7fa4b33746b0>: LinkedIn (/private/var/containers/Bundle/Application/A8254871-55B3-4C84-A7C5-39A51564364A/LinkedIn.app),
+    <DTDKApplication: 0x7fa4cc50cdf0>: Jetpack (/private/var/containers/Bundle/Application/B2E1C2E9-AB89-4A5C-935F-4E0AF2AF6748/jetpack.app),
+    <DTDKApplication: 0x7fa4b4cc6890>: LastPass (/private/var/containers/Bundle/Application/B90DE976-89E6-4F6B-8F99-9A88A80AD81E/LastPass.app),
+    <DTDKApplication: 0x7fa4b3366160>: R&R job app (/private/var/containers/Bundle/Application/B542FE8B-9335-4D54-9A4F-F53460508694/UIiOS.app),
+    <DTDKApplication: 0x7fa4b375fc10>: PlayStation (/private/var/containers/Bundle/Application/D1637786-C7DE-4E16-ACBD-7C652CD5FA1F/PlayStationApp.app),
+    <DTDKApplication: 0x7fa4b4d36760>: BandDiscoverer (/private/var/containers/Bundle/Application/9E9B9663-4B60-4BBA-A79E-A149BBD58DA3/BandDiscoverer.app),
+    <DTDKApplication: 0x7fa4b4ca18a0>: Metronome (/private/var/containers/Bundle/Application/7DEF2F2C-59DF-4FD9-BE35-CC470B747673/metronome.app),
+    <DTDKApplication: 0x7fa4b4cf4de0>: Apple Store (/private/var/containers/Bundle/Application/D32C4533-2B27-48F2-B1C9-9BED4F0B67B2/Apple Store.app),
+    <DTDKApplication: 0x7fa4cc587f60>: MijnKPN (/private/var/containers/Bundle/Application/CDC7E5CF-C46A-436E-BC6D-E78EF9EE6F46/MijnKPN.app),
+    <DTDKApplication: 0x7fa4c9e472c0>: Angry Birds (/private/var/containers/Bundle/Application/F3CDB9CD-DF61-47DB-B8CF-A50736447F27/AngryBirdsSeasonsFull.app),
+    <DTDKApplication: 0x7fa4b4c57ea0>: Songkick (/private/var/containers/Bundle/Application/63078385-B95D-41FA-AD18-621552C8A6D6/Songkick.app),
+    <DTDKApplication: 0x7fa4b4c48190>: ARKitTest (/private/var/containers/Bundle/Application/9A4367BE-13B6-46B4-8751-685659E37EC3/ARKitTest.app),
+    <DTDKApplication: 0x7fa4b4d1ae20>: POP (/private/var/containers/Bundle/Application/F690951A-286C-41D9-A38B-7BC6B471CCBF/Marvel iOS.app),
+    <DTDKApplication: 0x7fa4b4d368c0>: 100 Pushups (/private/var/containers/Bundle/Application/FA49D3EF-D209-492E-BF5A-112916E128C0/HundredPushUps.app),
+    <DTDKApplication: 0x7fa4b4cc3ac0>: Flipboard (/private/var/containers/Bundle/Application/49A5E67D-FCE1-4559-8AA1-9C1848E6A3A0/Flipboard.app),
+    <DTDKApplication: 0x7fa4b3761780>: Beardify (/private/var/containers/Bundle/Application/C3F7D0EA-1AE3-44F2-816F-23FD119898F1/Beardify.app),
+    <DTDKApplication: 0x7fa4b4d0c2a0>: Minigore (/private/var/containers/Bundle/Application/1B0AB569-DCF9-41C0-9960-CC33A97678CE/Minigore.app),
+    <DTDKApplication: 0x7fa4b4d1af30>: Buienalarm (/private/var/containers/Bundle/Application/41E6965D-F258-404D-9A73-582786B9835F/Buienalarm.app),
+    <DTDKApplication: 0x7fa4b4d0fab0>: Siemie & Koko (/private/var/containers/Bundle/Application/2EEF7F07-6AB9-4FD0-AB0E-12E74AEA7410/VidPlayback.app),
+    <DTDKApplication: 0x7fa4b4d1d250>: Messenger (/private/var/containers/Bundle/Application/5CF65EA1-A9FB-4957-9B06-A865734D9081/Messenger.app),
+    <DTDKApplication: 0x7fa4c64c4e40>: SoundCloud (/private/var/containers/Bundle/Application/26738CA8-9B7D-413A-A14F-CDB44D0F4ED2/SoundCloud.app),
+    <DTDKApplication: 0x7fa4b4c0af30>: DS file (/private/var/containers/Bundle/Application/F69498B3-6B27-475B-B988-517A63E32FC6/DSfile.app),
+    <DTDKApplication: 0x7fa4b4c29570>: Telegram (/private/var/containers/Bundle/Application/04E57065-8341-4AB9-BA61-6795BC59A790/Telegram.app),
+    <DTDKApplication: 0x7fa4cc781810>: 9292 (/private/var/containers/Bundle/Application/FF1F5E69-2F50-46F8-BDED-3C8C21E68CC9/9292.app),
+    <DTDKApplication: 0x7fa4c6751810>: WWDC (/private/var/containers/Bundle/Application/1C266ADC-CE5A-46D4-AC26-CD3F2FB03EB6/WWDC.app),
+    <DTDKApplication: 0x7fa4b4cd66b0>: Udemy (/private/var/containers/Bundle/Application/D2F4C0C4-CC70-4B30-AE7F-1FA2EBFEC46A/udemy-mobile-ios.app),
+    <DTDKApplication: 0x7fa4b4d7f550>: TED (/private/var/containers/Bundle/Application/AB0818EB-8D1B-4198-9B34-4F7EF406A58E/TED.app),
+    <DTDKApplication: 0x7fa4b3727430>: PS Messages (/private/var/containers/Bundle/Application/AAC113A3-E2C2-48F7-BEB3-BEF47E9840E5/PS Messages.app),
+    <DTDKApplication: 0x7fa4b4d88a30>: iPad&iPhone (/private/var/containers/Bundle/Application/336F0775-2AD3-4A14-82DB-312F903D42F6/iPad&iPhone.app),
+    <DTDKApplication: 0x7fa4b4b83480>: OPM (/private/var/containers/Bundle/Application/D2321AD2-05FB-49FC-AA96-5BE0195E60C4/folio.app),
+    <DTDKApplication: 0x7fa4b3365e20>: World Brush (/private/var/containers/Bundle/Application/EADA560A-97A4-43EA-8942-FECF5BF60113/World Brush.app),
+    <DTDKApplication: 0x7fa4b4d210d0>: Jumbo (/private/var/containers/Bundle/Application/232DE7B1-8DB5-42F1-8534-F8AF5796A5D4/Jumbo.app),
+    <DTDKApplication: 0x7fa4b3763b90>: Stack AR (/private/var/containers/Bundle/Application/1B572985-CC81-4B4C-BE0F-B019B4BF9293/stackar.app),
+    <DTDKApplication: 0x7fa4b4d11350>: Bandsintown (/private/var/containers/Bundle/Application/13607958-3D55-44F1-8FA9-31A94C517C4E/Bandsintown Concerts.app),
+    <DTDKApplication: 0x7fa4b4c43b70>: Tikkie (/private/var/containers/Bundle/Application/6513C7CE-78ED-48D3-9578-58291ED9E002/Eddie Production.app),
+    <DTDKApplication: 0x7fa4b3765650>: Facebook Page (/private/var/containers/Bundle/Application/89A9786B-6993-474D-9956-5055B3BAF01F/PageAdmin.app),
+    <DTDKApplication: 0x7fa4b4d6e2d0>: MARIO RUN (/private/var/containers/Bundle/Application/DFA0EE68-A66B-4F9F-A11A-FECB58FA96AB/SuperMarioRunStickers.app),
+    <DTDKApplication: 0x7fa4b4cbc2f0>: Creditcards (/private/var/containers/Bundle/Application/29880898-CA63-431D-9B77-30F44F10C880/Creditcards.app),
+    <DTDKApplication: 0x7fa4b4d6de20>: Bankieren (/private/var/containers/Bundle/Application/95E10D51-1F9C-4FB1-AE30-756C153BF54E/iOS App.app),
+    <DTDKApplication: 0x7fa4b3304800>: Troostwijk (/private/var/containers/Bundle/Application/D520E21A-6195-4B4F-98E9-ABCD64926C85/TroostwijkAuctionsClientiOS.app),
+    <DTDKApplication: 0x7fa4cc58c5e0>: Bankieren (/private/var/containers/Bundle/Application/FECB02D2-3EDA-4E25-AC3C-6D0C40FE6BBA/ABN.app),
+    <DTDKApplication: 0x7fa4b374ec00>: Classic Rock (/private/var/containers/Bundle/Application/3B74CAD6-0965-4FAF-AB4F-70F235157FC3/folio.app),
+    <DTDKApplication: 0x7fa4b4c0bb30>: Booking.com (/private/var/containers/Bundle/Application/9135E953-C033-478D-BBBD-AADA158A94AB/Booking.com.app),
+    <DTDKApplication: 0x7fa4b4d87070>: Shazam (/private/var/containers/Bundle/Application/6DAF0944-23E7-4B78-A913-0EB65882C53C/Shazam.app),
+    <DTDKApplication: 0x7fa4b4c82360>: Instagram (/private/var/containers/Bundle/Application/2C670362-9C1E-4F4C-9AF2-3B0F8C21A559/Instagram.app),
+    <DTDKApplication: 0x7fa4c64f1450>: Stick Hero (/private/var/containers/Bundle/Application/3AB36FDA-92B3-45E7-A4F4-2C41B75D3D28/stickhero.app),
+    <DTDKApplication: 0x7fa4c9420ba0>: BVA (/private/var/containers/Bundle/Application/EBFA54A5-321F-480C-AB12-A80B72B79BBE/BVA.app),
+    <DTDKApplication: 0x7fa4b4ca1530>: iTunes U (/private/var/containers/Bundle/Application/8A1FEA2B-397D-4005-A25B-30751E3D5153/iTunesU.app),
+    <DTDKApplication: 0x7fa4b4b8bf00>: Bankieren (/private/var/containers/Bundle/Application/F2C7B1F7-DEB2-438A-B9EA-1C61A8D0ABC3/BankierenPlus.app),
+    <DTDKApplication: 0x7fa4b4ca30c0>: Spotify (/private/var/containers/Bundle/Application/B8C026BE-46E2-4813-8C1F-D74F74CBB38B/Spotify.app),
+    <DTDKApplication: 0x7fa4d00743b0>: IMDb (/private/var/containers/Bundle/Application/8A16BF5F-397A-4CAC-8120-D7EA4768EF36/IMDb.app),
+    <DTDKApplication: 0x7fa4b4d80330>: Bandcamp (/private/var/containers/Bundle/Application/9EED7798-1762-42FA-973B-83A0AA1DF5E8/Bandcamp.app),
+    <DTDKApplication: 0x7fa4b4cc1fd0>: Netflix (/private/var/containers/Bundle/Application/8A4DA81C-CA5F-4988-82E0-FA79D67C5EDB/Argo.app),
+    <DTDKApplication: 0x7fa4b4d1b760>: WhatsApp (/private/var/containers/Bundle/Application/99FB2EF6-DA20-4A77-B052-5AA72115E8CC/WhatsApp.app),
+    <DTDKApplication: 0x7fa4b4c30c90>: Snapchat (/private/var/containers/Bundle/Application/4191F46B-4E0B-4066-A16F-23F19340A832/Snapchat.app),
+    <DTDKApplication: 0x7fa4b0d0eb70>: WordFoto (/private/var/containers/Bundle/Application/0C21BB10-CC7D-4FC3-B346-78042AF0DB42/WordFoto.app),
+    <DTDKApplication: 0x7fa4b4c8d0a0>: STACK (/private/var/containers/Bundle/Application/6C29EA28-CB6A-4227-B016-2A0A60AB04A3/Stack.app),
+    <DTDKApplication: 0x7fa4b4c8d2e0>: Emoji Free! (/private/var/containers/Bundle/Application/4F1CB33E-BA5D-4836-A0F5-26A5C07A6026/emojifree.app),
+    <DTDKApplication: 0x7fa4c9e47270>: Evernote (/private/var/containers/Bundle/Application/74BE3A08-B06D-461E-AFC9-8ABA5A5D606C/Evernote.app),
+    <DTDKApplication: 0x7fa4b4d2c010>: Canvas (/private/var/containers/Bundle/Application/BC6C614A-7115-4F7C-B2E7-14AB059CD603/Canvas.app),
+    <DTDKApplication: 0x7fa4b4cb31a0>: YouTube (/private/var/containers/Bundle/Application/BD8BDD95-1788-4DA5-9574-BB46B6AB9C42/YouTube.app),
+    <DTDKApplication: 0x7fa4b4d7c670>: TVGiDS.tv (/private/var/containers/Bundle/Application/8EA64CFD-AB23-4E47-9C0E-FBE0FD252809/TVGiDS.tv 1.0 NL Lite.app),
+    <DTDKApplication: 0x7fa4b374a140>: Locate (/private/var/containers/Bundle/Application/C12F2573-A33F-4618-A577-2DBA088B4D68/iBeaconLoc.app),
+    <DTDKApplication: 0x7fa4b4d36910>: iCreate (/private/var/containers/Bundle/Application/E937A97A-A33D-419C-AD63-AD403393536B/folio.app),
+    <DTDKApplication: 0x7fa4c64ba140>: Reisplanner (/private/var/containers/Bundle/Application/371C46C2-2E9C-48A1-9741-0E7C30C98940/Arend.app),
+    <DTDKApplication: 0x7fa4b4cc5b90>: 200 Situps (/private/var/containers/Bundle/Application/3E6FFA7C-71E4-4DC3-984A-638F1EB8ED84/TwoHundredSitups.app),
+    <DTDKApplication: 0x7fa4b4d85720>: MyFitnessPal (/private/var/containers/Bundle/Application/9B4DE005-DA51-431C-A86D-7F46738986FF/MyFitnessPal.app),
+    <DTDKApplication: 0x7fa4cc7a37a0>: Slack (/private/var/containers/Bundle/Application/80A94067-2E58-4B64-AD4A-32CF049F7B13/Slack.app),
+    <DTDKApplication: 0x7fa4b33e9290>: Untappd (/private/var/containers/Bundle/Application/2D924C89-2C8F-41F0-B4A5-8A59208F7A55/Untappd.app),
+    <DTDKApplication: 0x7fa4b4bd6c40>: Blockfolio (/private/var/containers/Bundle/Application/EE94D2B0-1732-4668-BBEA-B75F2263C64D/Blockfolio.app),
+    <DTDKApplication: 0x7fa4b0c2d5f0>: NU.nl (/private/var/containers/Bundle/Application/F671540C-6FB1-4421-81FF-CDED4F9CFD4D/NU.nl.app),
+    <DTDKApplication: 0x7fa4b0c79af0>: Practical Photoshop (/private/var/containers/Bundle/Application/6F14823D-46E7-4F9A-B52D-321E7CA62B16/folio.app),
+    <DTDKApplication: 0x7fa4b4cda720>: Showroom (/private/var/containers/Bundle/Application/15CDE436-F08F-4951-92EC-A009E745CCD8/Showroom.app),
+    <DTDKApplication: 0x7fa4b0d0ec80>: Ticketmaster (/private/var/containers/Bundle/Application/6170F876-6D57-42E5-9FDD-C45B4D379065/Ticketmaster.app)
+)}
+		provisioningProfiles:      {(
+    <DTDKProvisioningProfile 0x7fa4c8ebae40: UUID: f76e1e58-c85c-4cda-b7a8-80978dc9faa8, name: SiemieAndKokoDevelopment, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c77c1140: UUID: 6984ac7a-0f8c-491f-971b-0a6552913757, name: iOS Team Provisioning Profile: com.koenvestjens.BandDiscoverer, team: RTSGN6L22S (Koen Vestjens), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c319cdb0: UUID: ed6f5eec-cd6a-4563-ab7c-678b6c363f72, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SNKDemo, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4cfac8220: UUID: 49f93e57-7138-4bd8-b256-f5581d6aa187, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SiemieAndKoko, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c97afcc0: UUID: bf13957c-5064-4e7c-9447-51faf2bb7518, name: iOS Team Provisioning Profile: *, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c937b810: UUID: 6cdd4631-3dfb-484b-80a8-71dc561fd056, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SiemieAndKoko, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c8b3ea20: UUID: 60ad9817-c072-4126-9247-65e39d8776e9, name: SiemieAndKokoDevelopment, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c934f3e0: UUID: 5faae7a1-288a-4e7f-8229-da50cf22b6c7, name: iOS Team Provisioning Profile: koenvestjens.DPI-Application, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c31d4e60: UUID: 7412be5a-1eda-478d-8588-9cd9378441eb, name: iOS Team Provisioning Profile: *, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4b0c04810: UUID: a2dd8743-1cb8-4a5f-a623-339af2231cf4, name: iOS Team Provisioning Profile: *, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c8e6fef0: UUID: 8b3390d4-16f7-4c61-bdd5-4c06d627dfc7, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SiemieAndKoko, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7fa4c8bb8e00: UUID: a3ba73cd-e6c8-4be7-9078-fd1254ff71b1, name: SnK Demo Development, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>
+)}
+		hasInternalSupport:        NO
+		isSupportedOS:             YES
+		developerDiskMountError:   (null)
+(null)
+	bootArgs:                  <unavailable>
+		connected:                 yes
+		isWirelessEnabled:         no
+		connectionType:            direct
+		} (11.1 (15B5066f))
+12:32:59.354 Xcode[2091:52298] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+12:32:59.355 Xcode[2091:52298] Test standard output and standard error is at /var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-52BFAB3C-E043-4F17-B1F4-D02863F439BC/BandDiscovererTests-78C2D19C-2BC2-4E12-9C28-8FC28EF2F581/StandardOutputAndStandardError.txt
+12:32:59.787 Xcode[2091:52298] Test operation failure: Test operation was canceled.
+12:32:59.787 Xcode[2091:52298] _finishWithError:Error Domain=IDETestOperationsObserverErrorDomain Code=14 "Test operation was canceled." UserInfo={NSLocalizedDescription=Test operation was canceled.}

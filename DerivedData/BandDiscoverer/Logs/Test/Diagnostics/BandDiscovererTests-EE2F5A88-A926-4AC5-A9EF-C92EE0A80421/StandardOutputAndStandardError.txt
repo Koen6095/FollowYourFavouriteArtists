@@ -1,0 +1,43 @@
+2017-11-13 11:46:31.316838+0100 BandDiscoverer[1072:224665] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-13 11:46:31.319001+0100 BandDiscoverer[1072:224665] [MC] Loaded MobileCoreServices.framework
+2017-11-13 11:46:31.342480+0100 BandDiscoverer[1072:224665] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-13 11:46:31.950869+0100 BandDiscoverer[1072:224665] Could not inset legal attribution from corner 4
+2017-11-13 11:46:32.024314+0100 BandDiscoverer[1072:224665] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c04940f0 UIView:0x157c715f0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c0495fe0 UIView:0x157c68fe0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c0496210 UIView:0x157c7c0f0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c028aaa0 MKMapView:0x15683a600.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c0496260 V:|-(0)-[UIView:0x157c7c0f0]   (active, names: '|':UIView:0x157c7bf10 )>",
+    "<NSLayoutConstraint:0x1c0496350 V:[MKMapView:0x15683a600]-(0)-|   (active, names: '|':UIView:0x157c7bf10 )>",
+    "<NSLayoutConstraint:0x1c04963a0 V:[UIView:0x157c7c0f0]-(0)-[MKMapView:0x15683a600]   (active)>",
+    "<NSLayoutConstraint:0x1c0496530 UIStackView:0x157c70ff0.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c028fbe0 'UISV-canvas-connection' UIStackView:0x157c70ff0.top == UIView:0x157c715f0.top   (active)>",
+    "<NSLayoutConstraint:0x1c028fc30 'UISV-canvas-connection' V:[UIView:0x157c7bf10]-(0)-|   (active, names: '|':UIStackView:0x157c70ff0 )>",
+    "<NSLayoutConstraint:0x1c028fd70 'UISV-spacing' V:[UIView:0x157c715f0]-(0)-[UIView:0x157c68fe0]   (active)>",
+    "<NSLayoutConstraint:0x1c028fdc0 'UISV-spacing' V:[UIView:0x157c68fe0]-(0)-[UIView:0x157c7bf10]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c028aaa0 MKMapView:0x15683a600.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-13 11:46:32.180287+0100 BandDiscoverer[1072:224665] refreshPreferences: HangTracerEnabled: 1
+2017-11-13 11:46:32.180325+0100 BandDiscoverer[1072:224665] refreshPreferences: HangTracerDuration: 500
+2017-11-13 11:46:32.180342+0100 BandDiscoverer[1072:224665] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-13 11:46:32.359
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-13 11:46:32.360
+Test Suite 'BandDiscovererTests' started at 2017-11-13 11:46:32.360
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' started.
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' passed (0.063 seconds).
+Test Suite 'BandDiscovererTests' passed at 2017-11-13 11:46:32.424.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.063 (0.064) seconds
+Test Suite 'BandDiscovererTests.xctest' passed at 2017-11-13 11:46:32.425.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.063 (0.065) seconds
+Test Suite 'Selected tests' passed at 2017-11-13 11:46:32.426.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.063 (0.067) seconds

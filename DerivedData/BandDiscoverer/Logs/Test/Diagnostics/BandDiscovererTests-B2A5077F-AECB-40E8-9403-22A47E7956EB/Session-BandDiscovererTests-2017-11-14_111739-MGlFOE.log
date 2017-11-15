@@ -1,0 +1,401 @@
+11:17:39.727 Xcode[1164:31799] Beginning test session BandDiscovererTests-39D22E1E-3214-4765-B485-BB74559493CD at 2017-11-14 11:17:39.727 with Xcode 9B37 on target <DVTiOSDevice: 0x7f99e18dc6f0> {
+		deviceSerialNumber:         FK1SHCG9HG7P
+		identifier:                 4fcb318dbe549a16876273089e6e5a1f2ca8f723
+		deviceClass:                iPhone
+		deviceName:                 iPhone 7 van Koen
+		deviceIdentifier:           4fcb318dbe549a16876273089e6e5a1f2ca8f723
+		productVersion:             11.1
+		buildVersion:               15B5066f
+		deviceSoftwareVersion:      11.1 (15B5066f)
+		deviceArchitecture:         arm64
+		deviceTotalCapacity:        124499652608
+		deviceAvailableCapacity:    63004372992
+		deviceIsTransient:          NO
+		ignored:                    NO
+		deviceIsBusy:               NO
+		deviceIsActivated:          YES
+		deviceActivationState:      Activated
+		isPasscodeLocked:           NO
+		deviceType:                 <DVTDeviceType:0x7f99daf03080 Xcode.DeviceType.iPhone>
+		supportedDeviceFamilies:    (
+    1
+)
+		applications:              {(
+    <DTDKApplication: 0x7f99e7228760>: Voicemail (/private/var/containers/Bundle/Application/A5565038-83D9-4D8B-BB78-64E5D9085F5B/fonyoukpn-pro copy.app),
+    <DTDKApplication: 0x7f99e69f7c00>: LinkedIn (/private/var/containers/Bundle/Application/A8254871-55B3-4C84-A7C5-39A51564364A/LinkedIn.app),
+    <DTDKApplication: 0x7f99e69f87a0>: Jetpack (/private/var/containers/Bundle/Application/B2E1C2E9-AB89-4A5C-935F-4E0AF2AF6748/jetpack.app),
+    <DTDKApplication: 0x7f99e7226ea0>: LastPass (/private/var/containers/Bundle/Application/B90DE976-89E6-4F6B-8F99-9A88A80AD81E/LastPass.app),
+    <DTDKApplication: 0x7f99e7228b80>: R&R job app (/private/var/containers/Bundle/Application/B542FE8B-9335-4D54-9A4F-F53460508694/UIiOS.app),
+    <DTDKApplication: 0x7f99e69f9820>: PlayStation (/private/var/containers/Bundle/Application/D1637786-C7DE-4E16-ACBD-7C652CD5FA1F/PlayStationApp.app),
+    <DTDKApplication: 0x7f99e72293c0>: Metronome (/private/var/containers/Bundle/Application/7DEF2F2C-59DF-4FD9-BE35-CC470B747673/metronome.app),
+    <DTDKApplication: 0x7f99e7229c00>: Apple Store (/private/var/containers/Bundle/Application/D32C4533-2B27-48F2-B1C9-9BED4F0B67B2/Apple Store.app),
+    <DTDKApplication: 0x7f99e72274d0>: MijnKPN (/private/var/containers/Bundle/Application/CDC7E5CF-C46A-436E-BC6D-E78EF9EE6F46/MijnKPN.app),
+    <DTDKApplication: 0x7f99e7228fa0>: Angry Birds (/private/var/containers/Bundle/Application/F3CDB9CD-DF61-47DB-B8CF-A50736447F27/AngryBirdsSeasonsFull.app),
+    <DTDKApplication: 0x7f99e7228550>: Songkick (/private/var/containers/Bundle/Application/63078385-B95D-41FA-AD18-621552C8A6D6/Songkick.app),
+    <DTDKApplication: 0x7f99e69f9400>: ARKitTest (/private/var/containers/Bundle/Application/9A4367BE-13B6-46B4-8751-685659E37EC3/ARKitTest.app),
+    <DTDKApplication: 0x7f99e72295d0>: POP (/private/var/containers/Bundle/Application/F690951A-286C-41D9-A38B-7BC6B471CCBF/Marvel iOS.app),
+    <DTDKApplication: 0x7f99e7229e10>: 100 Pushups (/private/var/containers/Bundle/Application/FA49D3EF-D209-492E-BF5A-112916E128C0/HundredPushUps.app),
+    <DTDKApplication: 0x7f99e72251c0>: Flipboard (/private/var/containers/Bundle/Application/49A5E67D-FCE1-4559-8AA1-9C1848E6A3A0/Flipboard.app),
+    <DTDKApplication: 0x7f99e7228340>: Beardify (/private/var/containers/Bundle/Application/C3F7D0EA-1AE3-44F2-816F-23FD119898F1/Beardify.app),
+    <DTDKApplication: 0x7f99e7227b00>: Minigore (/private/var/containers/Bundle/Application/1B0AB569-DCF9-41C0-9960-CC33A97678CE/Minigore.app),
+    <DTDKApplication: 0x7f99e72297e0>: Buienalarm (/private/var/containers/Bundle/Application/41E6965D-F258-404D-9A73-582786B9835F/Buienalarm.app),
+    <DTDKApplication: 0x7f99e7226240>: BandDiscoverer (/private/var/containers/Bundle/Application/51CAD15D-B259-4F17-9A51-F3DD03BE01FC/BandDiscoverer.app),
+    <DTDKApplication: 0x7f99e69f7860>: Messenger (/private/var/containers/Bundle/Application/5CF65EA1-A9FB-4957-9B06-A865734D9081/Messenger.app),
+    <DTDKApplication: 0x7f99e7224fb0>: SoundCloud (/private/var/containers/Bundle/Application/26738CA8-9B7D-413A-A14F-CDB44D0F4ED2/SoundCloud.app),
+    <DTDKApplication: 0x7f99e6959cc0>: DS file (/private/var/containers/Bundle/Application/F69498B3-6B27-475B-B988-517A63E32FC6/DSfile.app),
+    <DTDKApplication: 0x7f99e69f9e50>: Telegram (/private/var/containers/Bundle/Application/04E57065-8341-4AB9-BA61-6795BC59A790/Telegram.app),
+    <DTDKApplication: 0x7f99e72272c0>: 9292 (/private/var/containers/Bundle/Application/FF1F5E69-2F50-46F8-BDED-3C8C21E68CC9/9292.app),
+    <DTDKApplication: 0x7f99e7226c90>: WWDC (/private/var/containers/Bundle/Application/1C266ADC-CE5A-46D4-AC26-CD3F2FB03EB6/WWDC.app),
+    <DTDKApplication: 0x7f99e72278f0>: Udemy (/private/var/containers/Bundle/Application/D2F4C0C4-CC70-4B30-AE7F-1FA2EBFEC46A/udemy-mobile-ios.app),
+    <DTDKApplication: 0x7f99e69f7a30>: Siemie & Koko (/private/var/containers/Bundle/Application/C0564089-B02E-439D-BDD9-2F7B18B93731/VidPlayback.app),
+    <DTDKApplication: 0x7f99dabbda70>: TED (/private/var/containers/Bundle/Application/AB0818EB-8D1B-4198-9B34-4F7EF406A58E/TED.app),
+    <DTDKApplication: 0x7f99e69f8590>: PS Messages (/private/var/containers/Bundle/Application/AAC113A3-E2C2-48F7-BEB3-BEF47E9840E5/PS Messages.app),
+    <DTDKApplication: 0x7f99e72255e0>: iPad&iPhone (/private/var/containers/Bundle/Application/336F0775-2AD3-4A14-82DB-312F903D42F6/iPad&iPhone.app),
+    <DTDKApplication: 0x7f99dabbd860>: OPM (/private/var/containers/Bundle/Application/D2321AD2-05FB-49FC-AA96-5BE0195E60C4/folio.app),
+    <DTDKApplication: 0x7f99e7227d10>: World Brush (/private/var/containers/Bundle/Application/EADA560A-97A4-43EA-8942-FECF5BF60113/World Brush.app),
+    <DTDKApplication: 0x7f99e72291b0>: Jumbo (/private/var/containers/Bundle/Application/232DE7B1-8DB5-42F1-8534-F8AF5796A5D4/Jumbo.app),
+    <DTDKApplication: 0x7f99e69f9c40>: Stack AR (/private/var/containers/Bundle/Application/1B572985-CC81-4B4C-BE0F-B019B4BF9293/stackar.app),
+    <DTDKApplication: 0x7f99e69f8170>: Bandsintown (/private/var/containers/Bundle/Application/13607958-3D55-44F1-8FA9-31A94C517C4E/Bandsintown Concerts.app),
+    <DTDKApplication: 0x7f99dabbd440>: Tikkie (/private/var/containers/Bundle/Application/6513C7CE-78ED-48D3-9578-58291ED9E002/Eddie Production.app),
+    <DTDKApplication: 0x7f99e69f8bc0>: Facebook Page (/private/var/containers/Bundle/Application/89A9786B-6993-474D-9956-5055B3BAF01F/PageAdmin.app),
+    <DTDKApplication: 0x7f99dabbdc80>: MARIO RUN (/private/var/containers/Bundle/Application/DFA0EE68-A66B-4F9F-A11A-FECB58FA96AB/SuperMarioRunStickers.app),
+    <DTDKApplication: 0x7f99dabbde90>: Creditcards (/private/var/containers/Bundle/Application/29880898-CA63-431D-9B77-30F44F10C880/Creditcards.app),
+    <DTDKApplication: 0x7f99dabbd020>: Bankieren (/private/var/containers/Bundle/Application/95E10D51-1F9C-4FB1-AE30-756C153BF54E/iOS App.app),
+    <DTDKApplication: 0x7f99e7226450>: Troostwijk (/private/var/containers/Bundle/Application/D520E21A-6195-4B4F-98E9-ABCD64926C85/TroostwijkAuctionsClientiOS.app),
+    <DTDKApplication: 0x7f99e7225e20>: Bankieren (/private/var/containers/Bundle/Application/FECB02D2-3EDA-4E25-AC3C-6D0C40FE6BBA/ABN.app),
+    <DTDKApplication: 0x7f99e72299f0>: Classic Rock (/private/var/containers/Bundle/Application/3B74CAD6-0965-4FAF-AB4F-70F235157FC3/folio.app),
+    <DTDKApplication: 0x7f99e7226660>: Booking.com (/private/var/containers/Bundle/Application/9135E953-C033-478D-BBBD-AADA158A94AB/Booking.com.app),
+    <DTDKApplication: 0x7f99e7226a80>: Shazam (/private/var/containers/Bundle/Application/6DAF0944-23E7-4B78-A913-0EB65882C53C/Shazam.app),
+    <DTDKApplication: 0x7f99e69f9a30>: Instagram (/private/var/containers/Bundle/Application/2C670362-9C1E-4F4C-9AF2-3B0F8C21A559/Instagram.app),
+    <DTDKApplication: 0x7f99e69f7690>: Stick Hero (/private/var/containers/Bundle/Application/3AB36FDA-92B3-45E7-A4F4-2C41B75D3D28/stickhero.app),
+    <DTDKApplication: 0x7f99e7225c10>: BVA (/private/var/containers/Bundle/Application/EBFA54A5-321F-480C-AB12-A80B72B79BBE/BVA.app),
+    <DTDKApplication: 0x7f99e69f8380>: iTunes U (/private/var/containers/Bundle/Application/8A1FEA2B-397D-4005-A25B-30751E3D5153/iTunesU.app),
+    <DTDKApplication: 0x7f99e7225a00>: Bankieren (/private/var/containers/Bundle/Application/F2C7B1F7-DEB2-438A-B9EA-1C61A8D0ABC3/BankierenPlus.app),
+    <DTDKApplication: 0x7f99e722a230>: Spotify (/private/var/containers/Bundle/Application/B8C026BE-46E2-4813-8C1F-D74F74CBB38B/Spotify.app),
+    <DTDKApplication: 0x7f99e69f89b0>: IMDb (/private/var/containers/Bundle/Application/8A16BF5F-397A-4CAC-8120-D7EA4768EF36/IMDb.app),
+    <DTDKApplication: 0x7f99e69f9610>: Bandcamp (/private/var/containers/Bundle/Application/9EED7798-1762-42FA-973B-83A0AA1DF5E8/Bandcamp.app),
+    <DTDKApplication: 0x7f99dabbd650>: Netflix (/private/var/containers/Bundle/Application/8A4DA81C-CA5F-4988-82E0-FA79D67C5EDB/Argo.app),
+    <DTDKApplication: 0x7f99e7226870>: WhatsApp (/private/var/containers/Bundle/Application/99FB2EF6-DA20-4A77-B052-5AA72115E8CC/WhatsApp.app),
+    <DTDKApplication: 0x7f99e69f91f0>: Snapchat (/private/var/containers/Bundle/Application/4191F46B-4E0B-4066-A16F-23F19340A832/Snapchat.app),
+    <DTDKApplication: 0x7f99e722a650>: WordFoto (/private/var/containers/Bundle/Application/0C21BB10-CC7D-4FC3-B346-78042AF0DB42/WordFoto.app),
+    <DTDKApplication: 0x7f99e69f8fe0>: STACK (/private/var/containers/Bundle/Application/6C29EA28-CB6A-4227-B016-2A0A60AB04A3/Stack.app),
+    <DTDKApplication: 0x7f99e72257f0>: Emoji Free! (/private/var/containers/Bundle/Application/4F1CB33E-BA5D-4836-A0F5-26A5C07A6026/emojifree.app),
+    <DTDKApplication: 0x7f99e7228d90>: Evernote (/private/var/containers/Bundle/Application/74BE3A08-B06D-461E-AFC9-8ABA5A5D606C/Evernote.app),
+    <DTDKApplication: 0x7f99e69f7fa0>: Canvas (/private/var/containers/Bundle/Application/BC6C614A-7115-4F7C-B2E7-14AB059CD603/Canvas.app),
+    <DTDKApplication: 0x7f99e69f7dd0>: YouTube (/private/var/containers/Bundle/Application/BD8BDD95-1788-4DA5-9574-BB46B6AB9C42/YouTube.app),
+    <DTDKApplication: 0x7f99e7228970>: TVGiDS.tv (/private/var/containers/Bundle/Application/8EA64CFD-AB23-4E47-9C0E-FBE0FD252809/TVGiDS.tv 1.0 NL Lite.app),
+    <DTDKApplication: 0x7f99e72270b0>: Locate (/private/var/containers/Bundle/Application/C12F2573-A33F-4618-A577-2DBA088B4D68/iBeaconLoc.app),
+    <DTDKApplication: 0x7f99e722a020>: iCreate (/private/var/containers/Bundle/Application/E937A97A-A33D-419C-AD63-AD403393536B/folio.app),
+    <DTDKApplication: 0x7f99dabbd230>: Reisplanner (/private/var/containers/Bundle/Application/371C46C2-2E9C-48A1-9741-0E7C30C98940/Arend.app),
+    <DTDKApplication: 0x7f99e7226030>: 200 Situps (/private/var/containers/Bundle/Application/3E6FFA7C-71E4-4DC3-984A-638F1EB8ED84/TwoHundredSitups.app),
+    <DTDKApplication: 0x7f99e7228130>: MyFitnessPal (/private/var/containers/Bundle/Application/9B4DE005-DA51-431C-A86D-7F46738986FF/MyFitnessPal.app),
+    <DTDKApplication: 0x7f99e72276e0>: Slack (/private/var/containers/Bundle/Application/80A94067-2E58-4B64-AD4A-32CF049F7B13/Slack.app),
+    <DTDKApplication: 0x7f99e41dac80>: Untappd (/private/var/containers/Bundle/Application/2D924C89-2C8F-41F0-B4A5-8A59208F7A55/Untappd.app),
+    <DTDKApplication: 0x7f99e72253d0>: Blockfolio (/private/var/containers/Bundle/Application/EE94D2B0-1732-4668-BBEA-B75F2263C64D/Blockfolio.app),
+    <DTDKApplication: 0x7f99e69f8dd0>: NU.nl (/private/var/containers/Bundle/Application/F671540C-6FB1-4421-81FF-CDED4F9CFD4D/NU.nl.app),
+    <DTDKApplication: 0x7f99e7227f20>: Practical Photoshop (/private/var/containers/Bundle/Application/6F14823D-46E7-4F9A-B52D-321E7CA62B16/folio.app),
+    <DTDKApplication: 0x7f99e722a440>: Showroom (/private/var/containers/Bundle/Application/15CDE436-F08F-4951-92EC-A009E745CCD8/Showroom.app),
+    <DTDKApplication: 0x7f99e722a860>: Ticketmaster (/private/var/containers/Bundle/Application/6170F876-6D57-42E5-9FDD-C45B4D379065/Ticketmaster.app)
+)}
+		provisioningProfiles:      {(
+    <DTDKProvisioningProfile 0x7f99dab0b480: UUID: f76e1e58-c85c-4cda-b7a8-80978dc9faa8, name: SiemieAndKokoDevelopment, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e0051910: UUID: 6984ac7a-0f8c-491f-971b-0a6552913757, name: iOS Team Provisioning Profile: com.koenvestjens.BandDiscoverer, team: RTSGN6L22S (Koen Vestjens), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e0978230: UUID: bf13957c-5064-4e7c-9447-51faf2bb7518, name: iOS Team Provisioning Profile: *, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e435f870: UUID: 49f93e57-7138-4bd8-b256-f5581d6aa187, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SiemieAndKoko, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99dab079e0: UUID: ed6f5eec-cd6a-4563-ab7c-678b6c363f72, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SNKDemo, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e117dd50: UUID: 6cdd4631-3dfb-484b-80a8-71dc561fd056, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SiemieAndKoko, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99de6db0b0: UUID: 60ad9817-c072-4126-9247-65e39d8776e9, name: SiemieAndKokoDevelopment, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99dab0f900: UUID: 5faae7a1-288a-4e7f-8229-da50cf22b6c7, name: iOS Team Provisioning Profile: koenvestjens.DPI-Application, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e41a0dd0: UUID: 7412be5a-1eda-478d-8588-9cd9378441eb, name: iOS Team Provisioning Profile: *, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e40122d0: UUID: a2dd8743-1cb8-4a5f-a623-339af2231cf4, name: iOS Team Provisioning Profile: *, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e09a7060: UUID: 8b3390d4-16f7-4c61-bdd5-4c06d627dfc7, name: iOS Team Provisioning Profile: com.ontmoetsiemie.SiemieAndKoko, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>,
+    <DTDKProvisioningProfile 0x7f99e1ae3fd0: UUID: a3ba73cd-e6c8-4be7-9078-fd1254ff71b1, name: SnK Demo Development, team: P9Y3SFQ5AH (Siemie & Koko), platform: iOS>
+)}
+		hasInternalSupport:        NO
+		isSupportedOS:             YES
+		developerDiskMountError:   (null)
+(null)
+	bootArgs:                  <unavailable>
+		connected:                 yes
+		isWirelessEnabled:         no
+		connectionType:            direct
+		} (11.1 (15B5066f))
+11:17:39.727 Xcode[1164:31799] Launching with Xcode.DebuggerFoundation.Launcher.LLDB
+11:17:39.728 Xcode[1164:31799] Test standard output and standard error is at /var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-E8A21ECA-8712-429C-A40E-859CF6E61206/BandDiscovererTests-B2A5077F-AECB-40E8-9403-22A47E7956EB/StandardOutputAndStandardError.txt
+11:17:45.158 Xcode[1164:31799] Launch session started.
+11:17:45.177 Xcode[1164:51474] Installing com.koenvestjens.BandDiscoverer using MobileInstall
+11:17:45.178 Xcode[1164:31799] Setting up test runner session
+11:17:45.188 Xcode[1164:50645] Connecting to mobile device: 4fcb318dbe549a16876273089e6e5a1f2ca8f723
+11:17:45.190 Xcode[1164:50645] Starting session with mobile device
+11:17:45.251 Xcode[1164:50645] Starting test manager service on mobile device.
+11:17:45.258 Xcode[1164:50643] Received connection for test runner session
+11:17:45.258 Xcode[1164:50643] Listening for proxy connection request from the test bundle
+11:17:45.259 Xcode[1164:31799] Test runner session acquired connection.
+11:17:45.259 Xcode[1164:31799] Waiting for test process to launch.
+11:17:45.259 Xcode[1164:50643] Initiating session with identifier: 39D22E1E-3214-4765-B485-BB74559493CD
+11:17:45.271 Xcode[1164:51501] app uninstall set - {(
+)}
+11:17:45.271 Xcode[1164:51501] app install set - {(
+    <DVTFilePath:0x7f99e1eb84c0:'/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/BandDiscoverer.app'>
+)}
+11:17:45.296 Xcode[1164:50643] Got reply to session initiation request with identifier 39D22E1E-3214-4765-B485-BB74559493CD (result:error): 25: (null)
+11:17:48.078 Xcode[1164:51474] Fetching applications...
+11:17:48.698 Xcode[1164:51474] Done fetching applications...
+11:17:48.698 Xcode[1164:51474] remoteExecutable setInstalledPath:/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app
+
+11:17:48.699 Xcode[1164:51474] Configuring for testing on device...
+11:17:48.699 Xcode[1164:51474] Updating test configuration with device paths.
+11:17:48.700 Xcode[1164:51474] Updated test configuration at /var/folders/nj/wn3hdpgn2s12jbym_6lnb11h0000gn/T/com.apple.dt.XCTest/IDETestRunSession-E8A21ECA-8712-429C-A40E-859CF6E61206/BandDiscovererTests-B2A5077F-AECB-40E8-9403-22A47E7956EB/LaunchSessions/39D22E1E-3214-4765-B485-BB74559493CD/remote-container/tmp/BandDiscovererTests-39D22E1E-3214-4765-B485-BB74559493CD.xctestconfiguration with device paths: <XCTestConfiguration: 0x7f99e110a420>
+	                  testBundleURL:file:///private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/PlugIns/BandDiscovererTests.xctest
+	         testBundleRelativePath:(null)
+	              productModuleName:BandDiscovererTests
+	                    testsToSkip:(null)
+	                     testsToRun:BandDiscovererTests/testCity
+	             reportResultsToIDE:YES
+	              sessionIdentifier:39D22E1E-3214-4765-B485-BB74559493CD
+	     pathToXcodeReportingSocket:(null)
+	      disablePerformanceMetrics:no
+	treatMissingBaselinesAsFailures:no
+	                baselineFileURL:(null)
+	       baselineFileRelativePath:(null)
+	          targetApplicationPath:(null)
+	      targetApplicationBundleID:(null)
+	 testApplicationDependencies:(null)
+	 testApplicationUserOverrides:(null)
+	     targetApplicationArguments:
+	   targetApplicationEnvironment:(null)
+	               reportActivities:YES
+	       testsMustRunOnMainThread:no
+	         initializeForUITesting:no
+	 aggregateStatisticsBeforeCrash:{
+    XCSuiteRecordsKey =     {
+    };
+}
+	        automationFrameworkPath:/Developer/Library/PrivateFrameworks/XCTAutomationSupport.framework
+	                     emitOSLogs:no
+	       systemAttachmentLifetime:1
+	         userAttachmentLifetime:1
+
+11:17:48.700 Xcode[1164:51474] Uploading test configuration to app container.
+11:17:50.431 Xcode[1164:51474] Updating test process environment variables.
+11:17:50.431 Xcode[1164:51474] Removed old IDEBundleInjection paths (
+    "__PLATFORMS__/iPhoneOS.platform/Developer/Library/PrivateFrameworks/IDEBundleInjection.framework/IDEBundleInjection"
+) from DYLD_INSERT_LIBRARIES leaving (
+    "/Developer/usr/lib/libMainThreadChecker.dylib"
+)
+11:17:50.431 Xcode[1164:51474] Updated testing environment variables {
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "/Developer/usr/lib/libMainThreadChecker.dylib:/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/Frameworks/IDEBundleInjection.framework/IDEBundleInjection";
+    "DYLD_LIBRARY_PATH" = "/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    "MTC_CRASH_ON_REPORT" = 1;
+    XCInjectBundleInto = "/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/BandDiscoverer";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/D94DFD37-F9DF-4ACA-A732-331A07171C45/tmp/BandDiscovererTests-39D22E1E-3214-4765-B485-BB74559493CD.xctestconfiguration";
+}
+11:17:50.505 Xcode[1164:51124] Started debugserver on device. fd = 59
+11:17:50.684 Xcode[1164:31799] Adding console adaptor <IDEConsoleAdaptor: 0x7f99e0e52890 'target' stdin: <IDEMasterPtyFileHandle: 0x7f99e6985130 MasterFH: <NSConcreteFileHandle: 0x7f99e6814aa0> 62 SlaveFH: <NSConcreteFileHandle: 0x7f99e680b3d0> 63> 62 stdout: <IDEMasterPtyFileHandle: 0x7f99e6985130 MasterFH: <NSConcreteFileHandle: 0x7f99e6814aa0> 62 SlaveFH: <NSConcreteFileHandle: 0x7f99e680b3d0> 63> 62 stderr: (null) 0> for test session 39D22E1E-3214-4765-B485-BB74559493CD.
+11:17:50.886 Xcode[1164:31799] Waiting for test process to check in..., will wait up to 120s
+11:17:50.886 Xcode[1164:31799] Test process runnable PID is 2147.
+11:17:52.286 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 451 bytes written out to StandardOutputAndStandardError
+11:17:52.342 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 109 bytes written out to StandardOutputAndStandardError
+11:17:52.378 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 1024 bytes written out to StandardOutputAndStandardError
+11:17:52.378 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 993 bytes written out to StandardOutputAndStandardError
+11:17:52.466 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 349 bytes written out to StandardOutputAndStandardError
+11:17:52.467 Xcode[1164:50629] Handling proxy channel request from test runner
+11:17:52.467 Xcode[1164:50629] Test runner is ready, running protocol 25, requires at least version 8. Control framework is running 25 and requires at least 8
+11:17:52.467 Xcode[1164:31799] Test runner session successfully initiated.
+11:17:52.467 Xcode[1164:31799] Creating the daemon control session.
+11:17:52.467 Xcode[1164:31799] Whitelisting test process ID 2147
+11:17:52.467 Xcode[1164:31799] Got authorization request for pid 2147
+11:17:52.469 Xcode[1164:51498] Connecting to mobile device: 4fcb318dbe549a16876273089e6e5a1f2ca8f723
+11:17:52.470 Xcode[1164:51498] Starting session with mobile device
+11:17:52.493 Xcode[1164:51498] Starting test manager service on mobile device.
+11:17:52.501 Xcode[1164:51758] Requesting authorization for pid 2147
+11:17:52.503 Xcode[1164:51124] Got reply to authorization request for pid 2147 (result:error): 25: (null)
+11:17:52.503 Xcode[1164:31799] Got whitelisting response from test daemon. Success: 1
+11:17:52.503 Xcode[1164:31799] Registering/updating daemon-based crash report observer for process names (
+    XCTRunner,
+    BandDiscoverer,
+    xctest
+), report directories: (
+    "/var/mobile/Library/Logs/CrashReporter/"
+).
+11:17:52.499 testmanagerd[2143:618548] Received request to collect crash reports in directories '/var/mobile/Library/Logs/CrashReporter/' for processes with names 'XCTRunner', 'BandDiscoverer', 'xctest'
+11:17:52.500 testmanagerd[2143:618548] Initializing crash report observer for /var/mobile/Library/Logs/CrashReporter/
+11:17:52.500 testmanagerd[2143:618548] Getting files in /var/mobile/Library/Logs/CrashReporter/
+11:17:52.500 testmanagerd[2143:618548] Found 100 files in /var/mobile/Library/Logs/CrashReporter/
+11:17:52.500 testmanagerd[2143:618548] Started monitoring /var/mobile/Library/Logs/CrashReporter/
+11:17:52.506 Xcode[1164:31799] Telling test runner to start executing tests.
+11:17:52.423 BandDiscoverer[2147:618823] Linked XCTest.framework from /var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/Frameworks/XCTest.framework/XCTest, built with Xcode 0910(9B26), modified on Tuesday, 14 November 2017 at 11:09:13 Central European Standard Time
+XCTest.framework bundle version: 13514
+11:17:52.424 BandDiscoverer[2147:618823] System uptime: 13:21:51
+11:17:52.424 BandDiscoverer[2147:618823] Process arguments: (
+    "/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/BandDiscoverer",
+    "-NSTreatUnknownArgumentsAsOpen",
+    NO,
+    "-ApplePersistenceIgnoreState",
+    YES
+)
+11:17:52.424 BandDiscoverer[2147:618823] Process environment: {
+    "CFFIXED_USER_HOME" = "/private/var/mobile/Containers/Data/Application/D94DFD37-F9DF-4ACA-A732-331A07171C45";
+    CLASSIC = 0;
+    "DYLD_FRAMEWORK_PATH" = "/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    "DYLD_INSERT_LIBRARIES" = "";
+    "DYLD_LIBRARY_PATH" = "/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/Frameworks:/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos:__PLATFORMS__/iPhoneOS.platform/Developer/Library/Frameworks:/Developer/Library/PrivateFrameworks";
+    HOME = "/private/var/mobile/Containers/Data/Application/D94DFD37-F9DF-4ACA-A732-331A07171C45";
+    LOGNAME = mobile;
+    "MTC_CRASH_ON_REPORT" = 1;
+    NSUnbufferedIO = YES;
+    "OS_ACTIVITY_DT_MODE" = YES;
+    PATH = "/usr/bin:/bin:/usr/sbin:/sbin";
+    SHELL = "/bin/sh";
+    TMPDIR = "/private/var/mobile/Containers/Data/Application/D94DFD37-F9DF-4ACA-A732-331A07171C45/tmp/";
+    USER = mobile;
+    XCInjectBundleInto = "/private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/BandDiscoverer";
+    "XCODE_DBG_XPC_EXCLUSIONS" = "com.apple.dt.xctestSymbolicator";
+    XCTestConfigurationFilePath = "/private/var/mobile/Containers/Data/Application/D94DFD37-F9DF-4ACA-A732-331A07171C45/tmp/BandDiscovererTests-39D22E1E-3214-4765-B485-BB74559493CD.xctestconfiguration";
+    "XPC_FLAGS" = 0x0;
+    "XPC_SERVICE_NAME" = "UIKitApplication:com.koenvestjens.BandDiscoverer[0x5b03][66]";
+    "__CF_USER_TEXT_ENCODING" = "0x1F5:0:0";
+}
+11:17:52.424 BandDiscoverer[2147:618823] App Sandbox active: YES
+11:17:52.424 BandDiscoverer[2147:618823] Loading test bundle at: file:///private/var/containers/Bundle/Application/A36608C1-FCBB-4488-832B-8A1297178AB6/BandDiscoverer.app/PlugIns/BandDiscovererTests.xctest
+11:17:52.425 BandDiscoverer[2147:618823] Finished loading test bundle
+11:17:52.425 BandDiscoverer[2147:618823] Readying IDE session
+11:17:52.427 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c4211090, state: XCTWaiterStateInProgress> entering wait loop for 5.00s with expectations: (
+    "Exchange protocol versions with daemon"
+)
+11:17:52.437 BandDiscoverer[2147:618874] Got daemon protocol version 18
+11:17:52.437 BandDiscoverer[2147:618874] <XCTWaiter: 0x1c4211090, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:17:52.451 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c4211090, state: XCTWaiterStateSucceeded> done waiting
+11:17:52.452 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c4211090, state: XCTWaiterStateSucceeded> cleaning up Exchange protocol versions with daemon
+11:17:52.452 BandDiscoverer[2147:618823] Requesting IDE connection transport
+11:17:52.452 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c0205890, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "Transport for IDE session acquired"
+)
+11:17:52.458 BandDiscoverer[2147:618874] Creating transport with received transport data
+11:17:52.460 BandDiscoverer[2147:618874] <XCTWaiter: 0x1c0205890, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:17:52.460 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c0205890, state: XCTWaiterStateSucceeded> done waiting
+11:17:52.460 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c0205890, state: XCTWaiterStateSucceeded> cleaning up Transport for IDE session acquired
+11:17:52.461 BandDiscoverer[2147:618823] Creating connection with transport <DTXFileDescriptorTransport: 0x1c02f6600>
+11:17:52.461 BandDiscoverer[2147:618823] Creating the proxy channel with connection <DTXConnection 0x1c41fb900 : x1>
+11:17:52.462 BandDiscoverer[2147:618823] Messaging IDE proxy - _XCT_testBundleReadyWithProtocolVersion:25 minimumVersion:8
+11:17:52.462 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c02057d0, state: XCTWaiterStateInProgress> entering wait loop for 60.00s with expectations: (
+    "IDE session ready for test plan"
+)
+11:17:52.463 BandDiscoverer[2147:618910] _XCT_testBundleReadyWithProtocolVersion:minimumVersion: reply received
+11:17:52.502 BandDiscoverer[2147:618910] _IDE_startExecutingTestPlanWithProtocolVersion:25
+11:17:52.502 BandDiscoverer[2147:618909] <XCTWaiter: 0x1c02057d0, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:17:52.502 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c02057d0, state: XCTWaiterStateSucceeded> done waiting
+11:17:52.503 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c02057d0, state: XCTWaiterStateSucceeded> cleaning up IDE session ready for test plan
+11:17:52.512 Xcode[1164:31799] Starting test plan, clearing initialization timeout timer.
+11:17:52.507 BandDiscoverer[2147:618823] Loading test suite...
+11:17:52.508 BandDiscoverer[2147:618823] Finished loading test suite, took 0.000s
+11:17:52.508 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testBundleWillStart:]
+11:17:52.508 BandDiscoverer[2147:618823] Running suite...
+11:17:52.514 Xcode[1164:31799] _XCT_testSuite:Selected tests didStartAt:2017-11-14 10:17:52 +0000
+11:17:52.982 Xcode[1164:51474] (LOG ARBITER) Dumping buffered message data; 0 messages.
+11:17:52.515 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests.xctest didStartAt:2017-11-14 10:17:52 +0000
+11:17:52.515 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests didStartAt:2017-11-14 10:17:52 +0000
+11:17:52.508 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testSuiteWillStart:]
+11:17:52.515 Xcode[1164:31799] _XCT_testCaseDidStartForTestClass:BandDiscovererTests.BandDiscovererTests method:testCity
+11:17:52.509 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testSuiteWillStart:]
+11:17:52.509 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testSuiteWillStart:]
+11:17:52.510 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testCaseWillStart:] BandDiscovererTests.BandDiscovererTests testCity
+11:17:52.513 testmanagerd[2143:618553] _requestDTServiceHubConnection: Received an error from the deviceServiceConnection. 
+2017-11-14 11:17:52.204012+0100 BandDiscoverer[2147:618823] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-14 11:17:52.204905+0100 BandDiscoverer[2147:618823] [MC] Loaded MobileCoreServices.framework
+2017-11-14 11:17:52.218082+0100 BandDiscoverer[2147:618823] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-14 11:17:52.335759+0100 BandDiscoverer[2147:618823] Could not inset legal attribution from corner 4
+2017-11-14 11:17:52.371107+0100 BandDiscoverer[2147:618823] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c0293a10 UIView:0x1063d1db0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c409a9f0 UIView:0x1023ade10.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c4099550 UIView:0x1023afac0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c4089330 MKMapView:0x10300ba00.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c4099730 V:|-(0)-[UIView:0x1023afac0]   (active, names: '|':UIView:0x1023af8e0 )>",
+    "<NSLayoutConstraint:0x1c4099820 V:[MKMapView:0x10300ba00]-(0)-|   (active, names: '|':UIView:0x1023af8e0 )>",
+    "<NSLayoutConstraint:0x1c4099870 V:[UIView:0x1023afac0]-(0)-[MKMapView:0x10300ba00]   (active)>",
+    "<NSLayoutConstraint:0x1c4099aa0 UIStackView:0x1063d17b0.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c40986a0 'UISV-canvas-connection' UIStackView:0x1063d17b0.top == UIView:0x1063d1db0.top   (active)>",
+    "<NSLayoutConstraint:0x1c409a2c0 'UISV-canvas-connection' V:[UIView:0x1023af8e0]-(0)-|   (active, names: '|':UIStackView:0x1063d17b0 )>",
+    "<NSLayoutConstraint:0x1c4099c80 'UISV-spacing' V:[UIView:0x1063d1db0]-(0)-[UIView:0x1023ade10]   (active)>",
+    "<NSLayoutConstraint:0x1c4099dc0 'UISV-spacing' V:[UIView:0x1023ade10]-(0)-[UIView:0x1023af8e0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c4089330 MKMapView:0x10300ba00.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-14 11:17:52.430492+0100 BandDiscoverer[2147:618823] refreshPreferences: HangTracerEnabled: 1
+2017-11-14 11:17:52.430526+0100 BandDiscoverer[2147:618823] refreshPreferences: HangTracerDuration: 500
+2017-11-14 11:17:52.430541+0100 BandDiscoverer[2147:618823] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-14 11:17:52.508
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-14 11:17:52.509
+Test Suite 'BandDiscovererTests' started at 2017-11-14 11:17:52.509
+Test Case '-[BandDiscovererTests.BandDiscovererTests testCity]' started.
+11:17:52.519 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 283 bytes written out to StandardOutputAndStandardError
+11:17:52.528 BandDiscoverer[2147:618823] -[BandDiscovererTests testCity] starting to wait on 'Correct city found: Eindhoven'
+11:17:52.528 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c42117c0, state: XCTWaiterStateInProgress> entering wait loop for 10.00s with expectations: (
+    "Correct city found: Eindhoven"
+)
+11:17:52.973 BandDiscoverer[2147:618891] <XCTWaiter: 0x1c42117c0, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:17:52.980 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 514 bytes written out to StandardOutputAndStandardError
+11:17:52.976 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c42117c0, state: XCTWaiterStateSucceeded> done waiting
+11:17:52.982 Xcode[1164:31799] _XCT_testCaseDidFinishForTestClass:BandDiscovererTests.BandDiscovererTests method:testCity withStatus:passed duration:0.4661449790000916
+11:17:52.976 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c42117c0, state: XCTWaiterStateSucceeded> cleaning up Correct city found: Eindhoven
+11:17:52.982 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests didFinishAt:2017-11-14 10:17:52 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.4661449790000916 totalDuration:0.4668290019035339
+11:17:52.976 BandDiscoverer[2147:618823] -[BandDiscovererTests testCity] done waiting on 'Correct city found: Eindhoven'
+Optional([AnyHashable("Street"): Rachelsmolen 1, AnyHashable("ZIP"): 5612 MA, AnyHashable("Country"): Netherlands, AnyHashable("SubThoroughfare"): 1, AnyHashable("State"): North Brabant, AnyHashable("Name"): Fontys, AnyHashable("SubAdministrativeArea"): Eindhoven, AnyHashable("Thoroughfare"): Rachelsmolen, AnyHashable("FormattedAddressLines"): <__NSArrayM 0x1c1c5d370>(
+Fontys,
+Rachelsmolen 1,
+5612 MA Eindhoven,
+Netherlands
+)
+, AnyHashable("City"): Eindhoven, AnyHashable("CountryCode"): NL])
+Eindhoven
+Test Case '-[BandDiscovererTests.BandDiscovererTests testCity]' passed (0.466 seconds).
+Test Suite 'BandDiscovererTests' passed at 2017-11-14 11:17:52.976.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.466 (0.467) seconds
+Test Suite 'BandDiscovererTests.xctest' passed at 2017-11-14 11:17:52.977.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.466 (0.468) seconds
+11:17:52.984 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 386 bytes written out to StandardOutputAndStandardError
+Test Suite 'Selected tests' passed at 2017-11-14 11:17:52.977.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.466 (0.469) seconds
+11:17:52.985 Xcode[1164:52334] <IDETestOperationCoordinator: 0x7f99e40f6d50>: parseConsoleOutputFromOriginalOutput: called, 140 bytes written out to StandardOutputAndStandardError
+11:17:53.000 Xcode[1164:31799] _XCT_testSuite:BandDiscovererTests.xctest didFinishAt:2017-11-14 10:17:52 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.4661449790000916 totalDuration:0.4677919745445251
+11:17:53.000 Xcode[1164:31799] _XCT_testSuite:Selected tests didFinishAt:2017-11-14 10:17:52 +0000 runCount:1 withFailures:0 unexpected:0 testDuration:0.4661449790000916 totalDuration:0.4692130088806152
+11:17:53.000 Xcode[1164:31799] -[XCTTestRunnerSession _XCT_didFinishExecutingTestPlan]_block_invoke
+11:17:52.976 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testCaseDidFinish:]
+11:17:52.976 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:17:52.977 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:17:52.977 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testSuiteDidFinish:]
+11:17:52.978 BandDiscoverer[2147:618823] Finished running suite.
+11:17:52.978 BandDiscoverer[2147:618823] -[XCTRunnerIDESession testBundleDidFinish:], Flushing connection to IDE...
+11:17:52.978 BandDiscoverer[2147:618823] Calling completion.
+11:17:52.978 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c4211750, state: XCTWaiterStateInProgress> entering wait loop for 15.00s with expectations: (
+    "IDE confirmed the end of session"
+)
+11:17:52.996 BandDiscoverer[2147:618891] <XCTWaiter: 0x1c4211750, state: XCTWaiterStateSucceeded>: cancelWaiting
+11:17:52.996 BandDiscoverer[2147:618823] <XCTWaiter: 0x1c4211750, state: XCTWaiterStateSucceeded> done waiting
+11:17:53.009 testmanagerd[2143:618553] Test process connection invalidated or interrupted, closing test session <XCTestSession: 0x153e2ad10>.
+11:17:53.009 testmanagerd[2143:618920] Closed <XCTestSession: 0x153e2ad10>, removing from (
+    "<XCTestSession: 0x153e2ad10>"
+)
+11:17:53.010 testmanagerd[2143:618920] Tearing down test session <XCTestSession: 0x153e2ad10>.
+11:17:53.010 testmanagerd[2143:618920] XCTestSession is responsible for cleaning up its socket from an XCIDESession
+11:17:53.010 testmanagerd[2143:618920] Disconnected lockdown socket
+11:17:53.021 Xcode[1164:31799] ############## DID EXECUTE #################
+11:17:53.011 testmanagerd[2143:618920] Considering exiting:
+11:17:53.011 testmanagerd[2143:618920] Session summary: 0 test sessions, 0 sessions with identifiers, 0 unidentified sessions, has control sessions, 0 pending connections
+11:17:53.011 testmanagerd[2143:618920] Control sessions: (
+    "<XCIDESession: 0x153d118a0> (socket 5) created Tuesday, 14 November 2017 at 11:17:52 Central European Standard Time"
+)
+11:17:53.275 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e40f6d50> finished receiving data from <IDEConsoleAdaptor: 0x7f99e0e52890 'target' stdin: (null) 0 stdout: (null) 0 stderr: (null) 0>
+11:17:53.275 Xcode[1164:31799] <IDETestOperationCoordinator: 0x7f99e40f6d50>: _considerFlushingDelegateBlockQueue - nothing to flush
+11:17:53.275 Xcode[1164:31799] _finishWithError:(null)

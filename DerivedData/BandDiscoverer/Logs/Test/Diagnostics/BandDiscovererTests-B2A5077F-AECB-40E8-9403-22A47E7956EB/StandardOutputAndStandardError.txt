@@ -1,0 +1,51 @@
+2017-11-14 11:17:52.204012+0100 BandDiscoverer[2147:618823] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-14 11:17:52.204905+0100 BandDiscoverer[2147:618823] [MC] Loaded MobileCoreServices.framework
+2017-11-14 11:17:52.218082+0100 BandDiscoverer[2147:618823] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-14 11:17:52.335759+0100 BandDiscoverer[2147:618823] Could not inset legal attribution from corner 4
+2017-11-14 11:17:52.371107+0100 BandDiscoverer[2147:618823] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c0293a10 UIView:0x1063d1db0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c409a9f0 UIView:0x1023ade10.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c4099550 UIView:0x1023afac0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c4089330 MKMapView:0x10300ba00.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c4099730 V:|-(0)-[UIView:0x1023afac0]   (active, names: '|':UIView:0x1023af8e0 )>",
+    "<NSLayoutConstraint:0x1c4099820 V:[MKMapView:0x10300ba00]-(0)-|   (active, names: '|':UIView:0x1023af8e0 )>",
+    "<NSLayoutConstraint:0x1c4099870 V:[UIView:0x1023afac0]-(0)-[MKMapView:0x10300ba00]   (active)>",
+    "<NSLayoutConstraint:0x1c4099aa0 UIStackView:0x1063d17b0.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c40986a0 'UISV-canvas-connection' UIStackView:0x1063d17b0.top == UIView:0x1063d1db0.top   (active)>",
+    "<NSLayoutConstraint:0x1c409a2c0 'UISV-canvas-connection' V:[UIView:0x1023af8e0]-(0)-|   (active, names: '|':UIStackView:0x1063d17b0 )>",
+    "<NSLayoutConstraint:0x1c4099c80 'UISV-spacing' V:[UIView:0x1063d1db0]-(0)-[UIView:0x1023ade10]   (active)>",
+    "<NSLayoutConstraint:0x1c4099dc0 'UISV-spacing' V:[UIView:0x1023ade10]-(0)-[UIView:0x1023af8e0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c4089330 MKMapView:0x10300ba00.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-14 11:17:52.430492+0100 BandDiscoverer[2147:618823] refreshPreferences: HangTracerEnabled: 1
+2017-11-14 11:17:52.430526+0100 BandDiscoverer[2147:618823] refreshPreferences: HangTracerDuration: 500
+2017-11-14 11:17:52.430541+0100 BandDiscoverer[2147:618823] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-14 11:17:52.508
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-14 11:17:52.509
+Test Suite 'BandDiscovererTests' started at 2017-11-14 11:17:52.509
+Test Case '-[BandDiscovererTests.BandDiscovererTests testCity]' started.
+Optional([AnyHashable("Street"): Rachelsmolen 1, AnyHashable("ZIP"): 5612 MA, AnyHashable("Country"): Netherlands, AnyHashable("SubThoroughfare"): 1, AnyHashable("State"): North Brabant, AnyHashable("Name"): Fontys, AnyHashable("SubAdministrativeArea"): Eindhoven, AnyHashable("Thoroughfare"): Rachelsmolen, AnyHashable("FormattedAddressLines"): <__NSArrayM 0x1c1c5d370>(
+Fontys,
+Rachelsmolen 1,
+5612 MA Eindhoven,
+Netherlands
+)
+, AnyHashable("City"): Eindhoven, AnyHashable("CountryCode"): NL])
+Eindhoven
+Test Case '-[BandDiscovererTests.BandDiscovererTests testCity]' passed (0.466 seconds).
+Test Suite 'BandDiscovererTests' passed at 2017-11-14 11:17:52.976.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.466 (0.467) seconds
+Test Suite 'BandDiscovererTests.xctest' passed at 2017-11-14 11:17:52.977.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.466 (0.468) seconds
+Test Suite 'Selected tests' passed at 2017-11-14 11:17:52.977.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.466 (0.469) seconds

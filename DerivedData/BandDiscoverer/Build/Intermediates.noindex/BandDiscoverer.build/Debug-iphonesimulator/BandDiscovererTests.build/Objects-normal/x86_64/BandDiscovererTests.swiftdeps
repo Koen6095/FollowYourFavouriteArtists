@@ -1,0 +1,402 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BandDiscovererTests"
+provides-nominal:
+- "19BandDiscovererTestsAAC"
+provides-member:
+- ["19BandDiscovererTestsAAC", ""]
+provides-dynamic-lookup:
+- "setUp"
+- "setUpUnderTest"
+- "tearDown"
+- "testGetCityFromLocation"
+- "testGetLocationFromAddress"
+depends-top-level:
+- !private "&&"
+- !private "=="
+- "AssignmentPrecedence"
+- "BandDiscovererTests"
+- !private "CLLocation"
+- "SetUpViewController"
+- !private "String"
+- !private "StringLiteralType"
+- "XCTestCase"
+depends-member:
+- !private ["19BandDiscovererTestsAAC", "CLLocation"]
+- ["19BandDiscovererTestsAAC", "SetUpViewController"]
+- !private ["19BandDiscovererTestsAAC", "String"]
+- ["19BandDiscovererTestsAAC", "deinit"]
+- !private ["19BandDiscovererTestsAAC", "expectation"]
+- ["19BandDiscovererTestsAAC", "init"]
+- ["19BandDiscovererTestsAAC", "setUp"]
+- ["19BandDiscovererTestsAAC", "setUpUnderTest"]
+- ["19BandDiscovererTestsAAC", "tearDown"]
+- ["19BandDiscovererTestsAAC", "testGetCityFromLocation"]
+- ["19BandDiscovererTestsAAC", "testGetLocationFromAddress"]
+- !private ["19BandDiscovererTestsAAC", "waitForExpectations"]
+- !private ["s23BidirectionalCollectionP", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So10CLLocationC", "coordinate"]
+- !private ["So10CLLocationC", "init"]
+- !private ["SC22CLLocationCoordinate2DV", "latitude"]
+- !private ["SC22CLLocationCoordinate2DV", "longitude"]
+- !private ["So25CLLocationManagerDelegateP", "getCityFromLocation"]
+- !private ["So25CLLocationManagerDelegateP", "getLocationFromAddress"]
+- !private ["So25CLLocationManagerDelegateP", "init"]
+- !private ["s7CVarArgP", "CLLocation"]
+- !private ["s7CVarArgP", "SetUpViewController"]
+- !private ["s7CVarArgP", "coordinate"]
+- !private ["s7CVarArgP", "expectation"]
+- !private ["s7CVarArgP", "fulfill"]
+- !private ["s7CVarArgP", "getCityFromLocation"]
+- !private ["s7CVarArgP", "getLocationFromAddress"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "setUp"]
+- !private ["s7CVarArgP", "setUpUnderTest"]
+- !private ["s7CVarArgP", "tearDown"]
+- !private ["s7CVarArgP", "waitForExpectations"]
+- ["s7CVarArgP", ""]
+- !private ["s10CollectionP", "init"]
+- !private ["s10ComparableP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "CLLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "SetUpViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "coordinate"]
+- !private ["s28CustomDebugStringConvertibleP", "expectation"]
+- !private ["s28CustomDebugStringConvertibleP", "fulfill"]
+- !private ["s28CustomDebugStringConvertibleP", "getCityFromLocation"]
+- !private ["s28CustomDebugStringConvertibleP", "getLocationFromAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "setUp"]
+- !private ["s28CustomDebugStringConvertibleP", "setUpUnderTest"]
+- !private ["s28CustomDebugStringConvertibleP", "tearDown"]
+- !private ["s28CustomDebugStringConvertibleP", "waitForExpectations"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CLLocation"]
+- !private ["s23CustomStringConvertibleP", "SetUpViewController"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "coordinate"]
+- !private ["s23CustomStringConvertibleP", "expectation"]
+- !private ["s23CustomStringConvertibleP", "fulfill"]
+- !private ["s23CustomStringConvertibleP", "getCityFromLocation"]
+- !private ["s23CustomStringConvertibleP", "getLocationFromAddress"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "setUp"]
+- !private ["s23CustomStringConvertibleP", "setUpUnderTest"]
+- !private ["s23CustomStringConvertibleP", "tearDown"]
+- !private ["s23CustomStringConvertibleP", "waitForExpectations"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- !private ["s9DecodableP", "init"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- !private ["s9EncodableP", "init"]
+- !private ["s9EquatableP", "CLLocation"]
+- !private ["s9EquatableP", "SetUpViewController"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "coordinate"]
+- !private ["s9EquatableP", "expectation"]
+- !private ["s9EquatableP", "fulfill"]
+- !private ["s9EquatableP", "getCityFromLocation"]
+- !private ["s9EquatableP", "getLocationFromAddress"]
+- !private ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "setUp"]
+- !private ["s9EquatableP", "setUpUnderTest"]
+- !private ["s9EquatableP", "tearDown"]
+- !private ["s9EquatableP", "waitForExpectations"]
+- ["s9EquatableP", ""]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s8HashableP", "CLLocation"]
+- !private ["s8HashableP", "SetUpViewController"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "coordinate"]
+- !private ["s8HashableP", "expectation"]
+- !private ["s8HashableP", "fulfill"]
+- !private ["s8HashableP", "getCityFromLocation"]
+- !private ["s8HashableP", "getLocationFromAddress"]
+- !private ["s8HashableP", "init"]
+- !private ["s8HashableP", "setUp"]
+- !private ["s8HashableP", "setUpUnderTest"]
+- !private ["s8HashableP", "tearDown"]
+- !private ["s8HashableP", "waitForExpectations"]
+- ["s8HashableP", ""]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So17MKMapViewDelegateP", "getCityFromLocation"]
+- !private ["So17MKMapViewDelegateP", "getLocationFromAddress"]
+- !private ["So17MKMapViewDelegateP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "coordinate"]
+- !private ["So8NSCodingP", "getCityFromLocation"]
+- !private ["So8NSCodingP", "getLocationFromAddress"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So9NSCopyingP", "coordinate"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "getCityFromLocation"]
+- !private ["So26NSExtensionRequestHandlingP", "getLocationFromAddress"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So8NSObjectC", "CLLocation"]
+- ["So8NSObjectC", "SetUpViewController"]
+- !private ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "coordinate"]
+- !private ["So8NSObjectC", "expectation"]
+- !private ["So8NSObjectC", "fulfill"]
+- !private ["So8NSObjectC", "getCityFromLocation"]
+- !private ["So8NSObjectC", "getLocationFromAddress"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "setUp"]
+- ["So8NSObjectC", "setUpUnderTest"]
+- ["So8NSObjectC", "tearDown"]
+- ["So8NSObjectC", "testGetCityFromLocation"]
+- ["So8NSObjectC", "testGetLocationFromAddress"]
+- !private ["So8NSObjectC", "waitForExpectations"]
+- !private ["So16NSObjectProtocolP", "CLLocation"]
+- !private ["So16NSObjectProtocolP", "SetUpViewController"]
+- !private ["So16NSObjectProtocolP", "coordinate"]
+- !private ["So16NSObjectProtocolP", "expectation"]
+- !private ["So16NSObjectProtocolP", "fulfill"]
+- !private ["So16NSObjectProtocolP", "getCityFromLocation"]
+- !private ["So16NSObjectProtocolP", "getLocationFromAddress"]
+- !private ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "setUp"]
+- !private ["So16NSObjectProtocolP", "setUpUnderTest"]
+- !private ["So16NSObjectProtocolP", "tearDown"]
+- !private ["So16NSObjectProtocolP", "waitForExpectations"]
+- ["So16NSObjectProtocolP", ""]
+- !private ["So14NSSecureCodingP", "coordinate"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So8NSStringC", "init"]
+- !private ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s8SequenceP", "init"]
+- !private ["14BandDiscoverer19SetUpViewControllerC", "getCityFromLocation"]
+- !private ["14BandDiscoverer19SetUpViewControllerC", "getLocationFromAddress"]
+- !private ["14BandDiscoverer19SetUpViewControllerC", "init"]
+- !private ["SS", "init"]
+- !private ["s14StringProtocolP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So21UIAppearanceContainerP", "getCityFromLocation"]
+- !private ["So21UIAppearanceContainerP", "getLocationFromAddress"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So18UIContentContainerP", "getCityFromLocation"]
+- !private ["So18UIContentContainerP", "getLocationFromAddress"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIFocusEnvironmentP", "getCityFromLocation"]
+- !private ["So18UIFocusEnvironmentP", "getLocationFromAddress"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "getCityFromLocation"]
+- !private ["So30UIPasteConfigurationSupportingP", "getLocationFromAddress"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So11UIResponderC", "getCityFromLocation"]
+- !private ["So11UIResponderC", "getLocationFromAddress"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "getCityFromLocation"]
+- !private ["So30UIResponderStandardEditActionsP", "getLocationFromAddress"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So20UIScrollViewDelegateP", "getCityFromLocation"]
+- !private ["So20UIScrollViewDelegateP", "getLocationFromAddress"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So16UIStateRestoringP", "getCityFromLocation"]
+- !private ["So16UIStateRestoringP", "getLocationFromAddress"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So21UITableViewDataSourceP", "getCityFromLocation"]
+- !private ["So21UITableViewDataSourceP", "getLocationFromAddress"]
+- !private ["So21UITableViewDataSourceP", "init"]
+- !private ["So19UITableViewDelegateP", "getCityFromLocation"]
+- !private ["So19UITableViewDelegateP", "getLocationFromAddress"]
+- !private ["So19UITableViewDelegateP", "init"]
+- !private ["So19UITextFieldDelegateP", "getCityFromLocation"]
+- !private ["So19UITextFieldDelegateP", "getLocationFromAddress"]
+- !private ["So19UITextFieldDelegateP", "init"]
+- !private ["So18UITraitEnvironmentP", "getCityFromLocation"]
+- !private ["So18UITraitEnvironmentP", "getLocationFromAddress"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So16UIViewControllerC", "getCityFromLocation"]
+- !private ["So16UIViewControllerC", "getLocationFromAddress"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So11XCTActivityP", "CLLocation"]
+- !private ["So11XCTActivityP", "SetUpViewController"]
+- !private ["So11XCTActivityP", "expectation"]
+- !private ["So11XCTActivityP", "init"]
+- !private ["So11XCTActivityP", "setUp"]
+- !private ["So11XCTActivityP", "setUpUnderTest"]
+- !private ["So11XCTActivityP", "tearDown"]
+- !private ["So11XCTActivityP", "waitForExpectations"]
+- ["So11XCTActivityP", ""]
+- !private ["So17XCTWaiterDelegateP", "CLLocation"]
+- !private ["So17XCTWaiterDelegateP", "SetUpViewController"]
+- !private ["So17XCTWaiterDelegateP", "expectation"]
+- !private ["So17XCTWaiterDelegateP", "init"]
+- !private ["So17XCTWaiterDelegateP", "setUp"]
+- !private ["So17XCTWaiterDelegateP", "setUpUnderTest"]
+- !private ["So17XCTWaiterDelegateP", "tearDown"]
+- !private ["So17XCTWaiterDelegateP", "waitForExpectations"]
+- ["So17XCTWaiterDelegateP", ""]
+- !private ["So6XCTestC", "CLLocation"]
+- ["So6XCTestC", "SetUpViewController"]
+- !private ["So6XCTestC", "String"]
+- !private ["So6XCTestC", "expectation"]
+- ["So6XCTestC", "init"]
+- ["So6XCTestC", "setUp"]
+- ["So6XCTestC", "setUpUnderTest"]
+- ["So6XCTestC", "tearDown"]
+- ["So6XCTestC", "testGetCityFromLocation"]
+- ["So6XCTestC", "testGetLocationFromAddress"]
+- !private ["So6XCTestC", "waitForExpectations"]
+- !private ["So10XCTestCaseC", "CLLocation"]
+- ["So10XCTestCaseC", "SetUpViewController"]
+- !private ["So10XCTestCaseC", "String"]
+- !private ["So10XCTestCaseC", "expectation"]
+- ["So10XCTestCaseC", "init"]
+- ["So10XCTestCaseC", "setUp"]
+- ["So10XCTestCaseC", "setUpUnderTest"]
+- ["So10XCTestCaseC", "tearDown"]
+- ["So10XCTestCaseC", "testGetCityFromLocation"]
+- ["So10XCTestCaseC", "testGetLocationFromAddress"]
+- !private ["So10XCTestCaseC", "waitForExpectations"]
+- ["So10XCTestCaseC", ""]
+- !private ["So17XCTestExpectationC", "fulfill"]
+- !private ["s23_BidirectionalIndexableP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s10_IndexableP", "init"]
+- !private ["s14_IndexableBaseP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CLLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "SetUpViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "coordinate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "expectation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "fulfill"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getCityFromLocation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getLocationFromAddress"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUp"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setUpUnderTest"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tearDown"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "waitForExpectations"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "latitude"]
+- !private ["s21_ObjectiveCBridgeableP", "longitude"]
+- !private ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "19BandDiscovererTestsAAC"
+- !private "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So10CLLocationC"
+- !private "SC22CLLocationCoordinate2DV"
+- !private "So25CLLocationManagerDelegateP"
+- "s7CVarArgP"
+- !private "s10CollectionP"
+- !private "s10ComparableP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "s9DecodableP"
+- !private "s9EncodableP"
+- "s9EquatableP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s8HashableP"
+- !private "10SwiftyJSON17JSONSubscriptTypeP"
+- !private "s25LosslessStringConvertibleP"
+- !private "So17MKMapViewDelegateP"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "s26RangeReplaceableCollectionP"
+- !private "s8SequenceP"
+- !private "14BandDiscoverer19SetUpViewControllerC"
+- !private "SS"
+- !private "s14StringProtocolP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So21UIAppearanceContainerP"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- !private "So16UIStateRestoringP"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So19UITextFieldDelegateP"
+- !private "So18UITraitEnvironmentP"
+- !private "So16UIViewControllerC"
+- !private "9Alamofire14URLConvertibleP"
+- "So11XCTActivityP"
+- "So17XCTWaiterDelegateP"
+- "So6XCTestC"
+- "So10XCTestCaseC"
+- !private "So17XCTestExpectationC"
+- !private "s23_BidirectionalIndexableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s10_IndexableP"
+- !private "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s26_RangeReplaceableIndexableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/x86_64.swiftmodule"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/x86_64.swiftmodule"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/BandDiscoverer.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/MapKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/XCTest.swiftmodule"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks/XCTest.framework/Modules/module.modulemap"
+interface-hash: "683ac5e68e14d97cc4c3b324d24f45b3"

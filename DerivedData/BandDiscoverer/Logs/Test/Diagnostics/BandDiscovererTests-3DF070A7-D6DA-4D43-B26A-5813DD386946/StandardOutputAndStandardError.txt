@@ -1,0 +1,42 @@
+2017-11-14 11:10:51.427742+0100 BandDiscoverer[2134:614647] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-14 11:10:51.441001+0100 BandDiscoverer[2134:614647] [MC] Loaded MobileCoreServices.framework
+2017-11-14 11:10:51.455820+0100 BandDiscoverer[2134:614647] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-14 11:10:51.830178+0100 BandDiscoverer[2134:614647] Could not inset legal attribution from corner 4
+2017-11-14 11:10:51.895122+0100 BandDiscoverer[2134:614647] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c029e690 UIView:0x12541e250.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c029f630 UIView:0x125422cb0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c029f810 UIView:0x1254245a0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c0285b40 MKMapView:0x12401da00.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c029f860 V:|-(0)-[UIView:0x1254245a0]   (active, names: '|':UIView:0x1254243c0 )>",
+    "<NSLayoutConstraint:0x1c029f950 V:[MKMapView:0x12401da00]-(0)-|   (active, names: '|':UIView:0x1254243c0 )>",
+    "<NSLayoutConstraint:0x1c029f9a0 V:[UIView:0x1254245a0]-(0)-[MKMapView:0x12401da00]   (active)>",
+    "<NSLayoutConstraint:0x1c029fb30 UIStackView:0x12541dc50.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c0291e40 'UISV-canvas-connection' UIStackView:0x12541dc50.top == UIView:0x12541e250.top   (active)>",
+    "<NSLayoutConstraint:0x1c02894c0 'UISV-canvas-connection' V:[UIView:0x1254243c0]-(0)-|   (active, names: '|':UIStackView:0x12541dc50 )>",
+    "<NSLayoutConstraint:0x1c0291fd0 'UISV-spacing' V:[UIView:0x12541e250]-(0)-[UIView:0x125422cb0]   (active)>",
+    "<NSLayoutConstraint:0x1c0292070 'UISV-spacing' V:[UIView:0x125422cb0]-(0)-[UIView:0x1254243c0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c0285b40 MKMapView:0x12401da00.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-14 11:10:52.032650+0100 BandDiscoverer[2134:614647] refreshPreferences: HangTracerEnabled: 1
+2017-11-14 11:10:52.032910+0100 BandDiscoverer[2134:614647] refreshPreferences: HangTracerDuration: 500
+2017-11-14 11:10:52.032927+0100 BandDiscoverer[2134:614647] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-14 11:10:52.430
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-14 11:10:52.431
+Test Suite 'BandDiscovererTests' started at 2017-11-14 11:10:52.431
+Test Case '-[BandDiscovererTests.BandDiscovererTests testCity]' started.
+Optional([AnyHashable("FormattedAddressLines"): <__NSArrayM 0x1c54523f0>(
+Ozinskiy rayon,
+Saratov Oblast,
+Russia
+)
+, AnyHashable("Country"): Russia, AnyHashable("CountryCode"): RU, AnyHashable("Name"): Ozinskiy rayon, AnyHashable("State"): Saratov Oblast, AnyHashable("SubAdministrativeArea"): Ozinskiy rayon])

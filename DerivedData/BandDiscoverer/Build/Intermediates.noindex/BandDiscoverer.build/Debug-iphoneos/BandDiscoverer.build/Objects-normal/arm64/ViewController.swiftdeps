@@ -1,0 +1,765 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ViewController"
+provides-nominal:
+- "14BandDiscoverer14ViewControllerC"
+provides-member:
+- ["14BandDiscoverer14ViewControllerC", ""]
+provides-dynamic-lookup:
+- "btnSearch"
+- "didReceiveMemoryWarning"
+- "prepare"
+- "txtArtistSearch"
+- "viewDidLoad"
+depends-top-level:
+- !private "=="
+- !private "Alamofire"
+- "AssignmentPrecedence"
+- !private "BandViewController"
+- "CastingPrecedence"
+- "Error"
+- "JSON"
+- !private "JSONEncoding"
+- "String"
+- "StringLiteralType"
+- "UIButton"
+- "UIStoryboardSegue"
+- "UITextField"
+- "UIViewController"
+- !private "UnicodeScalarType"
+- "ViewController"
+- !private "print"
+- !private "~="
+depends-member:
+- !private ["14BandDiscoverer0A14ViewControllerC", "artistName"]
+- !private ["14BandDiscoverer0A14ViewControllerC", "jsonEvents"]
+- ["s23BidirectionalCollectionP", "init"]
+- !private ["s23BidirectionalCollectionP", "replacingOccurrences"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "text"]
+- !private ["s7CVarArgP", "Alamofire"]
+- !private ["s7CVarArgP", "JSON"]
+- !private ["s7CVarArgP", "JSONEncoding"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "artistName"]
+- !private ["s7CVarArgP", "destination"]
+- !private ["s7CVarArgP", "didReceiveMemoryWarning"]
+- !private ["s7CVarArgP", "getAttractionID"]
+- !private ["s7CVarArgP", "getResponse"]
+- !private ["s7CVarArgP", "identifier"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonEvents"]
+- !private ["s7CVarArgP", "performSegue"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "replacingOccurrences"]
+- !private ["s7CVarArgP", "rootURL"]
+- !private ["s7CVarArgP", "statusCode"]
+- !private ["s7CVarArgP", "text"]
+- !private ["s7CVarArgP", "txtArtistSearch"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s7CVarArgP", ""]
+- ["s10CollectionP", "init"]
+- !private ["s10CollectionP", "replacingOccurrences"]
+- !private ["s10CollectionP", "string"]
+- !private ["s10CollectionP", "subscript"]
+- ["s10ComparableP", "init"]
+- !private ["s10ComparableP", "replacingOccurrences"]
+- !private ["s10ComparableP", "string"]
+- !private ["s10ComparableP", "subscript"]
+- !private ["So8NSStringC14CompareOptionsV", "literal"]
+- !private ["s28CustomDebugStringConvertibleP", "Alamofire"]
+- !private ["s28CustomDebugStringConvertibleP", "JSON"]
+- !private ["s28CustomDebugStringConvertibleP", "JSONEncoding"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "artistName"]
+- !private ["s28CustomDebugStringConvertibleP", "data"]
+- !private ["s28CustomDebugStringConvertibleP", "destination"]
+- !private ["s28CustomDebugStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s28CustomDebugStringConvertibleP", "failure"]
+- !private ["s28CustomDebugStringConvertibleP", "getAttractionID"]
+- !private ["s28CustomDebugStringConvertibleP", "getResponse"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonEvents"]
+- !private ["s28CustomDebugStringConvertibleP", "performSegue"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "replacingOccurrences"]
+- !private ["s28CustomDebugStringConvertibleP", "response"]
+- !private ["s28CustomDebugStringConvertibleP", "responseJSON"]
+- !private ["s28CustomDebugStringConvertibleP", "result"]
+- !private ["s28CustomDebugStringConvertibleP", "rootURL"]
+- !private ["s28CustomDebugStringConvertibleP", "statusCode"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "success"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
+- !private ["s28CustomDebugStringConvertibleP", "txtArtistSearch"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "replacingOccurrences"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "Alamofire"]
+- !private ["s23CustomStringConvertibleP", "JSON"]
+- !private ["s23CustomStringConvertibleP", "JSONEncoding"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "artistName"]
+- !private ["s23CustomStringConvertibleP", "data"]
+- !private ["s23CustomStringConvertibleP", "destination"]
+- !private ["s23CustomStringConvertibleP", "didReceiveMemoryWarning"]
+- !private ["s23CustomStringConvertibleP", "failure"]
+- !private ["s23CustomStringConvertibleP", "getAttractionID"]
+- !private ["s23CustomStringConvertibleP", "getResponse"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonEvents"]
+- !private ["s23CustomStringConvertibleP", "performSegue"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "replacingOccurrences"]
+- !private ["s23CustomStringConvertibleP", "response"]
+- !private ["s23CustomStringConvertibleP", "responseJSON"]
+- !private ["s23CustomStringConvertibleP", "result"]
+- !private ["s23CustomStringConvertibleP", "rootURL"]
+- !private ["s23CustomStringConvertibleP", "statusCode"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "success"]
+- !private ["s23CustomStringConvertibleP", "text"]
+- !private ["s23CustomStringConvertibleP", "txtArtistSearch"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["9Alamofire11DataRequestC", "responseJSON"]
+- !private ["9Alamofire12DataResponseV", "data"]
+- !private ["9Alamofire12DataResponseV", "response"]
+- !private ["9Alamofire12DataResponseV", "result"]
+- !private ["s9DecodableP", "_getBuiltinLogicValue"]
+- ["s9DecodableP", "init"]
+- !private ["s9DecodableP", "replacingOccurrences"]
+- !private ["s9EncodableP", "_getBuiltinLogicValue"]
+- ["s9EncodableP", "init"]
+- !private ["s9EncodableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "Alamofire"]
+- !private ["s9EquatableP", "JSON"]
+- !private ["s9EquatableP", "JSONEncoding"]
+- !private ["s9EquatableP", "String"]
+- !private ["s9EquatableP", "_getBuiltinLogicValue"]
+- !private ["s9EquatableP", "artistName"]
+- !private ["s9EquatableP", "destination"]
+- !private ["s9EquatableP", "didReceiveMemoryWarning"]
+- !private ["s9EquatableP", "get"]
+- !private ["s9EquatableP", "getAttractionID"]
+- !private ["s9EquatableP", "getResponse"]
+- !private ["s9EquatableP", "identifier"]
+- ["s9EquatableP", "init"]
+- !private ["s9EquatableP", "jsonEvents"]
+- !private ["s9EquatableP", "literal"]
+- !private ["s9EquatableP", "performSegue"]
+- !private ["s9EquatableP", "print"]
+- !private ["s9EquatableP", "replacingOccurrences"]
+- !private ["s9EquatableP", "rootURL"]
+- !private ["s9EquatableP", "statusCode"]
+- !private ["s9EquatableP", "string"]
+- !private ["s9EquatableP", "subscript"]
+- !private ["s9EquatableP", "text"]
+- !private ["s9EquatableP", "txtArtistSearch"]
+- !private ["s9EquatableP", "viewDidLoad"]
+- ["s9EquatableP", ""]
+- ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "literal"]
+- !private ["s25ExpressibleByArrayLiteralP", "string"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "string"]
+- !private ["s27ExpressibleByBooleanLiteralP", "subscript"]
+- ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "string"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "string"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "subscript"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "string"]
+- !private ["s25ExpressibleByFloatLiteralP", "subscript"]
+- ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "string"]
+- !private ["s27ExpressibleByIntegerLiteralP", "subscript"]
+- ["s23ExpressibleByNilLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "string"]
+- !private ["s23ExpressibleByNilLiteralP", "subscript"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "replacingOccurrences"]
+- !private ["s26ExpressibleByStringLiteralP", "string"]
+- !private ["s26ExpressibleByStringLiteralP", "subscript"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "replacingOccurrences"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "string"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "subscript"]
+- !private ["9Alamofire10HTTPMethodO", "get"]
+- !private ["So15HTTPURLResponseC", "statusCode"]
+- !private ["s8HashableP", "Alamofire"]
+- !private ["s8HashableP", "JSON"]
+- !private ["s8HashableP", "JSONEncoding"]
+- !private ["s8HashableP", "String"]
+- !private ["s8HashableP", "_getBuiltinLogicValue"]
+- !private ["s8HashableP", "artistName"]
+- !private ["s8HashableP", "destination"]
+- !private ["s8HashableP", "didReceiveMemoryWarning"]
+- !private ["s8HashableP", "get"]
+- !private ["s8HashableP", "getAttractionID"]
+- !private ["s8HashableP", "getResponse"]
+- !private ["s8HashableP", "identifier"]
+- ["s8HashableP", "init"]
+- !private ["s8HashableP", "jsonEvents"]
+- !private ["s8HashableP", "performSegue"]
+- !private ["s8HashableP", "print"]
+- !private ["s8HashableP", "replacingOccurrences"]
+- !private ["s8HashableP", "rootURL"]
+- !private ["s8HashableP", "statusCode"]
+- !private ["s8HashableP", "text"]
+- !private ["s8HashableP", "txtArtistSearch"]
+- !private ["s8HashableP", "viewDidLoad"]
+- ["s8HashableP", ""]
+- ["10SwiftyJSON0B0V", "init"]
+- !private ["10SwiftyJSON0B0V", "string"]
+- !private ["10SwiftyJSON0B0V", "subscript"]
+- !private ["9Alamofire12JSONEncodingV", "default"]
+- ["10SwiftyJSON17JSONSubscriptTypeP", "init"]
+- !private ["10SwiftyJSON17JSONSubscriptTypeP", "replacingOccurrences"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "replacingOccurrences"]
+- ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "Alamofire"]
+- !private ["So8NSCodingP", "JSON"]
+- !private ["So8NSCodingP", "JSONEncoding"]
+- !private ["So8NSCodingP", "String"]
+- !private ["So8NSCodingP", "artistName"]
+- !private ["So8NSCodingP", "didReceiveMemoryWarning"]
+- !private ["So8NSCodingP", "getAttractionID"]
+- !private ["So8NSCodingP", "getResponse"]
+- ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "jsonEvents"]
+- !private ["So8NSCodingP", "performSegue"]
+- !private ["So8NSCodingP", "print"]
+- !private ["So8NSCodingP", "replacingOccurrences"]
+- !private ["So8NSCodingP", "rootURL"]
+- !private ["So8NSCodingP", "statusCode"]
+- !private ["So8NSCodingP", "text"]
+- !private ["So8NSCodingP", "txtArtistSearch"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "replacingOccurrences"]
+- !private ["So9NSCopyingP", "statusCode"]
+- !private ["So26NSExtensionRequestHandlingP", "Alamofire"]
+- !private ["So26NSExtensionRequestHandlingP", "JSON"]
+- !private ["So26NSExtensionRequestHandlingP", "JSONEncoding"]
+- !private ["So26NSExtensionRequestHandlingP", "String"]
+- !private ["So26NSExtensionRequestHandlingP", "artistName"]
+- !private ["So26NSExtensionRequestHandlingP", "didReceiveMemoryWarning"]
+- !private ["So26NSExtensionRequestHandlingP", "getAttractionID"]
+- !private ["So26NSExtensionRequestHandlingP", "getResponse"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "jsonEvents"]
+- !private ["So26NSExtensionRequestHandlingP", "performSegue"]
+- !private ["So26NSExtensionRequestHandlingP", "print"]
+- !private ["So26NSExtensionRequestHandlingP", "rootURL"]
+- !private ["So26NSExtensionRequestHandlingP", "txtArtistSearch"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "replacingOccurrences"]
+- ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "replacingOccurrences"]
+- ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "replacingOccurrences"]
+- !private ["So8NSObjectC", "Alamofire"]
+- !private ["So8NSObjectC", "BandViewController"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "JSON"]
+- !private ["So8NSObjectC", "JSONEncoding"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIStoryboardSegue"]
+- ["So8NSObjectC", "UITextField"]
+- ["So8NSObjectC", "apiKey"]
+- !private ["So8NSObjectC", "artistName"]
+- ["So8NSObjectC", "btnSearch"]
+- !private ["So8NSObjectC", "destination"]
+- ["So8NSObjectC", "didReceiveMemoryWarning"]
+- ["So8NSObjectC", "getAttractionID"]
+- ["So8NSObjectC", "getResponse"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "jsonEvents"]
+- !private ["So8NSObjectC", "performSegue"]
+- ["So8NSObjectC", "prepare"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "replacingOccurrences"]
+- ["So8NSObjectC", "rootURL"]
+- !private ["So8NSObjectC", "statusCode"]
+- !private ["So8NSObjectC", "text"]
+- ["So8NSObjectC", "txtArtistSearch"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So16NSObjectProtocolP", "Alamofire"]
+- !private ["So16NSObjectProtocolP", "JSON"]
+- !private ["So16NSObjectProtocolP", "JSONEncoding"]
+- !private ["So16NSObjectProtocolP", "String"]
+- !private ["So16NSObjectProtocolP", "artistName"]
+- !private ["So16NSObjectProtocolP", "destination"]
+- !private ["So16NSObjectProtocolP", "didReceiveMemoryWarning"]
+- !private ["So16NSObjectProtocolP", "getAttractionID"]
+- !private ["So16NSObjectProtocolP", "getResponse"]
+- !private ["So16NSObjectProtocolP", "identifier"]
+- ["So16NSObjectProtocolP", "init"]
+- !private ["So16NSObjectProtocolP", "jsonEvents"]
+- !private ["So16NSObjectProtocolP", "performSegue"]
+- !private ["So16NSObjectProtocolP", "print"]
+- !private ["So16NSObjectProtocolP", "replacingOccurrences"]
+- !private ["So16NSObjectProtocolP", "rootURL"]
+- !private ["So16NSObjectProtocolP", "statusCode"]
+- !private ["So16NSObjectProtocolP", "text"]
+- !private ["So16NSObjectProtocolP", "txtArtistSearch"]
+- !private ["So16NSObjectProtocolP", "viewDidLoad"]
+- ["So16NSObjectProtocolP", ""]
+- ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "replacingOccurrences"]
+- !private ["So14NSSecureCodingP", "statusCode"]
+- ["So8NSStringC", "init"]
+- !private ["So8NSStringC", "replacingOccurrences"]
+- !private ["s9OptionSetP", "literal"]
+- !private ["9Alamofire17ParameterEncodingP", "default"]
+- ["s26RangeReplaceableCollectionP", "init"]
+- !private ["s26RangeReplaceableCollectionP", "replacingOccurrences"]
+- !private ["s16RawRepresentableP", "get"]
+- ["s16RawRepresentableP", "init"]
+- !private ["s16RawRepresentableP", "literal"]
+- !private ["s16RawRepresentableP", "string"]
+- !private ["s16RawRepresentableP", "subscript"]
+- !private ["9Alamofire7RequestC", "responseJSON"]
+- !private ["9Alamofire8ResponseP", "data"]
+- !private ["9Alamofire8ResponseP", "response"]
+- !private ["9Alamofire8ResponseP", "result"]
+- !private ["9Alamofire6ResultO", "failure"]
+- !private ["9Alamofire6ResultO", "success"]
+- ["s8SequenceP", "init"]
+- !private ["s8SequenceP", "replacingOccurrences"]
+- !private ["s8SequenceP", "string"]
+- !private ["s8SequenceP", "subscript"]
+- !private ["s10SetAlgebraP", "literal"]
+- !private ["s5SliceV", "string"]
+- !private ["s5SliceV", "subscript"]
+- ["SS", "init"]
+- !private ["SS", "replacingOccurrences"]
+- ["s14StringProtocolP", "init"]
+- !private ["s14StringProtocolP", "replacingOccurrences"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "replacingOccurrences"]
+- ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "replacingOccurrences"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
+- !private ["So12UIAppearanceP", "text"]
+- !private ["So21UIAppearanceContainerP", "Alamofire"]
+- !private ["So21UIAppearanceContainerP", "JSON"]
+- !private ["So21UIAppearanceContainerP", "JSONEncoding"]
+- !private ["So21UIAppearanceContainerP", "String"]
+- !private ["So21UIAppearanceContainerP", "artistName"]
+- !private ["So21UIAppearanceContainerP", "didReceiveMemoryWarning"]
+- !private ["So21UIAppearanceContainerP", "getAttractionID"]
+- !private ["So21UIAppearanceContainerP", "getResponse"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "jsonEvents"]
+- !private ["So21UIAppearanceContainerP", "performSegue"]
+- !private ["So21UIAppearanceContainerP", "print"]
+- !private ["So21UIAppearanceContainerP", "rootURL"]
+- !private ["So21UIAppearanceContainerP", "text"]
+- !private ["So21UIAppearanceContainerP", "txtArtistSearch"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So18UIContentContainerP", "Alamofire"]
+- !private ["So18UIContentContainerP", "JSON"]
+- !private ["So18UIContentContainerP", "JSONEncoding"]
+- !private ["So18UIContentContainerP", "String"]
+- !private ["So18UIContentContainerP", "artistName"]
+- !private ["So18UIContentContainerP", "didReceiveMemoryWarning"]
+- !private ["So18UIContentContainerP", "getAttractionID"]
+- !private ["So18UIContentContainerP", "getResponse"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "jsonEvents"]
+- !private ["So18UIContentContainerP", "performSegue"]
+- !private ["So18UIContentContainerP", "print"]
+- !private ["So18UIContentContainerP", "rootURL"]
+- !private ["So18UIContentContainerP", "txtArtistSearch"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
+- !private ["So9UIControlC", "text"]
+- !private ["So17UICoordinateSpaceP", "text"]
+- !private ["So13UIDynamicItemP", "text"]
+- !private ["So18UIFocusEnvironmentP", "Alamofire"]
+- !private ["So18UIFocusEnvironmentP", "JSON"]
+- !private ["So18UIFocusEnvironmentP", "JSONEncoding"]
+- !private ["So18UIFocusEnvironmentP", "String"]
+- !private ["So18UIFocusEnvironmentP", "artistName"]
+- !private ["So18UIFocusEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UIFocusEnvironmentP", "getAttractionID"]
+- !private ["So18UIFocusEnvironmentP", "getResponse"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "jsonEvents"]
+- !private ["So18UIFocusEnvironmentP", "performSegue"]
+- !private ["So18UIFocusEnvironmentP", "print"]
+- !private ["So18UIFocusEnvironmentP", "rootURL"]
+- !private ["So18UIFocusEnvironmentP", "text"]
+- !private ["So18UIFocusEnvironmentP", "txtArtistSearch"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So11UIFocusItemP", "text"]
+- !private ["So10UIKeyInputP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "Alamofire"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSON"]
+- !private ["So30UIPasteConfigurationSupportingP", "JSONEncoding"]
+- !private ["So30UIPasteConfigurationSupportingP", "String"]
+- !private ["So30UIPasteConfigurationSupportingP", "artistName"]
+- !private ["So30UIPasteConfigurationSupportingP", "didReceiveMemoryWarning"]
+- !private ["So30UIPasteConfigurationSupportingP", "getAttractionID"]
+- !private ["So30UIPasteConfigurationSupportingP", "getResponse"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "jsonEvents"]
+- !private ["So30UIPasteConfigurationSupportingP", "performSegue"]
+- !private ["So30UIPasteConfigurationSupportingP", "print"]
+- !private ["So30UIPasteConfigurationSupportingP", "rootURL"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
+- !private ["So30UIPasteConfigurationSupportingP", "txtArtistSearch"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So11UIResponderC", "Alamofire"]
+- !private ["So11UIResponderC", "BandViewController"]
+- ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "JSON"]
+- !private ["So11UIResponderC", "JSONEncoding"]
+- ["So11UIResponderC", "String"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIStoryboardSegue"]
+- ["So11UIResponderC", "UITextField"]
+- ["So11UIResponderC", "apiKey"]
+- !private ["So11UIResponderC", "artistName"]
+- ["So11UIResponderC", "btnSearch"]
+- ["So11UIResponderC", "didReceiveMemoryWarning"]
+- ["So11UIResponderC", "getAttractionID"]
+- ["So11UIResponderC", "getResponse"]
+- ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "jsonEvents"]
+- !private ["So11UIResponderC", "performSegue"]
+- ["So11UIResponderC", "prepare"]
+- !private ["So11UIResponderC", "print"]
+- ["So11UIResponderC", "rootURL"]
+- !private ["So11UIResponderC", "text"]
+- ["So11UIResponderC", "txtArtistSearch"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "Alamofire"]
+- !private ["So30UIResponderStandardEditActionsP", "JSON"]
+- !private ["So30UIResponderStandardEditActionsP", "JSONEncoding"]
+- !private ["So30UIResponderStandardEditActionsP", "String"]
+- !private ["So30UIResponderStandardEditActionsP", "artistName"]
+- !private ["So30UIResponderStandardEditActionsP", "didReceiveMemoryWarning"]
+- !private ["So30UIResponderStandardEditActionsP", "getAttractionID"]
+- !private ["So30UIResponderStandardEditActionsP", "getResponse"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "jsonEvents"]
+- !private ["So30UIResponderStandardEditActionsP", "performSegue"]
+- !private ["So30UIResponderStandardEditActionsP", "print"]
+- !private ["So30UIResponderStandardEditActionsP", "rootURL"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
+- !private ["So30UIResponderStandardEditActionsP", "txtArtistSearch"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So20UIScrollViewDelegateP", "artistName"]
+- !private ["So20UIScrollViewDelegateP", "jsonEvents"]
+- !private ["So16UIStateRestoringP", "Alamofire"]
+- !private ["So16UIStateRestoringP", "JSON"]
+- !private ["So16UIStateRestoringP", "JSONEncoding"]
+- !private ["So16UIStateRestoringP", "String"]
+- !private ["So16UIStateRestoringP", "artistName"]
+- !private ["So16UIStateRestoringP", "didReceiveMemoryWarning"]
+- !private ["So16UIStateRestoringP", "getAttractionID"]
+- !private ["So16UIStateRestoringP", "getResponse"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "jsonEvents"]
+- !private ["So16UIStateRestoringP", "performSegue"]
+- !private ["So16UIStateRestoringP", "print"]
+- !private ["So16UIStateRestoringP", "rootURL"]
+- !private ["So16UIStateRestoringP", "txtArtistSearch"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So17UIStoryboardSegueC", "destination"]
+- !private ["So17UIStoryboardSegueC", "identifier"]
+- !private ["So21UITableViewDataSourceP", "artistName"]
+- !private ["So21UITableViewDataSourceP", "jsonEvents"]
+- !private ["So19UITableViewDelegateP", "artistName"]
+- !private ["So19UITableViewDelegateP", "jsonEvents"]
+- !private ["So15UITextDraggableP", "text"]
+- !private ["So15UITextDroppableP", "text"]
+- !private ["So11UITextFieldC", "text"]
+- !private ["So11UITextInputP", "text"]
+- !private ["So17UITextInputTraitsP", "text"]
+- !private ["So34UITextPasteConfigurationSupportingP", "text"]
+- !private ["So18UITraitEnvironmentP", "Alamofire"]
+- !private ["So18UITraitEnvironmentP", "JSON"]
+- !private ["So18UITraitEnvironmentP", "JSONEncoding"]
+- !private ["So18UITraitEnvironmentP", "String"]
+- !private ["So18UITraitEnvironmentP", "artistName"]
+- !private ["So18UITraitEnvironmentP", "didReceiveMemoryWarning"]
+- !private ["So18UITraitEnvironmentP", "getAttractionID"]
+- !private ["So18UITraitEnvironmentP", "getResponse"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "jsonEvents"]
+- !private ["So18UITraitEnvironmentP", "performSegue"]
+- !private ["So18UITraitEnvironmentP", "print"]
+- !private ["So18UITraitEnvironmentP", "rootURL"]
+- !private ["So18UITraitEnvironmentP", "text"]
+- !private ["So18UITraitEnvironmentP", "txtArtistSearch"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So6UIViewC", "text"]
+- !private ["So16UIViewControllerC", "Alamofire"]
+- !private ["So16UIViewControllerC", "BandViewController"]
+- ["So16UIViewControllerC", "Error"]
+- ["So16UIViewControllerC", "JSON"]
+- !private ["So16UIViewControllerC", "JSONEncoding"]
+- ["So16UIViewControllerC", "String"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIStoryboardSegue"]
+- ["So16UIViewControllerC", "UITextField"]
+- ["So16UIViewControllerC", "apiKey"]
+- !private ["So16UIViewControllerC", "artistName"]
+- ["So16UIViewControllerC", "btnSearch"]
+- ["So16UIViewControllerC", "didReceiveMemoryWarning"]
+- ["So16UIViewControllerC", "getAttractionID"]
+- ["So16UIViewControllerC", "getResponse"]
+- ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "jsonEvents"]
+- !private ["So16UIViewControllerC", "performSegue"]
+- ["So16UIViewControllerC", "prepare"]
+- !private ["So16UIViewControllerC", "print"]
+- ["So16UIViewControllerC", "rootURL"]
+- ["So16UIViewControllerC", "txtArtistSearch"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["So16UIViewControllerC", ""]
+- ["9Alamofire14URLConvertibleP", "init"]
+- !private ["9Alamofire14URLConvertibleP", "replacingOccurrences"]
+- !private ["So11URLResponseC", "statusCode"]
+- !private ["14BandDiscoverer14ViewControllerC", "Alamofire"]
+- !private ["14BandDiscoverer14ViewControllerC", "BandViewController"]
+- ["14BandDiscoverer14ViewControllerC", "Error"]
+- ["14BandDiscoverer14ViewControllerC", "JSON"]
+- !private ["14BandDiscoverer14ViewControllerC", "JSONEncoding"]
+- ["14BandDiscoverer14ViewControllerC", "String"]
+- ["14BandDiscoverer14ViewControllerC", "UIButton"]
+- ["14BandDiscoverer14ViewControllerC", "UIStoryboardSegue"]
+- ["14BandDiscoverer14ViewControllerC", "UITextField"]
+- ["14BandDiscoverer14ViewControllerC", "apiKey"]
+- ["14BandDiscoverer14ViewControllerC", "btnSearch"]
+- ["14BandDiscoverer14ViewControllerC", "deinit"]
+- ["14BandDiscoverer14ViewControllerC", "didReceiveMemoryWarning"]
+- ["14BandDiscoverer14ViewControllerC", "getAttractionID"]
+- ["14BandDiscoverer14ViewControllerC", "getResponse"]
+- ["14BandDiscoverer14ViewControllerC", "init"]
+- ["14BandDiscoverer14ViewControllerC", "jsonEvents"]
+- !private ["14BandDiscoverer14ViewControllerC", "performSegue"]
+- ["14BandDiscoverer14ViewControllerC", "prepare"]
+- !private ["14BandDiscoverer14ViewControllerC", "print"]
+- ["14BandDiscoverer14ViewControllerC", "rootURL"]
+- ["14BandDiscoverer14ViewControllerC", "txtArtistSearch"]
+- ["14BandDiscoverer14ViewControllerC", "viewDidLoad"]
+- ["s23_BidirectionalIndexableP", "init"]
+- !private ["s23_BidirectionalIndexableP", "replacingOccurrences"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "text"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "replacingOccurrences"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "replacingOccurrences"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "replacingOccurrences"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "replacingOccurrences"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "replacingOccurrences"]
+- ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "replacingOccurrences"]
+- ["s10_IndexableP", "init"]
+- !private ["s10_IndexableP", "replacingOccurrences"]
+- !private ["s10_IndexableP", "string"]
+- !private ["s10_IndexableP", "subscript"]
+- ["s14_IndexableBaseP", "init"]
+- !private ["s14_IndexableBaseP", "replacingOccurrences"]
+- !private ["s14_IndexableBaseP", "string"]
+- !private ["s14_IndexableBaseP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Alamofire"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSON"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "JSONEncoding"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "artistName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "destination"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didReceiveMemoryWarning"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getAttractionID"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getResponse"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonEvents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performSegue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "replacingOccurrences"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rootURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusCode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "txtArtistSearch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "replacingOccurrences"]
+- ["s26_RangeReplaceableIndexableP", "init"]
+- !private ["s26_RangeReplaceableIndexableP", "replacingOccurrences"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "replacingOccurrences"]
+depends-nominal:
+- !private "14BandDiscoverer0A14ViewControllerC"
+- "s23BidirectionalCollectionP"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s10CollectionP"
+- "s10ComparableP"
+- !private "So8NSStringC14CompareOptionsV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "9Alamofire11DataRequestC"
+- !private "9Alamofire12DataResponseV"
+- "s9DecodableP"
+- "s9EncodableP"
+- "s9EquatableP"
+- "s25ExpressibleByArrayLiteralP"
+- "s27ExpressibleByBooleanLiteralP"
+- "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- "s23ExpressibleByNilLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "9Alamofire10HTTPMethodO"
+- !private "So15HTTPURLResponseC"
+- "s8HashableP"
+- "10SwiftyJSON0B0V"
+- !private "9Alamofire12JSONEncodingV"
+- "10SwiftyJSON17JSONSubscriptTypeP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "So8NSCodingP"
+- "So9NSCopyingP"
+- "So26NSExtensionRequestHandlingP"
+- "So21NSItemProviderReadingP"
+- "So21NSItemProviderWritingP"
+- "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- "So16NSObjectProtocolP"
+- "So14NSSecureCodingP"
+- "So8NSStringC"
+- !private "s9OptionSetP"
+- !private "9Alamofire17ParameterEncodingP"
+- "s26RangeReplaceableCollectionP"
+- "s16RawRepresentableP"
+- !private "9Alamofire7RequestC"
+- !private "9Alamofire8ResponseP"
+- !private "9Alamofire6ResultO"
+- "s8SequenceP"
+- !private "s10SetAlgebraP"
+- !private "s5SliceV"
+- "SS"
+- "s14StringProtocolP"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So10UIKeyInputP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So20UIScrollViewDelegateP"
+- "So16UIStateRestoringP"
+- !private "So17UIStoryboardSegueC"
+- !private "So21UITableViewDataSourceP"
+- !private "So19UITableViewDelegateP"
+- !private "So15UITextDraggableP"
+- !private "So15UITextDroppableP"
+- !private "So11UITextFieldC"
+- !private "So11UITextInputP"
+- !private "So17UITextInputTraitsP"
+- !private "So34UITextPasteConfigurationSupportingP"
+- "So18UITraitEnvironmentP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- "9Alamofire14URLConvertibleP"
+- !private "So11URLResponseC"
+- "14BandDiscoverer14ViewControllerC"
+- "s23_BidirectionalIndexableP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s10_IndexableP"
+- "s14_IndexableBaseP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s26_RangeReplaceableIndexableP"
+- "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/SwiftyJSON.swiftmodule/arm64.swiftmodule"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/MapKit.swiftmodule"
+- "/Applications/Xcode-beta.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-umbrella.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Headers/SwiftyJSON-Swift.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/SwiftyJSON/SwiftyJSON.framework/Modules/module.modulemap"
+- "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/DerivedData/BandDiscoverer/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.apinotes"
+- "/Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.apinotes"
+interface-hash: "cc62e0d38803b1703a454f74add21ef4"

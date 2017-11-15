@@ -1,0 +1,103 @@
+2017-11-13 11:55:16.138831+0100 BandDiscoverer[1106:229327] [MC] Lazy loading NSBundle MobileCoreServices.framework
+2017-11-13 11:55:16.140196+0100 BandDiscoverer[1106:229327] [MC] Loaded MobileCoreServices.framework
+2017-11-13 11:55:16.161430+0100 BandDiscoverer[1106:229327] [MC] System group container for systemgroup.com.apple.configurationprofiles path is /private/var/containers/Shared/SystemGroup/systemgroup.com.apple.configurationprofiles
+2017-11-13 11:55:16.322918+0100 BandDiscoverer[1106:229327] Could not inset legal attribution from corner 4
+2017-11-13 11:55:16.361807+0100 BandDiscoverer[1106:229327] [LayoutConstraints] Unable to simultaneously satisfy constraints.
+	Probably at least one of the constraints in the following list is one you don't want. 
+	Try this: 
+		(1) look at each constraint and try to figure out which you don't expect; 
+		(2) find the code that added the unwanted constraint or constraints and fix it. 
+(
+    "<NSLayoutConstraint:0x1c02877b0 UIView:0x15fb0c3c0.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c409cbb0 UIView:0x15de0ca80.height == 80   (active)>",
+    "<NSLayoutConstraint:0x1c409cde0 UIView:0x15fc773a0.height == 20   (active)>",
+    "<NSLayoutConstraint:0x1c4088020 MKMapView:0x15e811a00.height == 510   (active)>",
+    "<NSLayoutConstraint:0x1c409ce30 V:|-(0)-[UIView:0x15fc773a0]   (active, names: '|':UIView:0x15fc771c0 )>",
+    "<NSLayoutConstraint:0x1c409cf20 V:[MKMapView:0x15e811a00]-(0)-|   (active, names: '|':UIView:0x15fc771c0 )>",
+    "<NSLayoutConstraint:0x1c409cf70 V:[UIView:0x15fc773a0]-(0)-[MKMapView:0x15e811a00]   (active)>",
+    "<NSLayoutConstraint:0x1c409d100 UIStackView:0x15fb0bdc0.height == 810   (active)>",
+    "<NSLayoutConstraint:0x1c0091a80 'UISV-canvas-connection' UIStackView:0x15fb0bdc0.top == UIView:0x15fb0c3c0.top   (active)>",
+    "<NSLayoutConstraint:0x1c0091ad0 'UISV-canvas-connection' V:[UIView:0x15fc771c0]-(0)-|   (active, names: '|':UIStackView:0x15fb0bdc0 )>",
+    "<NSLayoutConstraint:0x1c0281310 'UISV-spacing' V:[UIView:0x15fb0c3c0]-(0)-[UIView:0x15de0ca80]   (active)>",
+    "<NSLayoutConstraint:0x1c0281360 'UISV-spacing' V:[UIView:0x15de0ca80]-(0)-[UIView:0x15fc771c0]   (active)>"
+)
+
+Will attempt to recover by breaking constraint 
+<NSLayoutConstraint:0x1c4088020 MKMapView:0x15e811a00.height == 510   (active)>
+
+Make a symbolic breakpoint at UIViewAlertForUnsatisfiableConstraints to catch this in the debugger.
+The methods in the UIConstraintBasedLayoutDebugging category on UIView listed in <UIKit/UIView.h> may also be helpful.
+2017-11-13 11:55:16.419003+0100 BandDiscoverer[1106:229327] refreshPreferences: HangTracerEnabled: 1
+2017-11-13 11:55:16.419060+0100 BandDiscoverer[1106:229327] refreshPreferences: HangTracerDuration: 500
+2017-11-13 11:55:16.419076+0100 BandDiscoverer[1106:229327] refreshPreferences: ActivationLoggingEnabled: 0 ActivationLoggingTaskedOffByDA:0
+Test Suite 'Selected tests' started at 2017-11-13 11:55:16.720
+Test Suite 'BandDiscovererTests.xctest' started at 2017-11-13 11:55:16.721
+Test Suite 'BandDiscovererTests' started at 2017-11-13 11:55:16.721
+Test Case '-[BandDiscovererTests.BandDiscovererTests testExample]' started.
+Test Case '-[BandDiscovererTests.BandDiscovererTests testExample]' passed (0.009 seconds).
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' started.
+Test Case '-[BandDiscovererTests.BandDiscovererTests testGetCityFromLocation]' passed (0.001 seconds).
+Test Case '-[BandDiscovererTests.BandDiscovererTests testPerformanceExample]' started.
+Optional([AnyHashable("Street"): 38-20 Review Ave, AnyHashable("Country"): United States, AnyHashable("State"): NY, AnyHashable("PostCodeExtension"): 2032, AnyHashable("ZIP"): 11010, AnyHashable("SubThoroughfare"): 38-20, AnyHashable("Name"): 38-20 Review Ave, AnyHashable("Thoroughfare"): Review Ave, AnyHashable("SubAdministrativeArea"): Queens, AnyHashable("FormattedAddressLines"): <__NSArrayM 0x1c5c46b70>(
+38-20 Review Ave,
+Long Island City, NY  11010,
+United States
+)
+, AnyHashable("City"): New York, AnyHashable("CountryCode"): US, AnyHashable("SubLocality"): Queens])
+New York
+/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscovererTests/BandDiscovererTests.swift:48: error: -[BandDiscovererTests.BandDiscovererTests testPerformanceExample] : XCTAssertEqual failed: ("New York") is not equal to ("Eindhoven") - Score computed from guess is wrong
+2017-11-13 11:55:17.082162+0100 BandDiscoverer[1106:229327] *** Assertion failure in +[XCTestLog _messageForTest:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:], /Library/Caches/com.apple.xbs/Sources/XCTest_iOS/XCTest-13514/Sources/XCTestFramework/Observation/XCTestLog.m:151
+/Users/Koen/Documents/Development/FollowYourFavouriteArtists/BandDiscovererTests/BandDiscovererTests.swift:37: error: -[BandDiscovererTests.BandDiscovererTests testPerformanceExample] : failed: caught "NSInternalInconsistencyException", "Performance Metrics must provide 10 measurements."
+(
+	0   CoreFoundation                      0x00000001814e9cf4 <redacted> + 148
+	1   libobjc.A.dylib                     0x0000000180738528 objc_exception_throw + 56
+	2   CoreFoundation                      0x00000001814e9bb0 <redacted> + 0
+	3   Foundation                          0x0000000181e78c24 <redacted> + 112
+	4   XCTest                              0x000000010124af34 +[XCTestLog _messageForTest:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:] + 1632
+	5   XCTest                              0x000000010124b060 -[XCTestLog _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:] + 144
+	6   XCTest                              0x000000010121fcd4 -[XCTestObservationCenter _testCase:didMeasureValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:] + 424
+	7   XCTest                              0x0000000101208ae8 -[XCTestCaseRun _recordValues:forPerformanceMetricID:name:unitsOfMeasurement:baselineName:baselineAverage:maxPercentRegression:maxPercentRelativeStandardDeviation:maxRegression:maxStandardDeviation:file:line:] + 136
+	8   XCTest                              0x00000001012130e8 -[XCTestCase reportMetric:reportFailures:] + 2484
+	9   XCTest                              0x0000000101214898 -[XCTestCase measureMetrics:automaticallyStartMeasuring:forBlock:] + 896
+	10  BandDiscovererTests                 0x000000010167ab04 _T019BandDiscovererTestsAAC22testPerformanceExampleyyF + 172
+	11  BandDiscovererTests                 0x000000010167ac10 _T019BandDiscovererTestsAAC22testPerformanceExampleyyFTo + 40
+	12  CoreFoundation                      0x00000001814f1640 <redacted> + 144
+	13  CoreFoundation                      0x00000001813d058c <redacted> + 292
+	14  XCTest                              0x000000010120f908 __24-[XCTestCase invokeTest]_block_invoke.275 + 48
+	15  XCTest                              0x000000010125caac -[XCTMemoryChecker _assertInvalidObjectsDeallocatedAfterScope:] + 56
+	16  XCTest                              0x000000010120f6b8 __24-[XCTestCase invokeTest]_block_invoke + 680
+	17  XCTest                              0x000000010125527c -[XCUITestContext performInScope:] + 208
+	18  XCTest                              0x000000010120f400 -[XCTestCase invokeTest] + 136
+	19  XCTest                              0x00000001012104d8 __26-[XCTestCase performTest:]_block_invoke.382 + 48
+	20  XCTest                              0x000000010125a31c +[XCTContext runInContextForTestCase:block:] + 164
+	21  XCTest                              0x000000010120fed4 -[XCTestCase performTest:] + 596
+	22  XCTest                              0x000000010120c0c8 __27-[XCTestSuite performTest:]_block_invoke + 288
+	23  XCTest                              0x000000010120baf0 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 44
+	24  XCTest                              0x000000010120bd00 -[XCTestSuite performTest:] + 236
+	25  XCTest                              0x000000010120c0c8 __27-[XCTestSuite performTest:]_block_invoke + 288
+	26  XCTest                              0x000000010120baf0 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 44
+	27  XCTest                              0x000000010120bd00 -[XCTestSuite performTest:] + 236
+	28  XCTest                              0x000000010120c0c8 __27-[XCTestSuite performTest:]_block_invoke + 288
+	29  XCTest                              0x000000010120baf0 -[XCTestSuite _performProtectedSectionForTest:testSection:] + 44
+	30  XCTest                              0x000000010120bd00 -[XCTestSuite performTest:] + 236
+	31  XCTest                              0x0000000101263d28 __44-[XCTTestRunSession runTestsAndReturnError:]_block_invoke + 44
+	32  XCTest                              0x000000010121ec48 -[XCTestObservationCenter _observeTestExecutionForBlock:] + 420
+	33  XCTest                              0x0000000101263ba4 -[XCTTestRunSession runTestsAndReturnError:] + 292
+	34  XCTest                              0x00000001011fb730 -[XCTestDriver runTestsAndReturnError:] + 312
+	35  XCTest                              0x00000001012594c4 _XCTestMain + 620
+	36  CoreFoundation                      0x00000001814920d4 <redacted> + 20
+	37  CoreFoundation                      0x00000001814919a4 <redacted> + 288
+	38  CoreFoundation                      0x000000018148f6b4 <redacted> + 1068
+	39  CoreFoundation                      0x00000001813afe78 CFRunLoopRunSpecific + 436
+	40  GraphicsServices                    0x0000000183244f84 GSEventRunModal + 100
+	41  UIKit                               0x000000018b1520bc UIApplicationMain + 208
+	42  BandDiscoverer                      0x00000001000f0450 main + 76
+	43  libdyld.dylib                       0x0000000180ed256c <redacted> + 4
+)
+Test Case '-[BandDiscovererTests.BandDiscovererTests testPerformanceExample]' failed (0.774 seconds).
+Test Suite 'BandDiscovererTests' failed at 2017-11-13 11:55:17.507.
+	 Executed 3 tests, with 2 failures (1 unexpected) in 0.784 (0.786) seconds
+Test Suite 'BandDiscovererTests.xctest' failed at 2017-11-13 11:55:17.509.
+	 Executed 3 tests, with 2 failures (1 unexpected) in 0.784 (0.788) seconds
+Test Suite 'Selected tests' failed at 2017-11-13 11:55:17.511.
+	 Executed 3 tests, with 2 failures (1 unexpected) in 0.784 (0.790) seconds

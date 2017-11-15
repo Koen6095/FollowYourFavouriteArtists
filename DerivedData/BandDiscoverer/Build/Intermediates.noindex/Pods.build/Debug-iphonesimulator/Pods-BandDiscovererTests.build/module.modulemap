@@ -1,0 +1,6 @@
+framework module Pods_BandDiscovererTests {
+  umbrella header "Pods-BandDiscovererTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

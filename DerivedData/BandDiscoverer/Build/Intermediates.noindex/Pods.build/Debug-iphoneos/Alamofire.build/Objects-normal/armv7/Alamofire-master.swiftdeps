@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.0.1 (swiftlang-900.0.66 clang-900.0.37)"
+options: "1d86ce5539c20b74a0ef63eb94938071"
+build_time: [1510595289, 463084000]
+inputs:
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/AFError.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/Alamofire.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/MultipartFormData.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/Notifications.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/ParameterEncoding.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/Request.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/Response.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/ResponseSerialization.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/Result.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/SessionDelegate.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/SessionManager.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/TaskDelegate.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/Timeline.swift": [1509355451, 0]
+  "/Users/Koen/Documents/Development/FollowYourFavouriteArtists/Pods/Alamofire/Source/Validation.swift": [1509355451, 0]

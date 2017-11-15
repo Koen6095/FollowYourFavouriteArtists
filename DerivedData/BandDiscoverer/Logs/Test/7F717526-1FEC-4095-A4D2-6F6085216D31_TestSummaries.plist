@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FormatVersion</key>
+	<string>1.2</string>
+	<key>RunDestination</key>
+	<dict>
+		<key>LocalComputer</key>
+		<dict>
+			<key>BusSpeedInMHz</key>
+			<integer>100</integer>
+			<key>CPUCount</key>
+			<integer>1</integer>
+			<key>CPUKind</key>
+			<string>Intel Core i7</string>
+			<key>CPUSpeedInMHz</key>
+			<integer>2300</integer>
+			<key>Identifier</key>
+			<string>AD54AA03-055C-5D06-8F59-3C83C3C7772D</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>LogicalCPUCoresPerPackage</key>
+			<integer>8</integer>
+			<key>ModelCode</key>
+			<string>MacBookPro11,3</string>
+			<key>ModelName</key>
+			<string>MacBook Pro</string>
+			<key>ModelUTI</key>
+			<string>com.apple.macbookpro-15-retina-display</string>
+			<key>Name</key>
+			<string>My Mac</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64h</string>
+			<key>OperatingSystemVersion</key>
+			<string>10.12.6</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>10.12.6 (16G1036)</string>
+			<key>PhysicalCPUCoresPerPackage</key>
+			<integer>4</integer>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.macosx</string>
+				<key>Name</key>
+				<string>macOS</string>
+			</dict>
+			<key>RAMSizeInMegabytes</key>
+			<integer>16384</integer>
+		</dict>
+		<key>Name</key>
+		<string>iPhone 7</string>
+		<key>TargetArchitecture</key>
+		<string>x86_64</string>
+		<key>TargetDevice</key>
+		<dict>
+			<key>Identifier</key>
+			<string>629CE93F-50C8-4E3F-9584-9DDC641AC6E2</string>
+			<key>IsConcreteDevice</key>
+			<true/>
+			<key>ModelCode</key>
+			<string>iPhone9,1</string>
+			<key>ModelName</key>
+			<string>iPhone 7</string>
+			<key>ModelUTI</key>
+			<string>com.apple.iphone-7-1</string>
+			<key>Name</key>
+			<string>iPhone 7</string>
+			<key>NativeArchitecture</key>
+			<string>x86_64</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.1</string>
+			<key>OperatingSystemVersionWithBuildNumber</key>
+			<string>11.1 (15B5066e)</string>
+			<key>Platform</key>
+			<dict>
+				<key>Identifier</key>
+				<string>com.apple.platform.iphonesimulator</string>
+				<key>Name</key>
+				<string>iOS Simulator</string>
+			</dict>
+		</dict>
+		<key>TargetSDK</key>
+		<dict>
+			<key>Identifier</key>
+			<string>iphonesimulator11.1</string>
+			<key>IsInternal</key>
+			<false/>
+			<key>Name</key>
+			<string>Simulator - iOS 11.1</string>
+			<key>OperatingSystemVersion</key>
+			<string>11.1</string>
+		</dict>
+	</dict>
+	<key>TestableSummaries</key>
+	<array>
+		<dict>
+			<key>ProjectPath</key>
+			<string>BandDiscoverer.xcodeproj</string>
+			<key>TargetName</key>
+			<string>BandDiscovererTests</string>
+			<key>TestName</key>
+			<string>BandDiscovererTests</string>
+			<key>TestObjectClass</key>
+			<string>IDESchemeActionTestableSummary</string>
+			<key>Tests</key>
+			<array>
+				<dict>
+					<key>Duration</key>
+					<real>6.4255639910697937</real>
+					<key>Subtests</key>
+					<array>
+						<dict>
+							<key>Duration</key>
+							<real>6.4242860078811646</real>
+							<key>Subtests</key>
+							<array>
+								<dict>
+									<key>Duration</key>
+									<real>6.4233970046043396</real>
+									<key>Subtests</key>
+									<array>
+										<dict>
+											<key>Duration</key>
+											<real>3.1403459906578064</real>
+											<key>TestIdentifier</key>
+											<string>BandDiscovererTests/testGetCityFromLocation()</string>
+											<key>TestName</key>
+											<string>testGetCityFromLocation()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>C1B43EB7-84B2-416D-8F00-3B7314FE5CD3</string>
+										</dict>
+										<dict>
+											<key>Duration</key>
+											<real>3.2816250324249268</real>
+											<key>TestIdentifier</key>
+											<string>BandDiscovererTests/testGetLocationFromAddress()</string>
+											<key>TestName</key>
+											<string>testGetLocationFromAddress()</string>
+											<key>TestObjectClass</key>
+											<string>IDESchemeActionTestSummary</string>
+											<key>TestStatus</key>
+											<string>Success</string>
+											<key>TestSummaryGUID</key>
+											<string>AF81C4B3-3816-4DFC-AE34-D9C942C4B179</string>
+										</dict>
+									</array>
+									<key>TestIdentifier</key>
+									<string>BandDiscovererTests</string>
+									<key>TestName</key>
+									<string>BandDiscovererTests</string>
+									<key>TestObjectClass</key>
+									<string>IDESchemeActionTestSummaryGroup</string>
+								</dict>
+							</array>
+							<key>TestIdentifier</key>
+							<string>BandDiscovererTests.xctest</string>
+							<key>TestName</key>
+							<string>BandDiscovererTests.xctest</string>
+							<key>TestObjectClass</key>
+							<string>IDESchemeActionTestSummaryGroup</string>
+						</dict>
+					</array>
+					<key>TestIdentifier</key>
+					<string>Selected tests</string>
+					<key>TestName</key>
+					<string>Selected tests</string>
+					<key>TestObjectClass</key>
+					<string>IDESchemeActionTestSummaryGroup</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
